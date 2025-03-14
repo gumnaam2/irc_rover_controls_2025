@@ -1,0 +1,46 @@
+[2.347s] Invoking command in '/home/sudhindra/irc_2025/rover_essentials/src/bio_drill': PYTHONPATH=/home/sudhindra/irc_2025/rover_essentials/build/bio_drill/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sudhindra/irc_2025/rover_essentials/install/bio_drill/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bio_drill build --build-base /home/sudhindra/irc_2025/rover_essentials/build/bio_drill/build install --record /home/sudhindra/irc_2025/rover_essentials/build/bio_drill/install.log --single-version-externally-managed install_data
+[3.155s] running egg_info
+[3.160s] creating ../../build/bio_drill/bio_drill.egg-info
+[3.160s] writing ../../build/bio_drill/bio_drill.egg-info/PKG-INFO
+[3.160s] writing dependency_links to ../../build/bio_drill/bio_drill.egg-info/dependency_links.txt
+[3.160s] writing entry points to ../../build/bio_drill/bio_drill.egg-info/entry_points.txt
+[3.161s] writing requirements to ../../build/bio_drill/bio_drill.egg-info/requires.txt
+[3.161s] writing top-level names to ../../build/bio_drill/bio_drill.egg-info/top_level.txt
+[3.162s] writing manifest file '../../build/bio_drill/bio_drill.egg-info/SOURCES.txt'
+[3.163s] reading manifest file '../../build/bio_drill/bio_drill.egg-info/SOURCES.txt'
+[3.164s] adding license file 'LICENSE'
+[3.167s] writing manifest file '../../build/bio_drill/bio_drill.egg-info/SOURCES.txt'
+[3.167s] running build
+[3.167s] running build_py
+[3.168s] creating /home/sudhindra/irc_2025/rover_essentials/build/bio_drill/build
+[3.168s] creating /home/sudhindra/irc_2025/rover_essentials/build/bio_drill/build/lib
+[3.168s] creating /home/sudhindra/irc_2025/rover_essentials/build/bio_drill/build/lib/bio_drill
+[3.168s] copying bio_drill/__init__.py -> /home/sudhindra/irc_2025/rover_essentials/build/bio_drill/build/lib/bio_drill
+[3.168s] copying bio_drill/cache.py -> /home/sudhindra/irc_2025/rover_essentials/build/bio_drill/build/lib/bio_drill
+[3.169s] copying bio_drill/drill_auto.py -> /home/sudhindra/irc_2025/rover_essentials/build/bio_drill/build/lib/bio_drill
+[3.169s] copying bio_drill/drill.py -> /home/sudhindra/irc_2025/rover_essentials/build/bio_drill/build/lib/bio_drill
+[3.169s] running install
+[3.169s] running install_lib
+[3.171s] creating /home/sudhindra/irc_2025/rover_essentials/install/bio_drill/lib/python3.10/site-packages/bio_drill
+[3.171s] copying /home/sudhindra/irc_2025/rover_essentials/build/bio_drill/build/lib/bio_drill/__init__.py -> /home/sudhindra/irc_2025/rover_essentials/install/bio_drill/lib/python3.10/site-packages/bio_drill
+[3.171s] copying /home/sudhindra/irc_2025/rover_essentials/build/bio_drill/build/lib/bio_drill/cache.py -> /home/sudhindra/irc_2025/rover_essentials/install/bio_drill/lib/python3.10/site-packages/bio_drill
+[3.171s] copying /home/sudhindra/irc_2025/rover_essentials/build/bio_drill/build/lib/bio_drill/drill_auto.py -> /home/sudhindra/irc_2025/rover_essentials/install/bio_drill/lib/python3.10/site-packages/bio_drill
+[3.172s] copying /home/sudhindra/irc_2025/rover_essentials/build/bio_drill/build/lib/bio_drill/drill.py -> /home/sudhindra/irc_2025/rover_essentials/install/bio_drill/lib/python3.10/site-packages/bio_drill
+[3.173s] byte-compiling /home/sudhindra/irc_2025/rover_essentials/install/bio_drill/lib/python3.10/site-packages/bio_drill/__init__.py to __init__.cpython-310.pyc
+[3.173s] byte-compiling /home/sudhindra/irc_2025/rover_essentials/install/bio_drill/lib/python3.10/site-packages/bio_drill/cache.py to cache.cpython-310.pyc
+[3.176s] byte-compiling /home/sudhindra/irc_2025/rover_essentials/install/bio_drill/lib/python3.10/site-packages/bio_drill/drill_auto.py to drill_auto.cpython-310.pyc
+[3.178s] byte-compiling /home/sudhindra/irc_2025/rover_essentials/install/bio_drill/lib/python3.10/site-packages/bio_drill/drill.py to drill.cpython-310.pyc
+[3.180s] running install_data
+[3.181s] creating /home/sudhindra/irc_2025/rover_essentials/install/bio_drill/share/ament_index
+[3.181s] creating /home/sudhindra/irc_2025/rover_essentials/install/bio_drill/share/ament_index/resource_index
+[3.182s] creating /home/sudhindra/irc_2025/rover_essentials/install/bio_drill/share/ament_index/resource_index/packages
+[3.182s] copying resource/bio_drill -> /home/sudhindra/irc_2025/rover_essentials/install/bio_drill/share/ament_index/resource_index/packages
+[3.182s] copying package.xml -> /home/sudhindra/irc_2025/rover_essentials/install/bio_drill/share/bio_drill
+[3.182s] running install_egg_info
+[3.186s] Copying ../../build/bio_drill/bio_drill.egg-info to /home/sudhindra/irc_2025/rover_essentials/install/bio_drill/lib/python3.10/site-packages/bio_drill-0.0.0-py3.10.egg-info
+[3.187s] running install_scripts
+[3.241s] Installing auto_drill script to /home/sudhindra/irc_2025/rover_essentials/install/bio_drill/lib/bio_drill
+[3.243s] Installing cache_box script to /home/sudhindra/irc_2025/rover_essentials/install/bio_drill/lib/bio_drill
+[3.244s] Installing drill script to /home/sudhindra/irc_2025/rover_essentials/install/bio_drill/lib/bio_drill
+[3.244s] writing list of installed files to '/home/sudhindra/irc_2025/rover_essentials/build/bio_drill/install.log'
+[3.302s] Invoked command in '/home/sudhindra/irc_2025/rover_essentials/src/bio_drill' returned '0': PYTHONPATH=/home/sudhindra/irc_2025/rover_essentials/build/bio_drill/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sudhindra/irc_2025/rover_essentials/install/bio_drill/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bio_drill build --build-base /home/sudhindra/irc_2025/rover_essentials/build/bio_drill/build install --record /home/sudhindra/irc_2025/rover_essentials/build/bio_drill/install.log --single-version-externally-managed install_data

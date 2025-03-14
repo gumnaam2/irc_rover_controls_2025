@@ -1,0 +1,6 @@
+[console_scripts]
+arm_master = joy_can.ArmCAN:main
+drive_master = joy_can.DriveCAN:main
+gripper = joy_can.gripper:main
+master = joy_can.CANIn:main
+

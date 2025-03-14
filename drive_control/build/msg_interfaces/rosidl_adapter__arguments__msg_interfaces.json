@@ -1,0 +1,11 @@
+{
+  "package_name": "msg_interfaces",
+  "non_idl_tuples": [
+    "/home/sudhindra/irc_2025/drive_control/src/msg_interfaces:msg/Drive.msg",
+    "/home/sudhindra/irc_2025/drive_control/src/msg_interfaces:msg/CamDrive.msg",
+    "/home/sudhindra/irc_2025/drive_control/src/msg_interfaces:msg/ArmEndMotion.msg",
+    "/home/sudhindra/irc_2025/drive_control/src/msg_interfaces:msg/MotorSix.msg",
+    "/home/sudhindra/irc_2025/drive_control/src/msg_interfaces:msg/EncoderArm.msg",
+    "/home/sudhindra/irc_2025/drive_control/src/msg_interfaces:msg/EncoderDrive.msg"
+  ]
+}

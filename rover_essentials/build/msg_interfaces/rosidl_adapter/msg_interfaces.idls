@@ -1,0 +1,10 @@
+/home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/rosidl_adapter/msg_interfaces:msg/Drive.idl
+/home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/rosidl_adapter/msg_interfaces:msg/ArmEndMotion.idl
+/home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/rosidl_adapter/msg_interfaces:msg/EncoderArm.idl
+/home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/rosidl_adapter/msg_interfaces:msg/EncoderDrive.idl
+/home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/rosidl_adapter/msg_interfaces:msg/ShoulderJointVelocity.idl
+/home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/rosidl_adapter/msg_interfaces:msg/WristJointVelocity.idl
+/home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/rosidl_adapter/msg_interfaces:msg/BaseMotion.idl
+/home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/rosidl_adapter/msg_interfaces:msg/FinalVel.idl
+/home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/rosidl_adapter/msg_interfaces:msg/TargetPose.idl
+/home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/rosidl_adapter/msg_interfaces:msg/ArmAngle.idl

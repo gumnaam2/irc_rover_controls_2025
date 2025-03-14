@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/bio_package/bio_package.egg-info
+writing ../../build/bio_package/bio_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/bio_package/bio_package.egg-info/dependency_links.txt
+writing entry points to ../../build/bio_package/bio_package.egg-info/entry_points.txt
+writing requirements to ../../build/bio_package/bio_package.egg-info/requires.txt
+writing top-level names to ../../build/bio_package/bio_package.egg-info/top_level.txt
+writing manifest file '../../build/bio_package/bio_package.egg-info/SOURCES.txt'
+reading manifest file '../../build/bio_package/bio_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/bio_package/bio_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sudhindra/irc_2025/rover_essentials/build/bio_package/build
+creating /home/sudhindra/irc_2025/rover_essentials/build/bio_package/build/lib
+creating /home/sudhindra/irc_2025/rover_essentials/build/bio_package/build/lib/bio_package
+copying bio_package/__init__.py -> /home/sudhindra/irc_2025/rover_essentials/build/bio_package/build/lib/bio_package
+running install
+running install_lib
+creating /home/sudhindra/irc_2025/rover_essentials/install/bio_package/lib/python3.10/site-packages/bio_package
+copying /home/sudhindra/irc_2025/rover_essentials/build/bio_package/build/lib/bio_package/__init__.py -> /home/sudhindra/irc_2025/rover_essentials/install/bio_package/lib/python3.10/site-packages/bio_package
+byte-compiling /home/sudhindra/irc_2025/rover_essentials/install/bio_package/lib/python3.10/site-packages/bio_package/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/sudhindra/irc_2025/rover_essentials/install/bio_package/share/ament_index
+creating /home/sudhindra/irc_2025/rover_essentials/install/bio_package/share/ament_index/resource_index
+creating /home/sudhindra/irc_2025/rover_essentials/install/bio_package/share/ament_index/resource_index/packages
+copying resource/bio_package -> /home/sudhindra/irc_2025/rover_essentials/install/bio_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/sudhindra/irc_2025/rover_essentials/install/bio_package/share/bio_package
+running install_egg_info
+Copying ../../build/bio_package/bio_package.egg-info to /home/sudhindra/irc_2025/rover_essentials/install/bio_package/lib/python3.10/site-packages/bio_package-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/sudhindra/irc_2025/rover_essentials/build/bio_package/install.log'

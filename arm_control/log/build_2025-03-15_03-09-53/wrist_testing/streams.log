@@ -1,0 +1,43 @@
+[0.837s] Invoking command in '/home/sudhindra/irc_2025/arm_control/src/joint_control': AMENT_PREFIX_PATH=/home/sudhindra/irc_2025/arm_control/install/msg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sudhindra/irc_2025/arm_control/install/msg_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sudhindra/irc_2025/arm_control/build/wrist_testing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages:/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wrist_testing build --build-base /home/sudhindra/irc_2025/arm_control/build/wrist_testing/build install --record /home/sudhindra/irc_2025/arm_control/build/wrist_testing/install.log --single-version-externally-managed install_data
+[1.069s] running egg_info
+[1.070s] creating ../../build/wrist_testing/joint_control.egg-info
+[1.070s] writing ../../build/wrist_testing/joint_control.egg-info/PKG-INFO
+[1.070s] writing dependency_links to ../../build/wrist_testing/joint_control.egg-info/dependency_links.txt
+[1.070s] writing entry points to ../../build/wrist_testing/joint_control.egg-info/entry_points.txt
+[1.070s] writing requirements to ../../build/wrist_testing/joint_control.egg-info/requires.txt
+[1.071s] writing top-level names to ../../build/wrist_testing/joint_control.egg-info/top_level.txt
+[1.071s] writing manifest file '../../build/wrist_testing/joint_control.egg-info/SOURCES.txt'
+[1.072s] reading manifest file '../../build/wrist_testing/joint_control.egg-info/SOURCES.txt'
+[1.073s] writing manifest file '../../build/wrist_testing/joint_control.egg-info/SOURCES.txt'
+[1.074s] running build
+[1.074s] running build_py
+[1.074s] creating /home/sudhindra/irc_2025/arm_control/build/wrist_testing/build
+[1.074s] creating /home/sudhindra/irc_2025/arm_control/build/wrist_testing/build/lib
+[1.074s] creating /home/sudhindra/irc_2025/arm_control/build/wrist_testing/build/lib/joint_control
+[1.075s] copying joint_control/pos_control_elbow.py -> /home/sudhindra/irc_2025/arm_control/build/wrist_testing/build/lib/joint_control
+[1.075s] copying joint_control/__init__.py -> /home/sudhindra/irc_2025/arm_control/build/wrist_testing/build/lib/joint_control
+[1.075s] copying joint_control/full_command.py -> /home/sudhindra/irc_2025/arm_control/build/wrist_testing/build/lib/joint_control
+[1.075s] copying joint_control/pos_control_shoulder.py -> /home/sudhindra/irc_2025/arm_control/build/wrist_testing/build/lib/joint_control
+[1.075s] running install
+[1.075s] running install_lib
+[1.076s] creating /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control
+[1.076s] copying /home/sudhindra/irc_2025/arm_control/build/wrist_testing/build/lib/joint_control/pos_control_elbow.py -> /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control
+[1.077s] copying /home/sudhindra/irc_2025/arm_control/build/wrist_testing/build/lib/joint_control/__init__.py -> /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control
+[1.077s] copying /home/sudhindra/irc_2025/arm_control/build/wrist_testing/build/lib/joint_control/full_command.py -> /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control
+[1.077s] copying /home/sudhindra/irc_2025/arm_control/build/wrist_testing/build/lib/joint_control/pos_control_shoulder.py -> /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control
+[1.078s] byte-compiling /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control/pos_control_elbow.py to pos_control_elbow.cpython-310.pyc
+[1.079s] byte-compiling /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control/__init__.py to __init__.cpython-310.pyc
+[1.079s] byte-compiling /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control/full_command.py to full_command.cpython-310.pyc
+[1.080s] byte-compiling /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control/pos_control_shoulder.py to pos_control_shoulder.cpython-310.pyc
+[1.081s] running install_data
+[1.081s] copying resource/joint_control -> /home/sudhindra/irc_2025/arm_control/install/wrist_testing/share/ament_index/resource_index/packages
+[1.081s] creating /home/sudhindra/irc_2025/arm_control/install/wrist_testing/share/joint_control
+[1.082s] copying package.xml -> /home/sudhindra/irc_2025/arm_control/install/wrist_testing/share/joint_control
+[1.082s] running install_egg_info
+[1.085s] Copying ../../build/wrist_testing/joint_control.egg-info to /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control-0.0.0-py3.10.egg-info
+[1.086s] running install_scripts
+[1.104s] Installing full_command script to /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/joint_control
+[1.104s] Installing pos_control_elbow script to /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/joint_control
+[1.104s] Installing pos_control_shoulder script to /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/joint_control
+[1.105s] writing list of installed files to '/home/sudhindra/irc_2025/arm_control/build/wrist_testing/install.log'
+[1.131s] Invoked command in '/home/sudhindra/irc_2025/arm_control/src/joint_control' returned '0': AMENT_PREFIX_PATH=/home/sudhindra/irc_2025/arm_control/install/msg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sudhindra/irc_2025/arm_control/install/msg_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sudhindra/irc_2025/arm_control/build/wrist_testing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages:/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wrist_testing build --build-base /home/sudhindra/irc_2025/arm_control/build/wrist_testing/build install --record /home/sudhindra/irc_2025/arm_control/build/wrist_testing/install.log --single-version-externally-managed install_data

@@ -1,0 +1,47 @@
+[0.843s] Invoking command in '/home/sudhindra/irc_2025/arm_control/src/ik_control': AMENT_PREFIX_PATH=/home/sudhindra/irc_2025/arm_control/install/msg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sudhindra/irc_2025/arm_control/install/msg_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sudhindra/irc_2025/arm_control/build/ik_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages:/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ik_control build --build-base /home/sudhindra/irc_2025/arm_control/build/ik_control/build install --record /home/sudhindra/irc_2025/arm_control/build/ik_control/install.log --single-version-externally-managed install_data
+[1.076s] running egg_info
+[1.077s] creating ../../build/ik_control/ik_control.egg-info
+[1.077s] writing ../../build/ik_control/ik_control.egg-info/PKG-INFO
+[1.077s] writing dependency_links to ../../build/ik_control/ik_control.egg-info/dependency_links.txt
+[1.077s] writing entry points to ../../build/ik_control/ik_control.egg-info/entry_points.txt
+[1.078s] writing requirements to ../../build/ik_control/ik_control.egg-info/requires.txt
+[1.078s] writing top-level names to ../../build/ik_control/ik_control.egg-info/top_level.txt
+[1.078s] writing manifest file '../../build/ik_control/ik_control.egg-info/SOURCES.txt'
+[1.079s] reading manifest file '../../build/ik_control/ik_control.egg-info/SOURCES.txt'
+[1.080s] writing manifest file '../../build/ik_control/ik_control.egg-info/SOURCES.txt'
+[1.081s] running build
+[1.081s] running build_py
+[1.081s] creating /home/sudhindra/irc_2025/arm_control/build/ik_control/build
+[1.081s] creating /home/sudhindra/irc_2025/arm_control/build/ik_control/build/lib
+[1.082s] creating /home/sudhindra/irc_2025/arm_control/build/ik_control/build/lib/ik_control
+[1.082s] copying ik_control/__init__.py -> /home/sudhindra/irc_2025/arm_control/build/ik_control/build/lib/ik_control
+[1.082s] copying ik_control/pos_ik.py -> /home/sudhindra/irc_2025/arm_control/build/ik_control/build/lib/ik_control
+[1.082s] copying ik_control/pos_ik_pid.py -> /home/sudhindra/irc_2025/arm_control/build/ik_control/build/lib/ik_control
+[1.082s] copying ik_control/shoulder_hold_ik.py -> /home/sudhindra/irc_2025/arm_control/build/ik_control/build/lib/ik_control
+[1.082s] running install
+[1.082s] running install_lib
+[1.082s] creating /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages/ik_control
+[1.082s] copying /home/sudhindra/irc_2025/arm_control/build/ik_control/build/lib/ik_control/__init__.py -> /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages/ik_control
+[1.083s] copying /home/sudhindra/irc_2025/arm_control/build/ik_control/build/lib/ik_control/pos_ik.py -> /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages/ik_control
+[1.083s] copying /home/sudhindra/irc_2025/arm_control/build/ik_control/build/lib/ik_control/pos_ik_pid.py -> /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages/ik_control
+[1.083s] copying /home/sudhindra/irc_2025/arm_control/build/ik_control/build/lib/ik_control/shoulder_hold_ik.py -> /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages/ik_control
+[1.083s] byte-compiling /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages/ik_control/__init__.py to __init__.cpython-310.pyc
+[1.083s] byte-compiling /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages/ik_control/pos_ik.py to pos_ik.cpython-310.pyc
+[1.084s] byte-compiling /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages/ik_control/pos_ik_pid.py to pos_ik_pid.cpython-310.pyc
+[1.086s] byte-compiling /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages/ik_control/shoulder_hold_ik.py to shoulder_hold_ik.cpython-310.pyc
+[1.088s] running install_data
+[1.088s] creating /home/sudhindra/irc_2025/arm_control/install/ik_control/share/ament_index
+[1.088s] creating /home/sudhindra/irc_2025/arm_control/install/ik_control/share/ament_index/resource_index
+[1.088s] creating /home/sudhindra/irc_2025/arm_control/install/ik_control/share/ament_index/resource_index/packages
+[1.088s] copying resource/ik_control -> /home/sudhindra/irc_2025/arm_control/install/ik_control/share/ament_index/resource_index/packages
+[1.088s] copying package.xml -> /home/sudhindra/irc_2025/arm_control/install/ik_control/share/ik_control
+[1.088s] creating /home/sudhindra/irc_2025/arm_control/install/ik_control/share/ik_control/urdf
+[1.089s] copying urdf/arm_model.urdf -> /home/sudhindra/irc_2025/arm_control/install/ik_control/share/ik_control/urdf
+[1.089s] running install_egg_info
+[1.090s] Copying ../../build/ik_control/ik_control.egg-info to /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages/ik_control-0.0.0-py3.10.egg-info
+[1.091s] running install_scripts
+[1.109s] Installing ik_pos_pid script to /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/ik_control
+[1.109s] Installing pos_ik script to /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/ik_control
+[1.109s] Installing shoulder_hold_ik script to /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/ik_control
+[1.109s] writing list of installed files to '/home/sudhindra/irc_2025/arm_control/build/ik_control/install.log'
+[1.140s] Invoked command in '/home/sudhindra/irc_2025/arm_control/src/ik_control' returned '0': AMENT_PREFIX_PATH=/home/sudhindra/irc_2025/arm_control/install/msg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sudhindra/irc_2025/arm_control/install/msg_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sudhindra/irc_2025/arm_control/build/ik_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages:/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ik_control build --build-base /home/sudhindra/irc_2025/arm_control/build/ik_control/build install --record /home/sudhindra/irc_2025/arm_control/build/ik_control/install.log --single-version-externally-managed install_data

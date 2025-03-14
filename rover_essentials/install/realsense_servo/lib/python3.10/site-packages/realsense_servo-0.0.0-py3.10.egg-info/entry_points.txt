@@ -1,0 +1,3 @@
+[console_scripts]
+real_servo = realsense_servo.real_servo:main
+

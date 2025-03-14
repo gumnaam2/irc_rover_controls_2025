@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/lib/python3.10/site-packages",
+        "/home/sudhindra/irc_2025/arm_control/install/joint_control/lib/python3.10/site-packages",
+        "/home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/lib/python3.10/site-packages",
+        "/home/sudhindra/irc_2025/arm_control/install/joint_control/lib/python3.10/site-packages",
+        "/home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

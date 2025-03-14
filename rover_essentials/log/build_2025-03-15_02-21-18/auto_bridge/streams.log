@@ -1,0 +1,28 @@
+[2.323s] Invoking command in '/home/sudhindra/irc_2025/rover_essentials/src/auto_bridge': PYTHONPATH=/home/sudhindra/irc_2025/rover_essentials/build/auto_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sudhindra/irc_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/auto_bridge build --build-base /home/sudhindra/irc_2025/rover_essentials/build/auto_bridge/build install --record /home/sudhindra/irc_2025/rover_essentials/build/auto_bridge/install.log --single-version-externally-managed install_data
+[2.924s] running egg_info
+[2.926s] writing ../../build/auto_bridge/auto_bridge.egg-info/PKG-INFO
+[2.928s] writing dependency_links to ../../build/auto_bridge/auto_bridge.egg-info/dependency_links.txt
+[2.928s] writing entry points to ../../build/auto_bridge/auto_bridge.egg-info/entry_points.txt
+[2.928s] writing requirements to ../../build/auto_bridge/auto_bridge.egg-info/requires.txt
+[2.928s] writing top-level names to ../../build/auto_bridge/auto_bridge.egg-info/top_level.txt
+[2.932s] reading manifest file '../../build/auto_bridge/auto_bridge.egg-info/SOURCES.txt'
+[2.934s] writing manifest file '../../build/auto_bridge/auto_bridge.egg-info/SOURCES.txt'
+[2.936s] running build
+[2.936s] running build_py
+[2.936s] copying auto_bridge/auto_relay.py -> /home/sudhindra/irc_2025/rover_essentials/build/auto_bridge/build/lib/auto_bridge
+[2.936s] copying auto_bridge/autonomous_diffdrive.py -> /home/sudhindra/irc_2025/rover_essentials/build/auto_bridge/build/lib/auto_bridge
+[2.938s] running install
+[2.938s] running install_lib
+[2.939s] copying /home/sudhindra/irc_2025/rover_essentials/build/auto_bridge/build/lib/auto_bridge/auto_relay.py -> /home/sudhindra/irc_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge
+[2.939s] copying /home/sudhindra/irc_2025/rover_essentials/build/auto_bridge/build/lib/auto_bridge/autonomous_diffdrive.py -> /home/sudhindra/irc_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge
+[2.943s] byte-compiling /home/sudhindra/irc_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge/auto_relay.py to auto_relay.cpython-310.pyc
+[2.943s] byte-compiling /home/sudhindra/irc_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge/autonomous_diffdrive.py to autonomous_diffdrive.cpython-310.pyc
+[2.944s] running install_data
+[2.944s] running install_egg_info
+[2.950s] removing '/home/sudhindra/irc_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge-0.0.0-py3.10.egg-info' (and everything under it)
+[2.950s] Copying ../../build/auto_bridge/auto_bridge.egg-info to /home/sudhindra/irc_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge-0.0.0-py3.10.egg-info
+[2.952s] running install_scripts
+[3.008s] Installing auto_drive script to /home/sudhindra/irc_2025/rover_essentials/install/auto_bridge/lib/auto_bridge
+[3.008s] Installing relay_auto script to /home/sudhindra/irc_2025/rover_essentials/install/auto_bridge/lib/auto_bridge
+[3.009s] writing list of installed files to '/home/sudhindra/irc_2025/rover_essentials/build/auto_bridge/install.log'
+[3.061s] Invoked command in '/home/sudhindra/irc_2025/rover_essentials/src/auto_bridge' returned '0': PYTHONPATH=/home/sudhindra/irc_2025/rover_essentials/build/auto_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sudhindra/irc_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/auto_bridge build --build-base /home/sudhindra/irc_2025/rover_essentials/build/auto_bridge/build install --record /home/sudhindra/irc_2025/rover_essentials/build/auto_bridge/install.log --single-version-externally-managed install_data

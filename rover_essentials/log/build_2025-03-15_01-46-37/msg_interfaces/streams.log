@@ -1,0 +1,33 @@
+[2.372s] Invoking command in '/home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces': PYTHONPATH=/home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sudhindra/irc_2025/rover_essentials/install/msg_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/msg_interfaces build --build-base /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/build install --record /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/install.log --single-version-externally-managed install_data
+[3.162s] running egg_info
+[3.162s] creating ../../build/msg_interfaces/msg_interfaces.egg-info
+[3.162s] writing ../../build/msg_interfaces/msg_interfaces.egg-info/PKG-INFO
+[3.163s] writing dependency_links to ../../build/msg_interfaces/msg_interfaces.egg-info/dependency_links.txt
+[3.163s] writing entry points to ../../build/msg_interfaces/msg_interfaces.egg-info/entry_points.txt
+[3.163s] writing requirements to ../../build/msg_interfaces/msg_interfaces.egg-info/requires.txt
+[3.163s] writing top-level names to ../../build/msg_interfaces/msg_interfaces.egg-info/top_level.txt
+[3.164s] writing manifest file '../../build/msg_interfaces/msg_interfaces.egg-info/SOURCES.txt'
+[3.166s] reading manifest file '../../build/msg_interfaces/msg_interfaces.egg-info/SOURCES.txt'
+[3.167s] writing manifest file '../../build/msg_interfaces/msg_interfaces.egg-info/SOURCES.txt'
+[3.167s] running build
+[3.168s] running build_py
+[3.168s] creating /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/build
+[3.168s] creating /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/build/lib
+[3.168s] creating /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/build/lib/msg_interfaces
+[3.168s] copying msg_interfaces/__init__.py -> /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/build/lib/msg_interfaces
+[3.169s] running install
+[3.169s] running install_lib
+[3.170s] creating /home/sudhindra/irc_2025/rover_essentials/install/msg_interfaces/lib/python3.10/site-packages/msg_interfaces
+[3.170s] copying /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/build/lib/msg_interfaces/__init__.py -> /home/sudhindra/irc_2025/rover_essentials/install/msg_interfaces/lib/python3.10/site-packages/msg_interfaces
+[3.171s] byte-compiling /home/sudhindra/irc_2025/rover_essentials/install/msg_interfaces/lib/python3.10/site-packages/msg_interfaces/__init__.py to __init__.cpython-310.pyc
+[3.171s] running install_data
+[3.171s] creating /home/sudhindra/irc_2025/rover_essentials/install/msg_interfaces/share/ament_index
+[3.172s] creating /home/sudhindra/irc_2025/rover_essentials/install/msg_interfaces/share/ament_index/resource_index
+[3.172s] creating /home/sudhindra/irc_2025/rover_essentials/install/msg_interfaces/share/ament_index/resource_index/packages
+[3.172s] copying resource/msg_interfaces -> /home/sudhindra/irc_2025/rover_essentials/install/msg_interfaces/share/ament_index/resource_index/packages
+[3.172s] copying package.xml -> /home/sudhindra/irc_2025/rover_essentials/install/msg_interfaces/share/msg_interfaces
+[3.173s] running install_egg_info
+[3.175s] Copying ../../build/msg_interfaces/msg_interfaces.egg-info to /home/sudhindra/irc_2025/rover_essentials/install/msg_interfaces/lib/python3.10/site-packages/msg_interfaces-0.0.0-py3.10.egg-info
+[3.176s] running install_scripts
+[3.212s] writing list of installed files to '/home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/install.log'
+[3.268s] Invoked command in '/home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces' returned '0': PYTHONPATH=/home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sudhindra/irc_2025/rover_essentials/install/msg_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/msg_interfaces build --build-base /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/build install --record /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/install.log --single-version-externally-managed install_data

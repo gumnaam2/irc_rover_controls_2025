@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/drill/drill.egg-info/PKG-INFO
+../../build/drill/drill.egg-info/SOURCES.txt
+../../build/drill/drill.egg-info/dependency_links.txt
+../../build/drill/drill.egg-info/entry_points.txt
+../../build/drill/drill.egg-info/requires.txt
+../../build/drill/drill.egg-info/top_level.txt
+../../build/drill/drill.egg-info/zip-safe
+drill/__init__.py
+resource/drill
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

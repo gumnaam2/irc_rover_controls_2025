@@ -1,0 +1,33 @@
+[2.011s] Invoking command in '/home/sudhindra/irc_2025/rover_essentials/src/fpv_pkg': PYTHONPATH=/home/sudhindra/irc_2025/rover_essentials/build/fpv_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sudhindra/irc_2025/rover_essentials/install/fpv_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fpv_pkg build --build-base /home/sudhindra/irc_2025/rover_essentials/build/fpv_pkg/build install --record /home/sudhindra/irc_2025/rover_essentials/build/fpv_pkg/install.log --single-version-externally-managed install_data
+[2.476s] running egg_info
+[2.478s] creating ../../build/fpv_pkg/fpv_pkg.egg-info
+[2.479s] writing ../../build/fpv_pkg/fpv_pkg.egg-info/PKG-INFO
+[2.479s] writing dependency_links to ../../build/fpv_pkg/fpv_pkg.egg-info/dependency_links.txt
+[2.479s] writing entry points to ../../build/fpv_pkg/fpv_pkg.egg-info/entry_points.txt
+[2.480s] writing requirements to ../../build/fpv_pkg/fpv_pkg.egg-info/requires.txt
+[2.481s] writing top-level names to ../../build/fpv_pkg/fpv_pkg.egg-info/top_level.txt
+[2.482s] writing manifest file '../../build/fpv_pkg/fpv_pkg.egg-info/SOURCES.txt'
+[2.485s] reading manifest file '../../build/fpv_pkg/fpv_pkg.egg-info/SOURCES.txt'
+[2.487s] writing manifest file '../../build/fpv_pkg/fpv_pkg.egg-info/SOURCES.txt'
+[2.487s] running build
+[2.487s] running build_py
+[2.488s] creating /home/sudhindra/irc_2025/rover_essentials/build/fpv_pkg/build
+[2.488s] creating /home/sudhindra/irc_2025/rover_essentials/build/fpv_pkg/build/lib
+[2.488s] creating /home/sudhindra/irc_2025/rover_essentials/build/fpv_pkg/build/lib/fpv_pkg
+[2.488s] copying fpv_pkg/__init__.py -> /home/sudhindra/irc_2025/rover_essentials/build/fpv_pkg/build/lib/fpv_pkg
+[2.488s] running install
+[2.489s] running install_lib
+[2.491s] creating /home/sudhindra/irc_2025/rover_essentials/install/fpv_pkg/lib/python3.10/site-packages/fpv_pkg
+[2.491s] copying /home/sudhindra/irc_2025/rover_essentials/build/fpv_pkg/build/lib/fpv_pkg/__init__.py -> /home/sudhindra/irc_2025/rover_essentials/install/fpv_pkg/lib/python3.10/site-packages/fpv_pkg
+[2.492s] byte-compiling /home/sudhindra/irc_2025/rover_essentials/install/fpv_pkg/lib/python3.10/site-packages/fpv_pkg/__init__.py to __init__.cpython-310.pyc
+[2.492s] running install_data
+[2.492s] creating /home/sudhindra/irc_2025/rover_essentials/install/fpv_pkg/share/ament_index
+[2.493s] creating /home/sudhindra/irc_2025/rover_essentials/install/fpv_pkg/share/ament_index/resource_index
+[2.493s] creating /home/sudhindra/irc_2025/rover_essentials/install/fpv_pkg/share/ament_index/resource_index/packages
+[2.493s] copying resource/fpv_pkg -> /home/sudhindra/irc_2025/rover_essentials/install/fpv_pkg/share/ament_index/resource_index/packages
+[2.493s] copying package.xml -> /home/sudhindra/irc_2025/rover_essentials/install/fpv_pkg/share/fpv_pkg
+[2.494s] running install_egg_info
+[2.498s] Copying ../../build/fpv_pkg/fpv_pkg.egg-info to /home/sudhindra/irc_2025/rover_essentials/install/fpv_pkg/lib/python3.10/site-packages/fpv_pkg-0.0.0-py3.10.egg-info
+[2.500s] running install_scripts
+[2.554s] writing list of installed files to '/home/sudhindra/irc_2025/rover_essentials/build/fpv_pkg/install.log'
+[2.606s] Invoked command in '/home/sudhindra/irc_2025/rover_essentials/src/fpv_pkg' returned '0': PYTHONPATH=/home/sudhindra/irc_2025/rover_essentials/build/fpv_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sudhindra/irc_2025/rover_essentials/install/fpv_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fpv_pkg build --build-base /home/sudhindra/irc_2025/rover_essentials/build/fpv_pkg/build install --record /home/sudhindra/irc_2025/rover_essentials/build/fpv_pkg/install.log --single-version-externally-managed install_data

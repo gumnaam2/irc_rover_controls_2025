@@ -1,0 +1,15 @@
+{
+  "package_name": "msg_interfaces",
+  "non_idl_tuples": [
+    "/home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces:msg/Drive.msg",
+    "/home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces:msg/ArmEndMotion.msg",
+    "/home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces:msg/EncoderArm.msg",
+    "/home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces:msg/EncoderDrive.msg",
+    "/home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces:msg/ShoulderJointVelocity.msg",
+    "/home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces:msg/WristJointVelocity.msg",
+    "/home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces:msg/BaseMotion.msg",
+    "/home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces:msg/FinalVel.msg",
+    "/home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces:msg/TargetPose.msg",
+    "/home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces:msg/ArmAngle.msg"
+  ]
+}

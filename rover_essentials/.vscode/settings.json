@@ -1,0 +1,24 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/sudhindra/irc_2025/rover_essentials/install/realsense_servo/lib/python3.10/site-packages",
+        "/home/sudhindra/irc_2025/rover_essentials/install/msg_interfaces/lib/python3.10/site-packages",
+        "/home/sudhindra/irc_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages",
+        "/home/sudhindra/irc_2025/rover_essentials/install/fpv_pkg/lib/python3.10/site-packages",
+        "/home/sudhindra/irc_2025/rover_essentials/install/drill/lib/python3.10/site-packages",
+        "/home/sudhindra/irc_2025/rover_essentials/install/bio_package/lib/python3.10/site-packages",
+        "/home/sudhindra/irc_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/sudhindra/irc_2025/rover_essentials/install/realsense_servo/lib/python3.10/site-packages",
+        "/home/sudhindra/irc_2025/rover_essentials/install/msg_interfaces/lib/python3.10/site-packages",
+        "/home/sudhindra/irc_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages",
+        "/home/sudhindra/irc_2025/rover_essentials/install/fpv_pkg/lib/python3.10/site-packages",
+        "/home/sudhindra/irc_2025/rover_essentials/install/drill/lib/python3.10/site-packages",
+        "/home/sudhindra/irc_2025/rover_essentials/install/bio_package/lib/python3.10/site-packages",
+        "/home/sudhindra/irc_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

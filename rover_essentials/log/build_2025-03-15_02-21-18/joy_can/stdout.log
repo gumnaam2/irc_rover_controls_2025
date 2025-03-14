@@ -1,0 +1,39 @@
+running egg_info
+writing ../../build/joy_can/joy_can.egg-info/PKG-INFO
+writing dependency_links to ../../build/joy_can/joy_can.egg-info/dependency_links.txt
+writing entry points to ../../build/joy_can/joy_can.egg-info/entry_points.txt
+writing requirements to ../../build/joy_can/joy_can.egg-info/requires.txt
+writing top-level names to ../../build/joy_can/joy_can.egg-info/top_level.txt
+reading manifest file '../../build/joy_can/joy_can.egg-info/SOURCES.txt'
+writing manifest file '../../build/joy_can/joy_can.egg-info/SOURCES.txt'
+running build
+running build_py
+copying joy_can/CANIn.py -> /home/sudhindra/irc_2025/rover_essentials/build/joy_can/build/lib/joy_can
+copying joy_can/gripper.py -> /home/sudhindra/irc_2025/rover_essentials/build/joy_can/build/lib/joy_can
+copying joy_can/DriveCAN.py -> /home/sudhindra/irc_2025/rover_essentials/build/joy_can/build/lib/joy_can
+copying joy_can/ArmCAN.py -> /home/sudhindra/irc_2025/rover_essentials/build/joy_can/build/lib/joy_can
+running install
+running install_lib
+copying /home/sudhindra/irc_2025/rover_essentials/build/joy_can/build/lib/joy_can/CANIn.py -> /home/sudhindra/irc_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can
+copying /home/sudhindra/irc_2025/rover_essentials/build/joy_can/build/lib/joy_can/gripper.py -> /home/sudhindra/irc_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can
+copying /home/sudhindra/irc_2025/rover_essentials/build/joy_can/build/lib/joy_can/DriveCAN.py -> /home/sudhindra/irc_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can
+copying /home/sudhindra/irc_2025/rover_essentials/build/joy_can/build/lib/joy_can/ArmCAN.py -> /home/sudhindra/irc_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can
+byte-compiling /home/sudhindra/irc_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can/CANIn.py to CANIn.cpython-310.pyc
+byte-compiling /home/sudhindra/irc_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can/gripper.py to gripper.cpython-310.pyc
+byte-compiling /home/sudhindra/irc_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can/DriveCAN.py to DriveCAN.cpython-310.pyc
+byte-compiling /home/sudhindra/irc_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can/ArmCAN.py to ArmCAN.cpython-310.pyc
+running install_data
+creating /home/sudhindra/irc_2025/rover_essentials/install/joy_can/share/joy_can/launch
+copying launch/DriveCAN.sh -> /home/sudhindra/irc_2025/rover_essentials/install/joy_can/share/joy_can/launch
+copying launch/ArmLaunch.py -> /home/sudhindra/irc_2025/rover_essentials/install/joy_can/share/joy_can/launch
+copying launch/ArmCAN.sh -> /home/sudhindra/irc_2025/rover_essentials/install/joy_can/share/joy_can/launch
+copying launch/DriveLaunch.py -> /home/sudhindra/irc_2025/rover_essentials/install/joy_can/share/joy_can/launch
+running install_egg_info
+removing '/home/sudhindra/irc_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/joy_can/joy_can.egg-info to /home/sudhindra/irc_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can-0.0.0-py3.10.egg-info
+running install_scripts
+Installing arm_master script to /home/sudhindra/irc_2025/rover_essentials/install/joy_can/lib/joy_can
+Installing drive_master script to /home/sudhindra/irc_2025/rover_essentials/install/joy_can/lib/joy_can
+Installing gripper script to /home/sudhindra/irc_2025/rover_essentials/install/joy_can/lib/joy_can
+Installing master script to /home/sudhindra/irc_2025/rover_essentials/install/joy_can/lib/joy_can
+writing list of installed files to '/home/sudhindra/irc_2025/rover_essentials/build/joy_can/install.log'

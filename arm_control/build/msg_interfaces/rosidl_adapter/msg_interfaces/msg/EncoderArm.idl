@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from msg_interfaces/msg/EncoderArm.msg
+// generated code does not contain a copyright notice
+
+
+module msg_interfaces {
+  module msg {
+    struct EncoderArm {
+      sequence<int64> arm_node0;
+
+      sequence<int64> arm_node1;
+
+      sequence<int64> arm_node2;
+
+      sequence<int64> arm_node3;
+
+      sequence<int64> arm_node4;
+
+      sequence<int64> arm_node5;
+    };
+  };
+};

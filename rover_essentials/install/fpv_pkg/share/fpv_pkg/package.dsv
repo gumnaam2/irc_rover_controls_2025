@@ -1,0 +1,6 @@
+source;share/fpv_pkg/hook/pythonpath.ps1
+source;share/fpv_pkg/hook/pythonpath.dsv
+source;share/fpv_pkg/hook/pythonpath.sh
+source;share/fpv_pkg/hook/ament_prefix_path.ps1
+source;share/fpv_pkg/hook/ament_prefix_path.dsv
+source;share/fpv_pkg/hook/ament_prefix_path.sh

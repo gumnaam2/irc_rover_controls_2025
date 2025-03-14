@@ -1,0 +1,33 @@
+[2.371s] Invoking command in '/home/sudhindra/irc_2025/rover_essentials/src/drill': PYTHONPATH=/home/sudhindra/irc_2025/rover_essentials/build/drill/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sudhindra/irc_2025/rover_essentials/install/drill/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/drill build --build-base /home/sudhindra/irc_2025/rover_essentials/build/drill/build install --record /home/sudhindra/irc_2025/rover_essentials/build/drill/install.log --single-version-externally-managed install_data
+[3.161s] running egg_info
+[3.162s] creating ../../build/drill/drill.egg-info
+[3.163s] writing ../../build/drill/drill.egg-info/PKG-INFO
+[3.163s] writing dependency_links to ../../build/drill/drill.egg-info/dependency_links.txt
+[3.163s] writing entry points to ../../build/drill/drill.egg-info/entry_points.txt
+[3.164s] writing requirements to ../../build/drill/drill.egg-info/requires.txt
+[3.164s] writing top-level names to ../../build/drill/drill.egg-info/top_level.txt
+[3.164s] writing manifest file '../../build/drill/drill.egg-info/SOURCES.txt'
+[3.168s] reading manifest file '../../build/drill/drill.egg-info/SOURCES.txt'
+[3.170s] writing manifest file '../../build/drill/drill.egg-info/SOURCES.txt'
+[3.171s] running build
+[3.171s] running build_py
+[3.171s] creating /home/sudhindra/irc_2025/rover_essentials/build/drill/build
+[3.171s] creating /home/sudhindra/irc_2025/rover_essentials/build/drill/build/lib
+[3.172s] creating /home/sudhindra/irc_2025/rover_essentials/build/drill/build/lib/drill
+[3.172s] copying drill/__init__.py -> /home/sudhindra/irc_2025/rover_essentials/build/drill/build/lib/drill
+[3.173s] running install
+[3.173s] running install_lib
+[3.175s] creating /home/sudhindra/irc_2025/rover_essentials/install/drill/lib/python3.10/site-packages/drill
+[3.176s] copying /home/sudhindra/irc_2025/rover_essentials/build/drill/build/lib/drill/__init__.py -> /home/sudhindra/irc_2025/rover_essentials/install/drill/lib/python3.10/site-packages/drill
+[3.176s] byte-compiling /home/sudhindra/irc_2025/rover_essentials/install/drill/lib/python3.10/site-packages/drill/__init__.py to __init__.cpython-310.pyc
+[3.176s] running install_data
+[3.177s] creating /home/sudhindra/irc_2025/rover_essentials/install/drill/share/ament_index
+[3.177s] creating /home/sudhindra/irc_2025/rover_essentials/install/drill/share/ament_index/resource_index
+[3.177s] creating /home/sudhindra/irc_2025/rover_essentials/install/drill/share/ament_index/resource_index/packages
+[3.177s] copying resource/drill -> /home/sudhindra/irc_2025/rover_essentials/install/drill/share/ament_index/resource_index/packages
+[3.177s] copying package.xml -> /home/sudhindra/irc_2025/rover_essentials/install/drill/share/drill
+[3.178s] running install_egg_info
+[3.181s] Copying ../../build/drill/drill.egg-info to /home/sudhindra/irc_2025/rover_essentials/install/drill/lib/python3.10/site-packages/drill-0.0.0-py3.10.egg-info
+[3.182s] running install_scripts
+[3.219s] writing list of installed files to '/home/sudhindra/irc_2025/rover_essentials/build/drill/install.log'
+[3.270s] Invoked command in '/home/sudhindra/irc_2025/rover_essentials/src/drill' returned '0': PYTHONPATH=/home/sudhindra/irc_2025/rover_essentials/build/drill/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sudhindra/irc_2025/rover_essentials/install/drill/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/drill build --build-base /home/sudhindra/irc_2025/rover_essentials/build/drill/build install --record /home/sudhindra/irc_2025/rover_essentials/build/drill/install.log --single-version-externally-managed install_data

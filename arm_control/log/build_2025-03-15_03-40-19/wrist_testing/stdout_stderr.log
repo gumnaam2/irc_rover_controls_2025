@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/wrist_testing/joint_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/wrist_testing/joint_control.egg-info/dependency_links.txt
+writing entry points to ../../build/wrist_testing/joint_control.egg-info/entry_points.txt
+writing requirements to ../../build/wrist_testing/joint_control.egg-info/requires.txt
+writing top-level names to ../../build/wrist_testing/joint_control.egg-info/top_level.txt
+reading manifest file '../../build/wrist_testing/joint_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/wrist_testing/joint_control.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/sudhindra/irc/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/wrist_testing/joint_control.egg-info to /home/sudhindra/irc/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing full_command script to /home/sudhindra/irc/arm_control/install/wrist_testing/lib/joint_control
+Installing pos_control_elbow script to /home/sudhindra/irc/arm_control/install/wrist_testing/lib/joint_control
+Installing pos_control_shoulder script to /home/sudhindra/irc/arm_control/install/wrist_testing/lib/joint_control
+writing list of installed files to '/home/sudhindra/irc/arm_control/build/wrist_testing/install.log'

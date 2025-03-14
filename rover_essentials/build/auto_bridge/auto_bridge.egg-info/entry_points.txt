@@ -1,0 +1,4 @@
+[console_scripts]
+auto_drive = auto_bridge.autonomous_diffdrive:main
+relay_auto = auto_bridge.auto_relay:main
+

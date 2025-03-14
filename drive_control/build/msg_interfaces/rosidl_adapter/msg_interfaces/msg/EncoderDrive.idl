@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from msg_interfaces/msg/EncoderDrive.msg
+// generated code does not contain a copyright notice
+
+
+module msg_interfaces {
+  module msg {
+    struct EncoderDrive {
+      sequence<int64> drive_node0;
+
+      sequence<int64> drive_node1;
+
+      sequence<int64> drive_node2;
+
+      sequence<int64> drive_node3;
+
+      sequence<int64> drive_node4;
+
+      sequence<int64> drive_node5;
+    };
+  };
+};

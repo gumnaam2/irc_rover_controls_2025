@@ -1,0 +1,6 @@
+source;share/differential/hook/pythonpath.ps1
+source;share/differential/hook/pythonpath.dsv
+source;share/differential/hook/pythonpath.sh
+source;share/differential/hook/ament_prefix_path.ps1
+source;share/differential/hook/ament_prefix_path.dsv
+source;share/differential/hook/ament_prefix_path.sh

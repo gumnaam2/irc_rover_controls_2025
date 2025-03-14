@@ -1,0 +1,38 @@
+running egg_info
+writing ../../build/differential/differential.egg-info/PKG-INFO
+writing dependency_links to ../../build/differential/differential.egg-info/dependency_links.txt
+writing entry points to ../../build/differential/differential.egg-info/entry_points.txt
+writing requirements to ../../build/differential/differential.egg-info/requires.txt
+writing top-level names to ../../build/differential/differential.egg-info/top_level.txt
+reading manifest file '../../build/differential/differential.egg-info/SOURCES.txt'
+writing manifest file '../../build/differential/differential.egg-info/SOURCES.txt'
+running build
+running build_py
+copying differential/freshies_attempt.py -> /home/sudhindra/irc_2025/drive_control/build/differential/build/lib/differential
+copying differential/joystick_inputter.py -> /home/sudhindra/irc_2025/drive_control/build/differential/build/lib/differential
+running install
+running install_lib
+copying /home/sudhindra/irc_2025/drive_control/build/differential/build/lib/differential/freshies_attempt.py -> /home/sudhindra/irc_2025/drive_control/install/differential/lib/python3.10/site-packages/differential
+copying /home/sudhindra/irc_2025/drive_control/build/differential/build/lib/differential/joystick_inputter.py -> /home/sudhindra/irc_2025/drive_control/install/differential/lib/python3.10/site-packages/differential
+byte-compiling /home/sudhindra/irc_2025/drive_control/install/differential/lib/python3.10/site-packages/differential/freshies_attempt.py to freshies_attempt.cpython-310.pyc
+byte-compiling /home/sudhindra/irc_2025/drive_control/install/differential/lib/python3.10/site-packages/differential/joystick_inputter.py to joystick_inputter.cpython-310.pyc
+running install_data
+creating /home/sudhindra/irc_2025/drive_control/install/differential/share/differential/launch
+running install_egg_info
+removing '/home/sudhindra/irc_2025/drive_control/install/differential/lib/python3.10/site-packages/differential-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/differential/differential.egg-info to /home/sudhindra/irc_2025/drive_control/install/differential/lib/python3.10/site-packages/differential-0.0.0-py3.10.egg-info
+running install_scripts
+Installing arm_end_receiverrr script to /home/sudhindra/irc_2025/drive_control/install/differential/lib/differential
+Installing base_tuning script to /home/sudhindra/irc_2025/drive_control/install/differential/lib/differential
+Installing byte_array script to /home/sudhindra/irc_2025/drive_control/install/differential/lib/differential
+Installing cam_receiverrr script to /home/sudhindra/irc_2025/drive_control/install/differential/lib/differential
+Installing drive_arm_concatenate script to /home/sudhindra/irc_2025/drive_control/install/differential/lib/differential
+Installing drive_receiverrr script to /home/sudhindra/irc_2025/drive_control/install/differential/lib/differential
+Installing freshies_attempt script to /home/sudhindra/irc_2025/drive_control/install/differential/lib/differential
+Installing joystick_innerrr script to /home/sudhindra/irc_2025/drive_control/install/differential/lib/differential
+Installing joystick_innerrr_arm script to /home/sudhindra/irc_2025/drive_control/install/differential/lib/differential
+Installing motor_six_receiverrr script to /home/sudhindra/irc_2025/drive_control/install/differential/lib/differential
+Installing node1 script to /home/sudhindra/irc_2025/drive_control/install/differential/lib/differential
+Installing node2 script to /home/sudhindra/irc_2025/drive_control/install/differential/lib/differential
+Installing rtk_demo script to /home/sudhindra/irc_2025/drive_control/install/differential/lib/differential
+writing list of installed files to '/home/sudhindra/irc_2025/drive_control/build/differential/install.log'

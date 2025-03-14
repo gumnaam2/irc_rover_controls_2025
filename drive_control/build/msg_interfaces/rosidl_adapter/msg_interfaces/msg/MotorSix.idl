@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from msg_interfaces/msg/MotorSix.msg
+// generated code does not contain a copyright notice
+
+
+module msg_interfaces {
+  module msg {
+    struct MotorSix {
+      double motor1_speed;
+
+      string motor1_direction;
+
+      double motor2_speed;
+
+      string motor2_direction;
+
+      double motor3_speed;
+
+      string motor3_direction;
+
+      double motor4_speed;
+
+      string motor4_direction;
+
+      double motor5_speed;
+
+      string motor5_direction;
+
+      double motor6_speed;
+
+      string motor6_direction;
+    };
+  };
+};

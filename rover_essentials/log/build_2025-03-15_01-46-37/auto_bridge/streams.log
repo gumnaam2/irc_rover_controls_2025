@@ -1,0 +1,33 @@
+[2.367s] Invoking command in '/home/sudhindra/irc_2025/rover_essentials/src/auto_bridge': PYTHONPATH=/home/sudhindra/irc_2025/rover_essentials/build/auto_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sudhindra/irc_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/auto_bridge build --build-base /home/sudhindra/irc_2025/rover_essentials/build/auto_bridge/build install --record /home/sudhindra/irc_2025/rover_essentials/build/auto_bridge/install.log --single-version-externally-managed install_data
+[3.139s] running egg_info
+[3.140s] creating ../../build/auto_bridge/auto_bridge.egg-info
+[3.141s] writing ../../build/auto_bridge/auto_bridge.egg-info/PKG-INFO
+[3.141s] writing dependency_links to ../../build/auto_bridge/auto_bridge.egg-info/dependency_links.txt
+[3.141s] writing entry points to ../../build/auto_bridge/auto_bridge.egg-info/entry_points.txt
+[3.142s] writing requirements to ../../build/auto_bridge/auto_bridge.egg-info/requires.txt
+[3.142s] writing top-level names to ../../build/auto_bridge/auto_bridge.egg-info/top_level.txt
+[3.142s] writing manifest file '../../build/auto_bridge/auto_bridge.egg-info/SOURCES.txt'
+[3.145s] reading manifest file '../../build/auto_bridge/auto_bridge.egg-info/SOURCES.txt'
+[3.146s] writing manifest file '../../build/auto_bridge/auto_bridge.egg-info/SOURCES.txt'
+[3.146s] running build
+[3.146s] running build_py
+[3.147s] creating /home/sudhindra/irc_2025/rover_essentials/build/auto_bridge/build
+[3.147s] creating /home/sudhindra/irc_2025/rover_essentials/build/auto_bridge/build/lib
+[3.147s] creating /home/sudhindra/irc_2025/rover_essentials/build/auto_bridge/build/lib/auto_bridge
+[3.147s] copying auto_bridge/__init__.py -> /home/sudhindra/irc_2025/rover_essentials/build/auto_bridge/build/lib/auto_bridge
+[3.147s] running install
+[3.148s] running install_lib
+[3.149s] creating /home/sudhindra/irc_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge
+[3.149s] copying /home/sudhindra/irc_2025/rover_essentials/build/auto_bridge/build/lib/auto_bridge/__init__.py -> /home/sudhindra/irc_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge
+[3.149s] byte-compiling /home/sudhindra/irc_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge/__init__.py to __init__.cpython-310.pyc
+[3.150s] running install_data
+[3.150s] creating /home/sudhindra/irc_2025/rover_essentials/install/auto_bridge/share/ament_index
+[3.150s] creating /home/sudhindra/irc_2025/rover_essentials/install/auto_bridge/share/ament_index/resource_index
+[3.151s] creating /home/sudhindra/irc_2025/rover_essentials/install/auto_bridge/share/ament_index/resource_index/packages
+[3.151s] copying resource/auto_bridge -> /home/sudhindra/irc_2025/rover_essentials/install/auto_bridge/share/ament_index/resource_index/packages
+[3.151s] copying package.xml -> /home/sudhindra/irc_2025/rover_essentials/install/auto_bridge/share/auto_bridge
+[3.151s] running install_egg_info
+[3.154s] Copying ../../build/auto_bridge/auto_bridge.egg-info to /home/sudhindra/irc_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge-0.0.0-py3.10.egg-info
+[3.155s] running install_scripts
+[3.192s] writing list of installed files to '/home/sudhindra/irc_2025/rover_essentials/build/auto_bridge/install.log'
+[3.231s] Invoked command in '/home/sudhindra/irc_2025/rover_essentials/src/auto_bridge' returned '0': PYTHONPATH=/home/sudhindra/irc_2025/rover_essentials/build/auto_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sudhindra/irc_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/auto_bridge build --build-base /home/sudhindra/irc_2025/rover_essentials/build/auto_bridge/build install --record /home/sudhindra/irc_2025/rover_essentials/build/auto_bridge/install.log --single-version-externally-managed install_data

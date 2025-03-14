@@ -1,0 +1,5 @@
+[console_scripts]
+auto_drill = bio_drill.drill_auto:main
+cache_box = bio_drill.cache:main
+drill = bio_drill.drill:main
+

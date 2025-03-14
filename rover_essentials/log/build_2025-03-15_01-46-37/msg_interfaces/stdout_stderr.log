@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/msg_interfaces/msg_interfaces.egg-info
+writing ../../build/msg_interfaces/msg_interfaces.egg-info/PKG-INFO
+writing dependency_links to ../../build/msg_interfaces/msg_interfaces.egg-info/dependency_links.txt
+writing entry points to ../../build/msg_interfaces/msg_interfaces.egg-info/entry_points.txt
+writing requirements to ../../build/msg_interfaces/msg_interfaces.egg-info/requires.txt
+writing top-level names to ../../build/msg_interfaces/msg_interfaces.egg-info/top_level.txt
+writing manifest file '../../build/msg_interfaces/msg_interfaces.egg-info/SOURCES.txt'
+reading manifest file '../../build/msg_interfaces/msg_interfaces.egg-info/SOURCES.txt'
+writing manifest file '../../build/msg_interfaces/msg_interfaces.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/build
+creating /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/build/lib
+creating /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/build/lib/msg_interfaces
+copying msg_interfaces/__init__.py -> /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/build/lib/msg_interfaces
+running install
+running install_lib
+creating /home/sudhindra/irc_2025/rover_essentials/install/msg_interfaces/lib/python3.10/site-packages/msg_interfaces
+copying /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/build/lib/msg_interfaces/__init__.py -> /home/sudhindra/irc_2025/rover_essentials/install/msg_interfaces/lib/python3.10/site-packages/msg_interfaces
+byte-compiling /home/sudhindra/irc_2025/rover_essentials/install/msg_interfaces/lib/python3.10/site-packages/msg_interfaces/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/sudhindra/irc_2025/rover_essentials/install/msg_interfaces/share/ament_index
+creating /home/sudhindra/irc_2025/rover_essentials/install/msg_interfaces/share/ament_index/resource_index
+creating /home/sudhindra/irc_2025/rover_essentials/install/msg_interfaces/share/ament_index/resource_index/packages
+copying resource/msg_interfaces -> /home/sudhindra/irc_2025/rover_essentials/install/msg_interfaces/share/ament_index/resource_index/packages
+copying package.xml -> /home/sudhindra/irc_2025/rover_essentials/install/msg_interfaces/share/msg_interfaces
+running install_egg_info
+Copying ../../build/msg_interfaces/msg_interfaces.egg-info to /home/sudhindra/irc_2025/rover_essentials/install/msg_interfaces/lib/python3.10/site-packages/msg_interfaces-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/install.log'

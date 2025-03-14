@@ -1,0 +1,3 @@
+[console_scripts]
+drive_fpv = fpv_pkg.drive_FPV:main
+

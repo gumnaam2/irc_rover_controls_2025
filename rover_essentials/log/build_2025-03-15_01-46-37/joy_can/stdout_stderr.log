@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/joy_can/joy_can.egg-info
+writing ../../build/joy_can/joy_can.egg-info/PKG-INFO
+writing dependency_links to ../../build/joy_can/joy_can.egg-info/dependency_links.txt
+writing entry points to ../../build/joy_can/joy_can.egg-info/entry_points.txt
+writing requirements to ../../build/joy_can/joy_can.egg-info/requires.txt
+writing top-level names to ../../build/joy_can/joy_can.egg-info/top_level.txt
+writing manifest file '../../build/joy_can/joy_can.egg-info/SOURCES.txt'
+reading manifest file '../../build/joy_can/joy_can.egg-info/SOURCES.txt'
+writing manifest file '../../build/joy_can/joy_can.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sudhindra/irc_2025/rover_essentials/build/joy_can/build
+creating /home/sudhindra/irc_2025/rover_essentials/build/joy_can/build/lib
+creating /home/sudhindra/irc_2025/rover_essentials/build/joy_can/build/lib/joy_can
+copying joy_can/__init__.py -> /home/sudhindra/irc_2025/rover_essentials/build/joy_can/build/lib/joy_can
+running install
+running install_lib
+creating /home/sudhindra/irc_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can
+copying /home/sudhindra/irc_2025/rover_essentials/build/joy_can/build/lib/joy_can/__init__.py -> /home/sudhindra/irc_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can
+byte-compiling /home/sudhindra/irc_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/sudhindra/irc_2025/rover_essentials/install/joy_can/share/ament_index
+creating /home/sudhindra/irc_2025/rover_essentials/install/joy_can/share/ament_index/resource_index
+creating /home/sudhindra/irc_2025/rover_essentials/install/joy_can/share/ament_index/resource_index/packages
+copying resource/joy_can -> /home/sudhindra/irc_2025/rover_essentials/install/joy_can/share/ament_index/resource_index/packages
+copying package.xml -> /home/sudhindra/irc_2025/rover_essentials/install/joy_can/share/joy_can
+running install_egg_info
+Copying ../../build/joy_can/joy_can.egg-info to /home/sudhindra/irc_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/sudhindra/irc_2025/rover_essentials/build/joy_can/install.log'

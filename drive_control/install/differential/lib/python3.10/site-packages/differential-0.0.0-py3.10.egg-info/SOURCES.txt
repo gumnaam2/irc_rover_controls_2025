@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/differential/differential.egg-info/PKG-INFO
+../../build/differential/differential.egg-info/SOURCES.txt
+../../build/differential/differential.egg-info/dependency_links.txt
+../../build/differential/differential.egg-info/entry_points.txt
+../../build/differential/differential.egg-info/requires.txt
+../../build/differential/differential.egg-info/top_level.txt
+../../build/differential/differential.egg-info/zip-safe
+differential/__init__.py
+differential/freshies_attempt.py
+differential/joystick_inputter.py
+resource/differential
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

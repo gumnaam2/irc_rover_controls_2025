@@ -1,0 +1,116 @@
+[0.256s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/sudhindra/irc_2025/rover_essentials']
+[0.257s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/sudhindra/irc_2025/rover_essentials'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x76b7801856f0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x76b780184df0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x76b780184df0>>, mixin_verb=('list',))
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.581s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sudhindra/irc_2025/rover_essentials'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials) by extensions ['ignore', 'ignore_ament_install']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials) by extension 'ignore'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials) by extension 'ignore_ament_install'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials) by extensions ['colcon_pkg']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials) by extension 'colcon_pkg'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials) by extensions ['colcon_meta']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials) by extension 'colcon_meta'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials) by extensions ['ros']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials) by extension 'ros'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials) by extensions ['cmake', 'python']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials) by extension 'cmake'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials) by extension 'python'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials) by extensions ['python_setup_py']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials) by extension 'python_setup_py'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/build) by extensions ['ignore', 'ignore_ament_install']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/build) by extension 'ignore'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/build) ignored
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/install) by extensions ['ignore', 'ignore_ament_install']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/install) by extension 'ignore'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/install) ignored
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/log) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/log) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/log) ignored
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src) by extension 'ignore_ament_install'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src) by extensions ['colcon_pkg']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src) by extension 'colcon_pkg'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src) by extensions ['colcon_meta']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src) by extension 'colcon_meta'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src) by extensions ['ros']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src) by extension 'ros'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src) by extensions ['cmake', 'python']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src) by extension 'cmake'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src) by extension 'python'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src) by extensions ['python_setup_py']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src) by extension 'python_setup_py'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/auto_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/auto_bridge) by extension 'ignore'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/auto_bridge) by extension 'ignore_ament_install'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/auto_bridge) by extensions ['colcon_pkg']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/auto_bridge) by extension 'colcon_pkg'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/auto_bridge) by extensions ['colcon_meta']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/auto_bridge) by extension 'colcon_meta'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/auto_bridge) by extensions ['ros']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/auto_bridge) by extension 'ros'
+[0.644s] DEBUG:colcon.colcon_core.package_identification:Package '/home/sudhindra/irc_2025/rover_essentials/src/auto_bridge' with type 'ros.ament_python' and name 'auto_bridge'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/bio_drill) by extensions ['ignore', 'ignore_ament_install']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/bio_drill) by extension 'ignore'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/bio_drill) by extension 'ignore_ament_install'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/bio_drill) by extensions ['colcon_pkg']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/bio_drill) by extension 'colcon_pkg'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/bio_drill) by extensions ['colcon_meta']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/bio_drill) by extension 'colcon_meta'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/bio_drill) by extensions ['ros']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/bio_drill) by extension 'ros'
+[0.646s] DEBUG:colcon.colcon_core.package_identification:Package '/home/sudhindra/irc_2025/rover_essentials/src/bio_drill' with type 'ros.ament_python' and name 'bio_drill'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/bio_package) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/bio_package) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/bio_package) by extension 'ignore_ament_install'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/bio_package) by extensions ['colcon_pkg']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/bio_package) by extension 'colcon_pkg'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/bio_package) by extensions ['colcon_meta']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/bio_package) by extension 'colcon_meta'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/bio_package) by extensions ['ros']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/bio_package) by extension 'ros'
+[0.648s] DEBUG:colcon.colcon_core.package_identification:Package '/home/sudhindra/irc_2025/rover_essentials/src/bio_package' with type 'ros.ament_python' and name 'bio_package'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/fpv_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/fpv_pkg) by extension 'ignore'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/fpv_pkg) by extension 'ignore_ament_install'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/fpv_pkg) by extensions ['colcon_pkg']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/fpv_pkg) by extension 'colcon_pkg'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/fpv_pkg) by extensions ['colcon_meta']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/fpv_pkg) by extension 'colcon_meta'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/fpv_pkg) by extensions ['ros']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/fpv_pkg) by extension 'ros'
+[0.650s] DEBUG:colcon.colcon_core.package_identification:Package '/home/sudhindra/irc_2025/rover_essentials/src/fpv_pkg' with type 'ros.ament_python' and name 'fpv_pkg'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/joy_can) by extensions ['ignore', 'ignore_ament_install']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/joy_can) by extension 'ignore'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/joy_can) by extension 'ignore_ament_install'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/joy_can) by extensions ['colcon_pkg']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/joy_can) by extension 'colcon_pkg'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/joy_can) by extensions ['colcon_meta']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/joy_can) by extension 'colcon_meta'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/joy_can) by extensions ['ros']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/joy_can) by extension 'ros'
+[0.652s] DEBUG:colcon.colcon_core.package_identification:Package '/home/sudhindra/irc_2025/rover_essentials/src/joy_can' with type 'ros.ament_python' and name 'joy_can'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces) by extension 'ignore'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces) by extension 'ignore_ament_install'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces) by extensions ['colcon_pkg']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces) by extension 'colcon_pkg'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces) by extensions ['colcon_meta']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces) by extension 'colcon_meta'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces) by extensions ['ros']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces) by extension 'ros'
+[0.654s] DEBUG:colcon.colcon_core.package_identification:Package '/home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces' with type 'ros.ament_cmake' and name 'msg_interfaces'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/realsense_servo) by extensions ['ignore', 'ignore_ament_install']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/realsense_servo) by extension 'ignore'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/realsense_servo) by extension 'ignore_ament_install'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/realsense_servo) by extensions ['colcon_pkg']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/realsense_servo) by extension 'colcon_pkg'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/realsense_servo) by extensions ['colcon_meta']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/realsense_servo) by extension 'colcon_meta'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/realsense_servo) by extensions ['ros']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sudhindra/irc_2025/rover_essentials/src/realsense_servo) by extension 'ros'
+[0.656s] DEBUG:colcon.colcon_core.package_identification:Package '/home/sudhindra/irc_2025/rover_essentials/src/realsense_servo' with type 'ros.ament_python' and name 'realsense_servo'
+[0.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

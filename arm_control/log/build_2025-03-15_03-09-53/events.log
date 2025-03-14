@@ -1,0 +1,706 @@
+[0.000000] (-) TimerEvent: {}
+[0.000297] (msg_interfaces) JobQueued: {'identifier': 'msg_interfaces', 'dependencies': OrderedDict()}
+[0.000321] (ik_control) JobQueued: {'identifier': 'ik_control', 'dependencies': OrderedDict([('msg_interfaces', '/home/sudhindra/irc_2025/arm_control/install/msg_interfaces')])}
+[0.000338] (wrist_testing) JobQueued: {'identifier': 'wrist_testing', 'dependencies': OrderedDict([('msg_interfaces', '/home/sudhindra/irc_2025/arm_control/install/msg_interfaces')])}
+[0.000387] (msg_interfaces) JobStarted: {'identifier': 'msg_interfaces'}
+[0.005589] (msg_interfaces) JobProgress: {'identifier': 'msg_interfaces', 'progress': 'cmake'}
+[0.005864] (msg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/sudhindra/irc_2025/arm_control/src/msg_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/sudhindra/irc_2025/arm_control/install/msg_interfaces'], 'cwd': '/home/sudhindra/irc_2025/arm_control/build/msg_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sudhindra'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sudhindra'), ('OLDPWD', '/home/sudhindra/irc_2025'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('osqp_DIR', '/usr/local/lib/cmake/osqp'), ('MANAGERPID', '2306'), ('SYSTEMD_EXEC_PID', '2501'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6713'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sudhindra'), ('JOURNAL_STREAM', '8:16083'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sudhindra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sudhindra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sudhindra-HP-EliteBook-840-G6:@/tmp/.ICE-unix/2477,unix/sudhindra-HP-EliteBook-840-G6:/tmp/.ICE-unix/2477'), ('INVOCATION_ID', 'fcd6a7b7d8fa490e8cab0b2828c6faec'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6P9922'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1e26ad50-ffda-4985-bcf7-a8d25113f016'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sudhindra/irc_2025/arm_control/build/msg_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/humble/lib'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local:/opt/ros/humble')]), 'shell': False}
+[0.044524] (msg_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.084226] (msg_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.089390] (msg_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099491] (-) TimerEvent: {}
+[0.137489] (msg_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.143409] (msg_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.143710] (msg_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.144042] (msg_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.146319] (msg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199618] (-) TimerEvent: {}
+[0.202769] (msg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.208982] (msg_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.209298] (msg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.209682] (msg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.211529] (msg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299702] (-) TimerEvent: {}
+[0.323928] (msg_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.393056] (msg_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.399795] (-) TimerEvent: {}
+[0.420728] (msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.424641] (msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.431244] (msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.441214] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.453868] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.485579] (msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.499925] (-) TimerEvent: {}
+[0.600180] (-) TimerEvent: {}
+[0.700425] (-) TimerEvent: {}
+[0.734913] (msg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.800568] (-) TimerEvent: {}
+[0.900841] (-) TimerEvent: {}
+[1.001131] (-) TimerEvent: {}
+[1.051912] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101207] (-) TimerEvent: {}
+[1.177938] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.194588] (msg_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.195796] (msg_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.201313] (-) TimerEvent: {}
+[1.215431] (msg_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.215593] (msg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.215641] (msg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.215686] (msg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.232005] (msg_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.277245] (msg_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.290620] (msg_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.291550] (msg_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.293373] (msg_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.301426] (-) TimerEvent: {}
+[1.329123] (msg_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.330973] (msg_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/sudhindra/irc_2025/arm_control/build/msg_interfaces\n'}
+[1.339735] (msg_interfaces) CommandEnded: {'returncode': 0}
+[1.340387] (msg_interfaces) JobProgress: {'identifier': 'msg_interfaces', 'progress': 'build'}
+[1.340990] (msg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sudhindra/irc_2025/arm_control/build/msg_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/sudhindra/irc_2025/arm_control/build/msg_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sudhindra'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sudhindra'), ('OLDPWD', '/home/sudhindra/irc_2025'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('osqp_DIR', '/usr/local/lib/cmake/osqp'), ('MANAGERPID', '2306'), ('SYSTEMD_EXEC_PID', '2501'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6713'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sudhindra'), ('JOURNAL_STREAM', '8:16083'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sudhindra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sudhindra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sudhindra-HP-EliteBook-840-G6:@/tmp/.ICE-unix/2477,unix/sudhindra-HP-EliteBook-840-G6:/tmp/.ICE-unix/2477'), ('INVOCATION_ID', 'fcd6a7b7d8fa490e8cab0b2828c6faec'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6P9922'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1e26ad50-ffda-4985-bcf7-a8d25113f016'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sudhindra/irc_2025/arm_control/build/msg_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/humble/lib'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local:/opt/ros/humble')]), 'shell': False}
+[1.371828] (msg_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.380031] (msg_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.385940] (msg_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_msg_interfaces\n'}
+[1.401526] (-) TimerEvent: {}
+[1.501796] (-) TimerEvent: {}
+[1.602103] (-) TimerEvent: {}
+[1.630332] (msg_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.630898] (msg_interfaces) StdoutLine: {'line': b'creating msg_interfaces.egg-info\n'}
+[1.631257] (msg_interfaces) StdoutLine: {'line': b'writing msg_interfaces.egg-info/PKG-INFO\n'}
+[1.631485] (msg_interfaces) StdoutLine: {'line': b'writing dependency_links to msg_interfaces.egg-info/dependency_links.txt\n'}
+[1.631571] (msg_interfaces) StdoutLine: {'line': b'writing top-level names to msg_interfaces.egg-info/top_level.txt\n'}
+[1.631682] (msg_interfaces) StdoutLine: {'line': b"writing manifest file 'msg_interfaces.egg-info/SOURCES.txt'\n"}
+[1.633899] (msg_interfaces) StdoutLine: {'line': b"reading manifest file 'msg_interfaces.egg-info/SOURCES.txt'\n"}
+[1.634355] (msg_interfaces) StdoutLine: {'line': b"writing manifest file 'msg_interfaces.egg-info/SOURCES.txt'\n"}
+[1.656783] (msg_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_msg_interfaces_egg\n'}
+[1.702193] (-) TimerEvent: {}
+[1.802499] (-) TimerEvent: {}
+[1.902804] (-) TimerEvent: {}
+[2.003118] (-) TimerEvent: {}
+[2.104635] (-) TimerEvent: {}
+[2.209353] (-) TimerEvent: {}
+[2.291219] (msg_interfaces) StdoutLine: {'line': b'[  1%] Built target msg_interfaces__cpp\n'}
+[2.309454] (-) TimerEvent: {}
+[2.319082] (msg_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.335961] (msg_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.348562] (msg_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.410913] (-) TimerEvent: {}
+[2.511600] (-) TimerEvent: {}
+[2.551131] (msg_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/drive__functions.c.o\x1b[0m\n'}
+[2.553467] (msg_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.c.o\x1b[0m\n'}
+[2.573300] (msg_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__functions.c.o\x1b[0m\n'}
+[2.575323] (msg_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/shoulder_joint_velocity__functions.c.o\x1b[0m\n'}
+[2.575743] (msg_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/encoder_drive__functions.c.o\x1b[0m\n'}
+[2.614150] (-) TimerEvent: {}
+[2.700411] (msg_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/wrist_joint_velocity__functions.c.o\x1b[0m\n'}
+[2.714334] (-) TimerEvent: {}
+[2.746359] (msg_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/base_motion__functions.c.o\x1b[0m\n'}
+[2.777996] (msg_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/final_vel__functions.c.o\x1b[0m\n'}
+[2.799411] (msg_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/target_pose__functions.c.o\x1b[0m\n'}
+[2.805745] (msg_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/arm_angle__functions.c.o\x1b[0m\n'}
+[2.814484] (-) TimerEvent: {}
+[2.915166] (-) TimerEvent: {}
+[2.953486] (msg_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking C shared library libmsg_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.015520] (-) TimerEvent: {}
+[3.037837] (msg_interfaces) StdoutLine: {'line': b'[ 15%] Built target msg_interfaces__rosidl_generator_c\n'}
+[3.061239] (msg_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.064604] (msg_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.070230] (msg_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.115659] (-) TimerEvent: {}
+[3.216325] (-) TimerEvent: {}
+[3.318112] (-) TimerEvent: {}
+[3.419723] (-) TimerEvent: {}
+[3.520194] (-) TimerEvent: {}
+[3.623944] (-) TimerEvent: {}
+[3.707980] (msg_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/arm_end_motion__type_support.cpp.o\x1b[0m\n'}
+[3.724100] (msg_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/encoder_arm__type_support.cpp.o\x1b[0m\n'}
+[3.724424] (-) TimerEvent: {}
+[3.726928] (msg_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/drive__type_support.cpp.o\x1b[0m\n'}
+[3.830099] (-) TimerEvent: {}
+[3.930522] (-) TimerEvent: {}
+[4.031016] (-) TimerEvent: {}
+[4.135088] (-) TimerEvent: {}
+[4.235531] (-) TimerEvent: {}
+[4.336182] (-) TimerEvent: {}
+[4.387199] (msg_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/drive__type_support.cpp.o\x1b[0m\n'}
+[4.436339] (-) TimerEvent: {}
+[4.520199] (msg_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/encoder_drive__type_support.cpp.o\x1b[0m\n'}
+[4.522276] (msg_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/shoulder_joint_velocity__type_support.cpp.o\x1b[0m\n'}
+[4.536668] (-) TimerEvent: {}
+[4.569159] (msg_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/arm_end_motion__type_support.cpp.o\x1b[0m\n'}
+[4.597386] (msg_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/drive__type_support.cpp.o\x1b[0m\n'}
+[4.640140] (-) TimerEvent: {}
+[4.695538] (msg_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/arm_end_motion__type_support.cpp.o\x1b[0m\n'}
+[4.707324] (msg_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/drive__type_support.cpp.o\x1b[0m\n'}
+[4.743145] (-) TimerEvent: {}
+[4.779233] (msg_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/encoder_arm__type_support.cpp.o\x1b[0m\n'}
+[4.843334] (-) TimerEvent: {}
+[4.871956] (msg_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/encoder_drive__type_support.cpp.o\x1b[0m\n'}
+[4.934537] (msg_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/drive__type_support.c.o\x1b[0m\n'}
+[4.943441] (-) TimerEvent: {}
+[4.960722] (msg_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/shoulder_joint_velocity__type_support.cpp.o\x1b[0m\n'}
+[5.023046] (msg_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/arm_end_motion__type_support.c.o\x1b[0m\n'}
+[5.043463] (msg_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/wrist_joint_velocity__type_support.cpp.o\x1b[0m\n'}
+[5.043897] (-) TimerEvent: {}
+[5.129371] (msg_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/encoder_arm__type_support.c.o\x1b[0m\n'}
+[5.129812] (msg_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/base_motion__type_support.cpp.o\x1b[0m\n'}
+[5.144117] (-) TimerEvent: {}
+[5.188212] (msg_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/final_vel__type_support.cpp.o\x1b[0m\n'}
+[5.240115] (msg_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.cpp.o\x1b[0m\n'}
+[5.249078] (msg_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/encoder_drive__type_support.c.o\x1b[0m\n'}
+[5.249331] (-) TimerEvent: {}
+[5.261844] (msg_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/target_pose__type_support.cpp.o\x1b[0m\n'}
+[5.294992] (msg_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/wrist_joint_velocity__type_support.cpp.o\x1b[0m\n'}
+[5.309662] (msg_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/drive__type_support_c.cpp.o\x1b[0m\n'}
+[5.342087] (msg_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/arm_angle__type_support.cpp.o\x1b[0m\n'}
+[5.349475] (-) TimerEvent: {}
+[5.357123] (msg_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/shoulder_joint_velocity__type_support.c.o\x1b[0m\n'}
+[5.412233] (msg_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.426252] (msg_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/wrist_joint_velocity__type_support.c.o\x1b[0m\n'}
+[5.449583] (-) TimerEvent: {}
+[5.492236] (msg_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/base_motion__type_support.c.o\x1b[0m\n'}
+[5.534130] (msg_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/arm_end_motion__type_support_c.cpp.o\x1b[0m\n'}
+[5.541014] (msg_interfaces) StdoutLine: {'line': b'[ 47%] Built target msg_interfaces__rosidl_typesupport_c\n'}
+[5.550236] (-) TimerEvent: {}
+[5.559600] (msg_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/base_motion__type_support.cpp.o\x1b[0m\n'}
+[5.574947] (msg_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/final_vel__type_support.c.o\x1b[0m\n'}
+[5.618139] (msg_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/encoder_arm__type_support.cpp.o\x1b[0m\n'}
+[5.650349] (-) TimerEvent: {}
+[5.658126] (msg_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/target_pose__type_support.c.o\x1b[0m\n'}
+[5.718950] (msg_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/encoder_arm__type_support_c.cpp.o\x1b[0m\n'}
+[5.753096] (-) TimerEvent: {}
+[5.773452] (msg_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/arm_angle__type_support.c.o\x1b[0m\n'}
+[5.853234] (-) TimerEvent: {}
+[5.901419] (msg_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libmsg_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.944329] (msg_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.cpp.o\x1b[0m\n'}
+[5.953353] (-) TimerEvent: {}
+[6.012919] (msg_interfaces) StdoutLine: {'line': b'[ 54%] Built target msg_interfaces__rosidl_typesupport_introspection_c\n'}
+[6.022195] (msg_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/encoder_drive__type_support.cpp.o\x1b[0m\n'}
+[6.037112] (msg_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/encoder_drive__type_support_c.cpp.o\x1b[0m\n'}
+[6.053459] (-) TimerEvent: {}
+[6.130421] (msg_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/final_vel__type_support.cpp.o\x1b[0m\n'}
+[6.141112] (msg_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/shoulder_joint_velocity__type_support_c.cpp.o\x1b[0m\n'}
+[6.153580] (-) TimerEvent: {}
+[6.236412] (msg_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/target_pose__type_support.cpp.o\x1b[0m\n'}
+[6.253691] (-) TimerEvent: {}
+[6.354277] (-) TimerEvent: {}
+[6.445529] (msg_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/shoulder_joint_velocity__type_support.cpp.o\x1b[0m\n'}
+[6.454756] (-) TimerEvent: {}
+[6.480420] (msg_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/wrist_joint_velocity__type_support.cpp.o\x1b[0m\n'}
+[6.554857] (-) TimerEvent: {}
+[6.655408] (-) TimerEvent: {}
+[6.712651] (msg_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/base_motion__type_support.cpp.o\x1b[0m\n'}
+[6.754145] (msg_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/encoder_drive__type_support.cpp.o\x1b[0m\n'}
+[6.755429] (-) TimerEvent: {}
+[6.776211] (msg_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/shoulder_joint_velocity__type_support.cpp.o\x1b[0m\n'}
+[6.855548] (-) TimerEvent: {}
+[6.864680] (msg_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/final_vel__type_support.cpp.o\x1b[0m\n'}
+[6.892516] (msg_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/wrist_joint_velocity__type_support_c.cpp.o\x1b[0m\n'}
+[6.952094] (msg_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/arm_angle__type_support.cpp.o\x1b[0m\n'}
+[6.955846] (-) TimerEvent: {}
+[7.057220] (-) TimerEvent: {}
+[7.159118] (-) TimerEvent: {}
+[7.259530] (-) TimerEvent: {}
+[7.360106] (-) TimerEvent: {}
+[7.380389] (msg_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/base_motion__type_support_c.cpp.o\x1b[0m\n'}
+[7.462127] (-) TimerEvent: {}
+[7.537668] (msg_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/final_vel__type_support_c.cpp.o\x1b[0m\n'}
+[7.562245] (-) TimerEvent: {}
+[7.662673] (-) TimerEvent: {}
+[7.714934] (msg_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/target_pose__type_support_c.cpp.o\x1b[0m\n'}
+[7.768114] (-) TimerEvent: {}
+[7.793152] (msg_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.811100] (msg_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/arm_angle__type_support_c.cpp.o\x1b[0m\n'}
+[7.859112] (msg_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/target_pose__type_support.cpp.o\x1b[0m\n'}
+[7.868257] (-) TimerEvent: {}
+[7.910056] (msg_interfaces) StdoutLine: {'line': b'[ 73%] Built target msg_interfaces__rosidl_typesupport_cpp\n'}
+[7.949580] (msg_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/arm_angle__type_support.cpp.o\x1b[0m\n'}
+[7.968381] (-) TimerEvent: {}
+[8.051364] (msg_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/wrist_joint_velocity__type_support.cpp.o\x1b[0m\n'}
+[8.068504] (-) TimerEvent: {}
+[8.129908] (msg_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/base_motion__type_support.cpp.o\x1b[0m\n'}
+[8.168630] (-) TimerEvent: {}
+[8.272271] (-) TimerEvent: {}
+[8.372691] (-) TimerEvent: {}
+[8.473255] (-) TimerEvent: {}
+[8.573789] (-) TimerEvent: {}
+[8.614177] (msg_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/final_vel__type_support.cpp.o\x1b[0m\n'}
+[8.662087] (msg_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/target_pose__type_support.cpp.o\x1b[0m\n'}
+[8.673940] (-) TimerEvent: {}
+[8.684429] (msg_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/arm_angle__type_support.cpp.o\x1b[0m\n'}
+[8.775107] (-) TimerEvent: {}
+[8.876128] (-) TimerEvent: {}
+[8.946939] (msg_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.976257] (-) TimerEvent: {}
+[9.052774] (msg_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.080116] (-) TimerEvent: {}
+[9.104502] (msg_interfaces) StdoutLine: {'line': b'[ 81%] Built target msg_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[9.167574] (msg_interfaces) StdoutLine: {'line': b'[ 81%] Built target msg_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[9.180211] (-) TimerEvent: {}
+[9.280606] (-) TimerEvent: {}
+[9.303466] (msg_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.363648] (msg_interfaces) StdoutLine: {'line': b'[ 82%] Built target msg_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[9.377097] (msg_interfaces) StdoutLine: {'line': b'[ 82%] Built target msg_interfaces\n'}
+[9.380660] (-) TimerEvent: {}
+[9.391456] (msg_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.480792] (-) TimerEvent: {}
+[9.581056] (-) TimerEvent: {}
+[9.681260] (-) TimerEvent: {}
+[9.781525] (-) TimerEvent: {}
+[9.881774] (-) TimerEvent: {}
+[9.982051] (-) TimerEvent: {}
+[10.082319] (-) TimerEvent: {}
+[10.182565] (-) TimerEvent: {}
+[10.282942] (-) TimerEvent: {}
+[10.295572] (msg_interfaces) StdoutLine: {'line': b'[ 83%] Built target msg_interfaces__py\n'}
+[10.314898] (msg_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_encoder_arm_s.c.o\x1b[0m\n'}
+[10.315575] (msg_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_arm_end_motion_s.c.o\x1b[0m\n'}
+[10.315703] (msg_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_shoulder_joint_velocity_s.c.o\x1b[0m\n'}
+[10.315799] (msg_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_encoder_drive_s.c.o\x1b[0m\n'}
+[10.315867] (msg_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_final_vel_s.c.o\x1b[0m\n'}
+[10.315924] (msg_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_drive_s.c.o\x1b[0m\n'}
+[10.315991] (msg_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_wrist_joint_velocity_s.c.o\x1b[0m\n'}
+[10.317325] (msg_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_base_motion_s.c.o\x1b[0m\n'}
+[10.383100] (-) TimerEvent: {}
+[10.466126] (msg_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_target_pose_s.c.o\x1b[0m\n'}
+[10.468517] (msg_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_arm_angle_s.c.o\x1b[0m\n'}
+[10.483199] (-) TimerEvent: {}
+[10.566186] (msg_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_interfaces/libmsg_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[10.583348] (-) TimerEvent: {}
+[10.596741] (msg_interfaces) StdoutLine: {'line': b'[ 94%] Built target msg_interfaces__rosidl_generator_py\n'}
+[10.613468] (msg_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.613693] (msg_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.613793] (msg_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.683451] (-) TimerEvent: {}
+[10.717332] (msg_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.717537] (msg_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.717627] (msg_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.751862] (msg_interfaces) StdoutLine: {'line': b'[100%] Built target msg_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[10.752119] (msg_interfaces) StdoutLine: {'line': b'[100%] Built target msg_interfaces__rosidl_typesupport_c__pyext\n'}
+[10.752208] (msg_interfaces) StdoutLine: {'line': b'[100%] Built target msg_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.761946] (msg_interfaces) CommandEnded: {'returncode': 0}
+[10.783522] (-) TimerEvent: {}
+[10.883763] (-) TimerEvent: {}
+[10.898859] (msg_interfaces) JobProgress: {'identifier': 'msg_interfaces', 'progress': 'install'}
+[10.905570] (msg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sudhindra/irc_2025/arm_control/build/msg_interfaces'], 'cwd': '/home/sudhindra/irc_2025/arm_control/build/msg_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sudhindra'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sudhindra'), ('OLDPWD', '/home/sudhindra/irc_2025'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('osqp_DIR', '/usr/local/lib/cmake/osqp'), ('MANAGERPID', '2306'), ('SYSTEMD_EXEC_PID', '2501'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6713'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sudhindra'), ('JOURNAL_STREAM', '8:16083'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sudhindra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sudhindra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sudhindra-HP-EliteBook-840-G6:@/tmp/.ICE-unix/2477,unix/sudhindra-HP-EliteBook-840-G6:/tmp/.ICE-unix/2477'), ('INVOCATION_ID', 'fcd6a7b7d8fa490e8cab0b2828c6faec'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6P9922'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1e26ad50-ffda-4985-bcf7-a8d25113f016'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sudhindra/irc_2025/arm_control/build/msg_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/humble/lib'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local:/opt/ros/humble')]), 'shell': False}
+[10.911873] (msg_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.912233] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/ament_index/resource_index/rosidl_interfaces/msg_interfaces\n'}
+[10.912683] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[10.912745] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[10.912943] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/target_pose.h\n'}
+[10.912991] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/arm_end_motion.h\n'}
+[10.913068] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/base_motion.h\n'}
+[10.913123] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/encoder_drive.h\n'}
+[10.913181] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/encoder_arm.h\n'}
+[10.913227] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[10.913424] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__functions.c\n'}
+[10.913517] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__functions.h\n'}
+[10.913573] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__struct.h\n'}
+[10.913621] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__functions.h\n'}
+[10.913668] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__functions.c\n'}
+[10.913879] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__struct.h\n'}
+[10.913931] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__functions.c\n'}
+[10.913978] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__functions.h\n'}
+[10.914029] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__type_support.h\n'}
+[10.914275] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__struct.h\n'}
+[10.914378] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__struct.h\n'}
+[10.914460] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__functions.h\n'}
+[10.914801] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__functions.h\n'}
+[10.914903] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__type_support.h\n'}
+[10.914959] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__type_support.h\n'}
+[10.915092] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__type_support.h\n'}
+[10.915189] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__struct.h\n'}
+[10.915261] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__struct.h\n'}
+[10.915333] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__type_support.h\n'}
+[10.915419] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__functions.c\n'}
+[10.915510] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__functions.c\n'}
+[10.915581] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__type_support.h\n'}
+[10.915635] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__functions.h\n'}
+[10.915688] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__struct.h\n'}
+[10.915768] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__functions.c\n'}
+[10.915864] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__functions.c\n'}
+[10.915935] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__type_support.h\n'}
+[10.915990] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__functions.h\n'}
+[10.916077] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__struct.h\n'}
+[10.916163] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__type_support.h\n'}
+[10.916254] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__functions.h\n'}
+[10.916306] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__functions.c\n'}
+[10.916382] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__functions.h\n'}
+[10.916486] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__functions.c\n'}
+[10.916584] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__struct.h\n'}
+[10.916660] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__functions.c\n'}
+[10.916762] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__type_support.h\n'}
+[10.916852] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__functions.h\n'}
+[10.916935] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__type_support.h\n'}
+[10.917019] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__struct.h\n'}
+[10.917226] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.917307] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/drive.h\n'}
+[10.917387] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/arm_angle.h\n'}
+[10.917467] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/wrist_joint_velocity.h\n'}
+[10.917544] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/final_vel.h\n'}
+[10.917649] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/shoulder_joint_velocity.h\n'}
+[10.917821] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/environment/library_path.sh\n'}
+[10.917920] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/environment/library_path.dsv\n'}
+[10.918148] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_c.so\n'}
+[10.918395] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_c.so" to ""\n'}
+[10.918556] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[10.918633] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[10.918687] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[10.918738] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__rosidl_typesupport_fastrtps_c.h\n'}
+[10.918813] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__rosidl_typesupport_fastrtps_c.h\n'}
+[10.918876] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__rosidl_typesupport_fastrtps_c.h\n'}
+[10.918937] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__rosidl_typesupport_fastrtps_c.h\n'}
+[10.918987] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__rosidl_typesupport_fastrtps_c.h\n'}
+[10.919076] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[10.919154] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__rosidl_typesupport_fastrtps_c.h\n'}
+[10.919256] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__rosidl_typesupport_fastrtps_c.h\n'}
+[10.919323] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__rosidl_typesupport_fastrtps_c.h\n'}
+[10.919388] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__rosidl_typesupport_fastrtps_c.h\n'}
+[10.919509] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.919615] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[10.919849] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.919912] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[10.919994] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[10.920071] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/base_motion.hpp\n'}
+[10.920157] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/arm_angle.hpp\n'}
+[10.920230] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/encoder_drive.hpp\n'}
+[10.920281] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/final_vel.hpp\n'}
+[10.920353] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/wrist_joint_velocity.hpp\n'}
+[10.920406] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[10.920474] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__builder.hpp\n'}
+[10.920539] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__traits.hpp\n'}
+[10.920607] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__struct.hpp\n'}
+[10.920670] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__builder.hpp\n'}
+[10.920735] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__struct.hpp\n'}
+[10.920802] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__traits.hpp\n'}
+[10.920868] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__struct.hpp\n'}
+[10.920946] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__struct.hpp\n'}
+[10.921033] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__traits.hpp\n'}
+[10.921224] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__builder.hpp\n'}
+[10.921354] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__struct.hpp\n'}
+[10.921573] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__struct.hpp\n'}
+[10.921635] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__builder.hpp\n'}
+[10.921730] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__builder.hpp\n'}
+[10.921799] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__traits.hpp\n'}
+[10.921874] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__struct.hpp\n'}
+[10.921923] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__traits.hpp\n'}
+[10.921989] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__traits.hpp\n'}
+[10.922062] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__traits.hpp\n'}
+[10.922158] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__builder.hpp\n'}
+[10.922223] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__struct.hpp\n'}
+[10.922289] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__traits.hpp\n'}
+[10.922353] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__struct.hpp\n'}
+[10.922429] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__traits.hpp\n'}
+[10.922561] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__builder.hpp\n'}
+[10.922682] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__traits.hpp\n'}
+[10.922749] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__struct.hpp\n'}
+[10.922814] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__builder.hpp\n'}
+[10.922885] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__builder.hpp\n'}
+[10.922961] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__builder.hpp\n'}
+[10.923046] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/drive.hpp\n'}
+[10.923128] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/arm_end_motion.hpp\n'}
+[10.923246] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/encoder_arm.hpp\n'}
+[10.923366] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/shoulder_joint_velocity.hpp\n'}
+[10.923505] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/target_pose.hpp\n'}
+[10.923624] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[10.923746] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[10.923799] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.923878] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[10.923931] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.923980] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.924058] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/dds_fastrtps\n'}
+[10.924158] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.924221] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.924310] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.924363] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.924433] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.924482] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.924548] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.924654] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.924729] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.925039] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.925148] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[10.925210] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[10.925288] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[10.925495] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__rosidl_typesupport_introspection_c.h\n'}
+[10.925598] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__rosidl_typesupport_introspection_c.h\n'}
+[10.925680] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__type_support.c\n'}
+[10.925749] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__type_support.c\n'}
+[10.925814] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__type_support.c\n'}
+[10.925887] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__rosidl_typesupport_introspection_c.h\n'}
+[10.925940] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__type_support.c\n'}
+[10.926008] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__type_support.c\n'}
+[10.926081] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__rosidl_typesupport_introspection_c.h\n'}
+[10.926150] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__type_support.c\n'}
+[10.926228] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__type_support.c\n'}
+[10.926307] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__rosidl_typesupport_introspection_c.h\n'}
+[10.926388] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__rosidl_typesupport_introspection_c.h\n'}
+[10.926525] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__rosidl_typesupport_introspection_c.h\n'}
+[10.926647] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__rosidl_typesupport_introspection_c.h\n'}
+[10.926770] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__rosidl_typesupport_introspection_c.h\n'}
+[10.926891] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__rosidl_typesupport_introspection_c.h\n'}
+[10.926964] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__type_support.c\n'}
+[10.927013] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__type_support.c\n'}
+[10.927084] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__type_support.c\n'}
+[10.927191] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.927349] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[10.927700] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.927749] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_c.so\n'}
+[10.928006] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[10.928123] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[10.928231] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[10.928286] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[10.928484] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.928563] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.928634] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__type_support.cpp\n'}
+[10.928687] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__type_support.cpp\n'}
+[10.928737] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__type_support.cpp\n'}
+[10.928827] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.928885] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.928935] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.928986] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__type_support.cpp\n'}
+[10.929160] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__type_support.cpp\n'}
+[10.929264] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__type_support.cpp\n'}
+[10.929324] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.929379] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.929431] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.929512] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__type_support.cpp\n'}
+[10.929569] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__type_support.cpp\n'}
+[10.929636] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__type_support.cpp\n'}
+[10.929686] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__type_support.cpp\n'}
+[10.929761] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.929811] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.929876] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[10.930137] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.930209] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_cpp.so\n'}
+[10.930393] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[10.930580] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/environment/pythonpath.sh\n'}
+[10.930833] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/environment/pythonpath.dsv\n'}
+[10.930948] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info\n'}
+[10.931007] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[10.931092] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[10.931167] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[10.931220] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[10.931271] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces\n'}
+[10.931349] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[10.931403] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg\n'}
+[10.931463] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_target_pose.py\n'}
+[10.931511] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_encoder_drive.py\n'}
+[10.931575] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_drive_s.c\n'}
+[10.931640] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_shoulder_joint_velocity.py\n'}
+[10.931705] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_final_vel_s.c\n'}
+[10.931765] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/__init__.py\n'}
+[10.931828] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_base_motion_s.c\n'}
+[10.931891] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_shoulder_joint_velocity_s.c\n'}
+[10.931956] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_target_pose_s.c\n'}
+[10.932034] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_wrist_joint_velocity.py\n'}
+[10.932167] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_arm_angle_s.c\n'}
+[10.932292] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_encoder_arm_s.c\n'}
+[10.932415] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_final_vel.py\n'}
+[10.932539] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_arm_end_motion.py\n'}
+[10.932657] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_arm_end_motion_s.c\n'}
+[10.932793] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_arm_angle.py\n'}
+[10.932853] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_encoder_drive_s.c\n'}
+[10.932936] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_base_motion.py\n'}
+[10.933004] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_encoder_arm.py\n'}
+[10.933082] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_drive.py\n'}
+[10.933154] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_wrist_joint_velocity_s.c\n'}
+[10.933220] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/__init__.py\n'}
+[10.933291] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.933380] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.933472] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/libmsg_interfaces__rosidl_generator_py.so\n'}
+[10.933604] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.933846] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.933958] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.971732] (msg_interfaces) StdoutLine: {'line': b"Listing '/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces'...\n"}
+[10.971924] (msg_interfaces) StdoutLine: {'line': b"Compiling '/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/__init__.py'...\n"}
+[10.971976] (msg_interfaces) StdoutLine: {'line': b"Listing '/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg'...\n"}
+[10.972050] (msg_interfaces) StdoutLine: {'line': b"Compiling '/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/__init__.py'...\n"}
+[10.972112] (msg_interfaces) StdoutLine: {'line': b"Compiling '/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_arm_angle.py'...\n"}
+[10.972153] (msg_interfaces) StdoutLine: {'line': b"Compiling '/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_arm_end_motion.py'...\n"}
+[10.972194] (msg_interfaces) StdoutLine: {'line': b"Compiling '/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_base_motion.py'...\n"}
+[10.972234] (msg_interfaces) StdoutLine: {'line': b"Compiling '/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_drive.py'...\n"}
+[10.972274] (msg_interfaces) StdoutLine: {'line': b"Compiling '/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_encoder_arm.py'...\n"}
+[10.972313] (msg_interfaces) StdoutLine: {'line': b"Compiling '/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_encoder_drive.py'...\n"}
+[10.972353] (msg_interfaces) StdoutLine: {'line': b"Compiling '/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_final_vel.py'...\n"}
+[10.972401] (msg_interfaces) StdoutLine: {'line': b"Compiling '/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_shoulder_joint_velocity.py'...\n"}
+[10.972442] (msg_interfaces) StdoutLine: {'line': b"Compiling '/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_target_pose.py'...\n"}
+[10.972488] (msg_interfaces) StdoutLine: {'line': b"Compiling '/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_wrist_joint_velocity.py'...\n"}
+[10.975752] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.975988] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[10.976353] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.976585] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[10.976859] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.977016] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[10.977267] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_py.so\n'}
+[10.977547] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_py.so" to ""\n'}
+[10.977732] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/Drive.idl\n'}
+[10.978038] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/ArmEndMotion.idl\n'}
+[10.978106] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/EncoderArm.idl\n'}
+[10.978159] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/EncoderDrive.idl\n'}
+[10.978257] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/ShoulderJointVelocity.idl\n'}
+[10.978530] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/WristJointVelocity.idl\n'}
+[10.978840] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/BaseMotion.idl\n'}
+[10.978908] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/FinalVel.idl\n'}
+[10.978982] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/TargetPose.idl\n'}
+[10.979242] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/ArmAngle.idl\n'}
+[10.979365] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/Drive.msg\n'}
+[10.979473] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/ArmEndMotion.msg\n'}
+[10.979536] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/EncoderArm.msg\n'}
+[10.979588] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/EncoderDrive.msg\n'}
+[10.979639] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/ShoulderJointVelocity.msg\n'}
+[10.979717] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/WristJointVelocity.msg\n'}
+[10.979772] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/BaseMotion.msg\n'}
+[10.979822] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/FinalVel.msg\n'}
+[10.979899] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/TargetPose.msg\n'}
+[10.979952] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/ArmAngle.msg\n'}
+[10.980021] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/ament_index/resource_index/package_run_dependencies/msg_interfaces\n'}
+[10.980101] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/ament_index/resource_index/parent_prefix_path/msg_interfaces\n'}
+[10.980194] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/environment/ament_prefix_path.sh\n'}
+[10.980298] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/environment/ament_prefix_path.dsv\n'}
+[10.980439] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/environment/path.sh\n'}
+[10.980579] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/environment/path.dsv\n'}
+[10.980752] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/local_setup.bash\n'}
+[10.980864] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/local_setup.sh\n'}
+[10.980946] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/local_setup.zsh\n'}
+[10.981038] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/local_setup.dsv\n'}
+[10.981207] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/package.dsv\n'}
+[10.981311] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/ament_index/resource_index/packages/msg_interfaces\n'}
+[10.981537] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cExport.cmake\n'}
+[10.981763] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.981936] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.981990] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.982269] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cppExport.cmake\n'}
+[10.982558] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.982630] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.982865] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.982974] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.983032] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[10.983111] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.983174] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.983233] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.983311] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[10.983558] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.983619] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_pyExport.cmake\n'}
+[10.983716] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.983774] (-) TimerEvent: {}
+[10.983910] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[10.984006] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.984131] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.984228] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.984427] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.984538] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.984717] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.984822] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfacesConfig.cmake\n'}
+[10.985007] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfacesConfig-version.cmake\n'}
+[10.985081] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/arm_control/install/msg_interfaces/share/msg_interfaces/package.xml\n'}
+[10.986912] (msg_interfaces) CommandEnded: {'returncode': 0}
+[11.083952] (-) TimerEvent: {}
+[11.145396] (msg_interfaces) JobEnded: {'identifier': 'msg_interfaces', 'rc': 0}
+[11.145765] (ik_control) JobStarted: {'identifier': 'ik_control'}
+[11.149798] (wrist_testing) JobStarted: {'identifier': 'wrist_testing'}
+[11.184048] (-) TimerEvent: {}
+[11.284406] (-) TimerEvent: {}
+[11.384671] (-) TimerEvent: {}
+[11.485006] (-) TimerEvent: {}
+[11.585262] (-) TimerEvent: {}
+[11.685527] (-) TimerEvent: {}
+[11.785823] (-) TimerEvent: {}
+[11.886123] (-) TimerEvent: {}
+[11.984237] (wrist_testing) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/wrist_testing', 'build', '--build-base', '/home/sudhindra/irc_2025/arm_control/build/wrist_testing/build', 'install', '--record', '/home/sudhindra/irc_2025/arm_control/build/wrist_testing/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sudhindra/irc_2025/arm_control/src/joint_control', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'sudhindra', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sudhindra', 'OLDPWD': '/home/sudhindra/irc_2025', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'osqp_DIR': '/usr/local/lib/cmake/osqp', 'MANAGERPID': '2306', 'SYSTEMD_EXEC_PID': '2501', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6713', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sudhindra', 'JOURNAL_STREAM': '8:16083', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sudhindra', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/sudhindra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sudhindra-HP-EliteBook-840-G6:@/tmp/.ICE-unix/2477,unix/sudhindra-HP-EliteBook-840-G6:/tmp/.ICE-unix/2477', 'INVOCATION_ID': 'fcd6a7b7d8fa490e8cab0b2828c6faec', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6P9922', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/sudhindra/irc_2025/arm_control/install/msg_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:1e26ad50-ffda-4985-bcf7-a8d25113f016', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sudhindra/irc_2025/arm_control/build/wrist_testing', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': ':/opt/ros/humble/lib', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sudhindra/irc_2025/arm_control/build/wrist_testing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages:/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/sudhindra/irc_2025/arm_control/install/msg_interfaces:/usr/local'}, 'shell': False}
+[11.987207] (-) TimerEvent: {}
+[11.987375] (ik_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ik_control', 'build', '--build-base', '/home/sudhindra/irc_2025/arm_control/build/ik_control/build', 'install', '--record', '/home/sudhindra/irc_2025/arm_control/build/ik_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sudhindra/irc_2025/arm_control/src/ik_control', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'sudhindra', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sudhindra', 'OLDPWD': '/home/sudhindra/irc_2025', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'osqp_DIR': '/usr/local/lib/cmake/osqp', 'MANAGERPID': '2306', 'SYSTEMD_EXEC_PID': '2501', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6713', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sudhindra', 'JOURNAL_STREAM': '8:16083', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sudhindra', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/sudhindra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sudhindra-HP-EliteBook-840-G6:@/tmp/.ICE-unix/2477,unix/sudhindra-HP-EliteBook-840-G6:/tmp/.ICE-unix/2477', 'INVOCATION_ID': 'fcd6a7b7d8fa490e8cab0b2828c6faec', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6P9922', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/sudhindra/irc_2025/arm_control/install/msg_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:1e26ad50-ffda-4985-bcf7-a8d25113f016', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sudhindra/irc_2025/arm_control/build/ik_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': ':/opt/ros/humble/lib', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sudhindra/irc_2025/arm_control/build/ik_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages:/home/sudhindra/irc_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/sudhindra/irc_2025/arm_control/install/msg_interfaces:/usr/local'}, 'shell': False}
+[12.087304] (-) TimerEvent: {}
+[12.187583] (-) TimerEvent: {}
+[12.218771] (wrist_testing) StdoutLine: {'line': b'running egg_info\n'}
+[12.219375] (wrist_testing) StdoutLine: {'line': b'creating ../../build/wrist_testing/joint_control.egg-info\n'}
+[12.219617] (wrist_testing) StdoutLine: {'line': b'writing ../../build/wrist_testing/joint_control.egg-info/PKG-INFO\n'}
+[12.219843] (wrist_testing) StdoutLine: {'line': b'writing dependency_links to ../../build/wrist_testing/joint_control.egg-info/dependency_links.txt\n'}
+[12.220012] (wrist_testing) StdoutLine: {'line': b'writing entry points to ../../build/wrist_testing/joint_control.egg-info/entry_points.txt\n'}
+[12.220212] (wrist_testing) StdoutLine: {'line': b'writing requirements to ../../build/wrist_testing/joint_control.egg-info/requires.txt\n'}
+[12.220342] (wrist_testing) StdoutLine: {'line': b'writing top-level names to ../../build/wrist_testing/joint_control.egg-info/top_level.txt\n'}
+[12.220519] (wrist_testing) StdoutLine: {'line': b"writing manifest file '../../build/wrist_testing/joint_control.egg-info/SOURCES.txt'\n"}
+[12.221844] (ik_control) StdoutLine: {'line': b'running egg_info\n'}
+[12.222002] (wrist_testing) StdoutLine: {'line': b"reading manifest file '../../build/wrist_testing/joint_control.egg-info/SOURCES.txt'\n"}
+[12.222381] (ik_control) StdoutLine: {'line': b'creating ../../build/ik_control/ik_control.egg-info\n'}
+[12.222562] (ik_control) StdoutLine: {'line': b'writing ../../build/ik_control/ik_control.egg-info/PKG-INFO\n'}
+[12.222744] (ik_control) StdoutLine: {'line': b'writing dependency_links to ../../build/ik_control/ik_control.egg-info/dependency_links.txt\n'}
+[12.222919] (ik_control) StdoutLine: {'line': b'writing entry points to ../../build/ik_control/ik_control.egg-info/entry_points.txt\n'}
+[12.223119] (wrist_testing) StdoutLine: {'line': b"writing manifest file '../../build/wrist_testing/joint_control.egg-info/SOURCES.txt'\n"}
+[12.223228] (wrist_testing) StdoutLine: {'line': b'running build\n'}
+[12.223453] (wrist_testing) StdoutLine: {'line': b'running build_py\n'}
+[12.223558] (ik_control) StdoutLine: {'line': b'writing requirements to ../../build/ik_control/ik_control.egg-info/requires.txt\n'}
+[12.223742] (ik_control) StdoutLine: {'line': b'writing top-level names to ../../build/ik_control/ik_control.egg-info/top_level.txt\n'}
+[12.223840] (ik_control) StdoutLine: {'line': b"writing manifest file '../../build/ik_control/ik_control.egg-info/SOURCES.txt'\n"}
+[12.223955] (wrist_testing) StdoutLine: {'line': b'creating /home/sudhindra/irc_2025/arm_control/build/wrist_testing/build\n'}
+[12.224058] (wrist_testing) StdoutLine: {'line': b'creating /home/sudhindra/irc_2025/arm_control/build/wrist_testing/build/lib\n'}
+[12.224172] (wrist_testing) StdoutLine: {'line': b'creating /home/sudhindra/irc_2025/arm_control/build/wrist_testing/build/lib/joint_control\n'}
+[12.224269] (wrist_testing) StdoutLine: {'line': b'copying joint_control/pos_control_elbow.py -> /home/sudhindra/irc_2025/arm_control/build/wrist_testing/build/lib/joint_control\n'}
+[12.224352] (wrist_testing) StdoutLine: {'line': b'copying joint_control/__init__.py -> /home/sudhindra/irc_2025/arm_control/build/wrist_testing/build/lib/joint_control\n'}
+[12.224434] (wrist_testing) StdoutLine: {'line': b'copying joint_control/full_command.py -> /home/sudhindra/irc_2025/arm_control/build/wrist_testing/build/lib/joint_control\n'}
+[12.224537] (wrist_testing) StdoutLine: {'line': b'copying joint_control/pos_control_shoulder.py -> /home/sudhindra/irc_2025/arm_control/build/wrist_testing/build/lib/joint_control\n'}
+[12.224671] (wrist_testing) StdoutLine: {'line': b'running install\n'}
+[12.224904] (wrist_testing) StdoutLine: {'line': b'running install_lib\n'}
+[12.225052] (ik_control) StdoutLine: {'line': b"reading manifest file '../../build/ik_control/ik_control.egg-info/SOURCES.txt'\n"}
+[12.225439] (wrist_testing) StdoutLine: {'line': b'creating /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control\n'}
+[12.225664] (wrist_testing) StdoutLine: {'line': b'copying /home/sudhindra/irc_2025/arm_control/build/wrist_testing/build/lib/joint_control/pos_control_elbow.py -> /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control\n'}
+[12.225904] (ik_control) StdoutLine: {'line': b"writing manifest file '../../build/ik_control/ik_control.egg-info/SOURCES.txt'\n"}
+[12.226040] (ik_control) StdoutLine: {'line': b'running build\n'}
+[12.226358] (ik_control) StdoutLine: {'line': b'running build_py\n'}
+[12.226479] (wrist_testing) StdoutLine: {'line': b'copying /home/sudhindra/irc_2025/arm_control/build/wrist_testing/build/lib/joint_control/__init__.py -> /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control\n'}
+[12.226630] (wrist_testing) StdoutLine: {'line': b'copying /home/sudhindra/irc_2025/arm_control/build/wrist_testing/build/lib/joint_control/full_command.py -> /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control\n'}
+[12.226754] (wrist_testing) StdoutLine: {'line': b'copying /home/sudhindra/irc_2025/arm_control/build/wrist_testing/build/lib/joint_control/pos_control_shoulder.py -> /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control\n'}
+[12.226887] (ik_control) StdoutLine: {'line': b'creating /home/sudhindra/irc_2025/arm_control/build/ik_control/build\n'}
+[12.226984] (ik_control) StdoutLine: {'line': b'creating /home/sudhindra/irc_2025/arm_control/build/ik_control/build/lib\n'}
+[12.227240] (ik_control) StdoutLine: {'line': b'creating /home/sudhindra/irc_2025/arm_control/build/ik_control/build/lib/ik_control\n'}
+[12.227340] (ik_control) StdoutLine: {'line': b'copying ik_control/__init__.py -> /home/sudhindra/irc_2025/arm_control/build/ik_control/build/lib/ik_control\n'}
+[12.227421] (ik_control) StdoutLine: {'line': b'copying ik_control/pos_ik.py -> /home/sudhindra/irc_2025/arm_control/build/ik_control/build/lib/ik_control\n'}
+[12.227500] (ik_control) StdoutLine: {'line': b'copying ik_control/pos_ik_pid.py -> /home/sudhindra/irc_2025/arm_control/build/ik_control/build/lib/ik_control\n'}
+[12.227578] (ik_control) StdoutLine: {'line': b'copying ik_control/shoulder_hold_ik.py -> /home/sudhindra/irc_2025/arm_control/build/ik_control/build/lib/ik_control\n'}
+[12.227689] (ik_control) StdoutLine: {'line': b'running install\n'}
+[12.227801] (ik_control) StdoutLine: {'line': b'running install_lib\n'}
+[12.227918] (wrist_testing) StdoutLine: {'line': b'byte-compiling /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control/pos_control_elbow.py to pos_control_elbow.cpython-310.pyc\n'}
+[12.228079] (ik_control) StdoutLine: {'line': b'creating /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages/ik_control\n'}
+[12.228203] (ik_control) StdoutLine: {'line': b'copying /home/sudhindra/irc_2025/arm_control/build/ik_control/build/lib/ik_control/__init__.py -> /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages/ik_control\n'}
+[12.228306] (ik_control) StdoutLine: {'line': b'copying /home/sudhindra/irc_2025/arm_control/build/ik_control/build/lib/ik_control/pos_ik.py -> /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages/ik_control\n'}
+[12.228423] (ik_control) StdoutLine: {'line': b'copying /home/sudhindra/irc_2025/arm_control/build/ik_control/build/lib/ik_control/pos_ik_pid.py -> /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages/ik_control\n'}
+[12.228622] (ik_control) StdoutLine: {'line': b'copying /home/sudhindra/irc_2025/arm_control/build/ik_control/build/lib/ik_control/shoulder_hold_ik.py -> /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages/ik_control\n'}
+[12.228725] (wrist_testing) StdoutLine: {'line': b'byte-compiling /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control/__init__.py to __init__.cpython-310.pyc\n'}
+[12.228843] (wrist_testing) StdoutLine: {'line': b'byte-compiling /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control/full_command.py to full_command.cpython-310.pyc\n'}
+[12.228925] (ik_control) StdoutLine: {'line': b'byte-compiling /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages/ik_control/__init__.py to __init__.cpython-310.pyc\n'}
+[12.229004] (ik_control) StdoutLine: {'line': b'byte-compiling /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages/ik_control/pos_ik.py to pos_ik.cpython-310.pyc\n'}
+[12.229941] (wrist_testing) StdoutLine: {'line': b'byte-compiling /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control/pos_control_shoulder.py to pos_control_shoulder.cpython-310.pyc\n'}
+[12.230107] (ik_control) StdoutLine: {'line': b'byte-compiling /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages/ik_control/pos_ik_pid.py to pos_ik_pid.cpython-310.pyc\n'}
+[12.230751] (wrist_testing) StdoutLine: {'line': b'running install_data\n'}
+[12.230944] (wrist_testing) StdoutLine: {'line': b'copying resource/joint_control -> /home/sudhindra/irc_2025/arm_control/install/wrist_testing/share/ament_index/resource_index/packages\n'}
+[12.231083] (wrist_testing) StdoutLine: {'line': b'creating /home/sudhindra/irc_2025/arm_control/install/wrist_testing/share/joint_control\n'}
+[12.231456] (wrist_testing) StdoutLine: {'line': b'copying package.xml -> /home/sudhindra/irc_2025/arm_control/install/wrist_testing/share/joint_control\n'}
+[12.231618] (wrist_testing) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.231861] (ik_control) StdoutLine: {'line': b'byte-compiling /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages/ik_control/shoulder_hold_ik.py to shoulder_hold_ik.cpython-310.pyc\n'}
+[12.233142] (ik_control) StdoutLine: {'line': b'running install_data\n'}
+[12.233396] (ik_control) StdoutLine: {'line': b'creating /home/sudhindra/irc_2025/arm_control/install/ik_control/share/ament_index\n'}
+[12.233579] (ik_control) StdoutLine: {'line': b'creating /home/sudhindra/irc_2025/arm_control/install/ik_control/share/ament_index/resource_index\n'}
+[12.233740] (ik_control) StdoutLine: {'line': b'creating /home/sudhindra/irc_2025/arm_control/install/ik_control/share/ament_index/resource_index/packages\n'}
+[12.233851] (ik_control) StdoutLine: {'line': b'copying resource/ik_control -> /home/sudhindra/irc_2025/arm_control/install/ik_control/share/ament_index/resource_index/packages\n'}
+[12.233954] (ik_control) StdoutLine: {'line': b'copying package.xml -> /home/sudhindra/irc_2025/arm_control/install/ik_control/share/ik_control\n'}
+[12.234141] (ik_control) StdoutLine: {'line': b'creating /home/sudhindra/irc_2025/arm_control/install/ik_control/share/ik_control/urdf\n'}
+[12.234254] (ik_control) StdoutLine: {'line': b'copying urdf/arm_model.urdf -> /home/sudhindra/irc_2025/arm_control/install/ik_control/share/ik_control/urdf\n'}
+[12.234338] (ik_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.234563] (wrist_testing) StdoutLine: {'line': b'Copying ../../build/wrist_testing/joint_control.egg-info to /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control-0.0.0-py3.10.egg-info\n'}
+[12.235284] (wrist_testing) StdoutLine: {'line': b'running install_scripts\n'}
+[12.235755] (ik_control) StdoutLine: {'line': b'Copying ../../build/ik_control/ik_control.egg-info to /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/python3.10/site-packages/ik_control-0.0.0-py3.10.egg-info\n'}
+[12.236432] (ik_control) StdoutLine: {'line': b'running install_scripts\n'}
+[12.253785] (wrist_testing) StdoutLine: {'line': b'Installing full_command script to /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/joint_control\n'}
+[12.254075] (wrist_testing) StdoutLine: {'line': b'Installing pos_control_elbow script to /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/joint_control\n'}
+[12.254199] (wrist_testing) StdoutLine: {'line': b'Installing pos_control_shoulder script to /home/sudhindra/irc_2025/arm_control/install/wrist_testing/lib/joint_control\n'}
+[12.254464] (wrist_testing) StdoutLine: {'line': b"writing list of installed files to '/home/sudhindra/irc_2025/arm_control/build/wrist_testing/install.log'\n"}
+[12.254604] (ik_control) StdoutLine: {'line': b'Installing ik_pos_pid script to /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/ik_control\n'}
+[12.254781] (ik_control) StdoutLine: {'line': b'Installing pos_ik script to /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/ik_control\n'}
+[12.254879] (ik_control) StdoutLine: {'line': b'Installing shoulder_hold_ik script to /home/sudhindra/irc_2025/arm_control/install/ik_control/lib/ik_control\n'}
+[12.255014] (ik_control) StdoutLine: {'line': b"writing list of installed files to '/home/sudhindra/irc_2025/arm_control/build/ik_control/install.log'\n"}
+[12.280460] (wrist_testing) CommandEnded: {'returncode': 0}
+[12.284953] (wrist_testing) JobEnded: {'identifier': 'wrist_testing', 'rc': 0}
+[12.286071] (ik_control) CommandEnded: {'returncode': 0}
+[12.287689] (-) TimerEvent: {}
+[12.290005] (ik_control) JobEnded: {'identifier': 'ik_control', 'rc': 0}
+[12.290788] (-) EventReactorShutdown: {}

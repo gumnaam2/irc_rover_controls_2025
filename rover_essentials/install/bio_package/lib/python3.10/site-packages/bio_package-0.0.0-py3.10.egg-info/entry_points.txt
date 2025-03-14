@@ -1,0 +1,9 @@
+[console_scripts]
+bio_cache = bio_package.node_mcu_interface:main
+bio_controller = bio_package.bio_controller:main
+cameras = bio_package.cameras:main
+joining_node = bio_package.joining_node:main
+node_mcu_interface = bio_package.node_mcu_interface:main
+pid = bio_package.pid:main
+relay = bio_package.relay:main
+

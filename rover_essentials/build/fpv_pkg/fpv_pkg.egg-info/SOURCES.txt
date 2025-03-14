@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/fpv_pkg/fpv_pkg.egg-info/PKG-INFO
+../../build/fpv_pkg/fpv_pkg.egg-info/SOURCES.txt
+../../build/fpv_pkg/fpv_pkg.egg-info/dependency_links.txt
+../../build/fpv_pkg/fpv_pkg.egg-info/entry_points.txt
+../../build/fpv_pkg/fpv_pkg.egg-info/requires.txt
+../../build/fpv_pkg/fpv_pkg.egg-info/top_level.txt
+../../build/fpv_pkg/fpv_pkg.egg-info/zip-safe
+fpv_pkg/__init__.py
+fpv_pkg/cam_pano.py
+fpv_pkg/drive_FPV.py
+resource/fpv_pkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
