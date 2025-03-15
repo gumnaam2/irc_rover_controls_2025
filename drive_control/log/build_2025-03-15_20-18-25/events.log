@@ -1,0 +1,465 @@
+[0.000000] (-) TimerEvent: {}
+[0.000180] (differential) JobQueued: {'identifier': 'differential', 'dependencies': OrderedDict()}
+[0.000238] (msg_interfaces) JobQueued: {'identifier': 'msg_interfaces', 'dependencies': OrderedDict()}
+[0.000253] (differential) JobStarted: {'identifier': 'differential'}
+[0.008830] (msg_interfaces) JobStarted: {'identifier': 'msg_interfaces'}
+[0.099385] (-) TimerEvent: {}
+[0.199653] (-) TimerEvent: {}
+[0.249743] (msg_interfaces) JobProgress: {'identifier': 'msg_interfaces', 'progress': 'cmake'}
+[0.250420] (msg_interfaces) JobProgress: {'identifier': 'msg_interfaces', 'progress': 'build'}
+[0.251110] (msg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sudhindra/irc/drive_control/build/msg_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/sudhindra/irc/drive_control/build/msg_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sudhindra'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sudhindra'), ('OLDPWD', '/home/sudhindra/irc'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('osqp_DIR', '/usr/local/lib/cmake/osqp'), ('MANAGERPID', '2025'), ('SYSTEMD_EXEC_PID', '2217'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7627'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sudhindra'), ('JOURNAL_STREAM', '8:15994'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sudhindra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sudhindra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sudhindra-HP-EliteBook-840-G6:@/tmp/.ICE-unix/2180,unix/sudhindra-HP-EliteBook-840-G6:/tmp/.ICE-unix/2180'), ('INVOCATION_ID', '012ad32dc94b48d89349698867801cad'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W4IA32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:f8c6c019-c779-4fda-a691-acdc269437bc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sudhindra/irc/drive_control/build/msg_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/humble/lib'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local:/opt/ros/humble')]), 'shell': False}
+[0.293747] (msg_interfaces) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /home/sudhindra/irc/drive_control/build/msg_interfaces/CMakeCache.txt is different than the directory /home/sudhindra/irc_2025/drive_control/build/msg_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[0.299753] (-) TimerEvent: {}
+[0.399977] (-) TimerEvent: {}
+[0.410953] (msg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500082] (-) TimerEvent: {}
+[0.600432] (-) TimerEvent: {}
+[0.646383] (msg_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.700589] (-) TimerEvent: {}
+[0.738347] (msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.751710] (msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.788580] (msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.800721] (-) TimerEvent: {}
+[0.852210] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.900872] (-) TimerEvent: {}
+[0.940874] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.001000] (-) TimerEvent: {}
+[1.034483] (msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.044446] (differential) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/differential', 'build', '--build-base', '/home/sudhindra/irc/drive_control/build/differential/build', 'install', '--record', '/home/sudhindra/irc/drive_control/build/differential/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sudhindra/irc/drive_control/src/differential', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'sudhindra', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sudhindra', 'OLDPWD': '/home/sudhindra/irc', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'osqp_DIR': '/usr/local/lib/cmake/osqp', 'MANAGERPID': '2025', 'SYSTEMD_EXEC_PID': '2217', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7627', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sudhindra', 'JOURNAL_STREAM': '8:15994', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sudhindra', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/sudhindra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sudhindra-HP-EliteBook-840-G6:@/tmp/.ICE-unix/2180,unix/sudhindra-HP-EliteBook-840-G6:/tmp/.ICE-unix/2180', 'INVOCATION_ID': '012ad32dc94b48d89349698867801cad', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W4IA32', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f8c6c019-c779-4fda-a691-acdc269437bc', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sudhindra/irc/drive_control/build/differential', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': ':/opt/ros/humble/lib', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sudhindra/irc/drive_control/build/differential/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sudhindra/irc/drive_control/install/differential/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/usr/local'}, 'shell': False}
+[1.101092] (-) TimerEvent: {}
+[1.201357] (-) TimerEvent: {}
+[1.279776] (differential) StdoutLine: {'line': b'running egg_info\n'}
+[1.280614] (differential) StdoutLine: {'line': b'writing ../../build/differential/differential.egg-info/PKG-INFO\n'}
+[1.280905] (differential) StdoutLine: {'line': b'writing dependency_links to ../../build/differential/differential.egg-info/dependency_links.txt\n'}
+[1.281090] (differential) StdoutLine: {'line': b'writing entry points to ../../build/differential/differential.egg-info/entry_points.txt\n'}
+[1.281327] (differential) StdoutLine: {'line': b'writing requirements to ../../build/differential/differential.egg-info/requires.txt\n'}
+[1.281556] (differential) StdoutLine: {'line': b'writing top-level names to ../../build/differential/differential.egg-info/top_level.txt\n'}
+[1.283450] (differential) StdoutLine: {'line': b"reading manifest file '../../build/differential/differential.egg-info/SOURCES.txt'\n"}
+[1.284351] (differential) StdoutLine: {'line': b"writing manifest file '../../build/differential/differential.egg-info/SOURCES.txt'\n"}
+[1.284521] (differential) StdoutLine: {'line': b'running build\n'}
+[1.284607] (differential) StdoutLine: {'line': b'running build_py\n'}
+[1.285342] (differential) StdoutLine: {'line': b'running install\n'}
+[1.285658] (differential) StdoutLine: {'line': b'running install_lib\n'}
+[1.286983] (differential) StdoutLine: {'line': b'running install_data\n'}
+[1.287483] (differential) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.288983] (differential) StdoutLine: {'line': b"removing '/home/sudhindra/irc/drive_control/install/differential/lib/python3.10/site-packages/differential-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.289319] (differential) StdoutLine: {'line': b'Copying ../../build/differential/differential.egg-info to /home/sudhindra/irc/drive_control/install/differential/lib/python3.10/site-packages/differential-0.0.0-py3.10.egg-info\n'}
+[1.290142] (differential) StdoutLine: {'line': b'running install_scripts\n'}
+[1.301451] (-) TimerEvent: {}
+[1.307823] (differential) StdoutLine: {'line': b'Installing freshies_attempt script to /home/sudhindra/irc/drive_control/install/differential/lib/differential\n'}
+[1.308808] (differential) StdoutLine: {'line': b'Installing joystick_innerrr script to /home/sudhindra/irc/drive_control/install/differential/lib/differential\n'}
+[1.309198] (differential) StdoutLine: {'line': b"writing list of installed files to '/home/sudhindra/irc/drive_control/build/differential/install.log'\n"}
+[1.310193] (msg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.328422] (differential) CommandEnded: {'returncode': 0}
+[1.339602] (differential) JobEnded: {'identifier': 'differential', 'rc': 0}
+[1.401587] (-) TimerEvent: {}
+[1.501873] (-) TimerEvent: {}
+[1.602223] (-) TimerEvent: {}
+[1.647334] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.702346] (-) TimerEvent: {}
+[1.774743] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.794054] (msg_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.802480] (-) TimerEvent: {}
+[1.812039] (msg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.812173] (msg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.812219] (msg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.844996] (msg_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.866499] (msg_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.867528] (msg_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.870056] (msg_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.902780] (-) TimerEvent: {}
+[1.925357] (msg_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.927641] (msg_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/sudhindra/irc_2025/drive_control/build/msg_interfaces\n'}
+[1.984979] (msg_interfaces) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_msg_interfaces\n'}
+[1.991143] (msg_interfaces) StdoutLine: {'line': b'[  1%] Built target msg_interfaces__cpp\n'}
+[2.002958] (-) TimerEvent: {}
+[2.003311] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.005696] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.014774] (msg_interfaces) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/drive__functions.c.o\x1b[0m\n'}
+[2.015128] (msg_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/motor_six__functions.c.o\x1b[0m\n'}
+[2.016807] (msg_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__functions.c.o\x1b[0m\n'}
+[2.017037] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.018013] (msg_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/cam_drive__functions.c.o\x1b[0m\n'}
+[2.020441] (msg_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/drive__type_support.cpp.o\x1b[0m\n'}
+[2.052417] (msg_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/drive__type_support.cpp.o\x1b[0m\n'}
+[2.052633] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.081241] (msg_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/drive__type_support.cpp.o\x1b[0m\n'}
+[2.103242] (-) TimerEvent: {}
+[2.203446] (-) TimerEvent: {}
+[2.253902] (msg_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.254789] (msg_interfaces) StdoutLine: {'line': b'writing msg_interfaces.egg-info/PKG-INFO\n'}
+[2.255156] (msg_interfaces) StdoutLine: {'line': b'writing dependency_links to msg_interfaces.egg-info/dependency_links.txt\n'}
+[2.255377] (msg_interfaces) StdoutLine: {'line': b'writing top-level names to msg_interfaces.egg-info/top_level.txt\n'}
+[2.257645] (msg_interfaces) StdoutLine: {'line': b"reading manifest file 'msg_interfaces.egg-info/SOURCES.txt'\n"}
+[2.260139] (msg_interfaces) StdoutLine: {'line': b"writing manifest file 'msg_interfaces.egg-info/SOURCES.txt'\n"}
+[2.282510] (msg_interfaces) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_build_msg_interfaces_egg\n'}
+[2.288329] (msg_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/cam_drive__type_support.cpp.o\x1b[0m\n'}
+[2.303508] (-) TimerEvent: {}
+[2.403746] (-) TimerEvent: {}
+[2.504344] (-) TimerEvent: {}
+[2.605148] (-) TimerEvent: {}
+[2.705531] (-) TimerEvent: {}
+[2.806015] (-) TimerEvent: {}
+[2.906810] (-) TimerEvent: {}
+[3.007119] (-) TimerEvent: {}
+[3.107425] (-) TimerEvent: {}
+[3.207880] (-) TimerEvent: {}
+[3.308699] (-) TimerEvent: {}
+[3.408957] (-) TimerEvent: {}
+[3.509422] (-) TimerEvent: {}
+[3.609683] (-) TimerEvent: {}
+[3.710007] (-) TimerEvent: {}
+[3.810314] (-) TimerEvent: {}
+[3.897666] (msg_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/arm_end_motion__type_support.cpp.o\x1b[0m\n'}
+[3.897872] (msg_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.c.o\x1b[0m\n'}
+[3.897968] (msg_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/cam_drive__type_support.cpp.o\x1b[0m\n'}
+[3.898027] (msg_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/cam_drive__type_support.cpp.o\x1b[0m\n'}
+[3.910402] (-) TimerEvent: {}
+[3.955575] (msg_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/encoder_drive__functions.c.o\x1b[0m\n'}
+[4.010518] (-) TimerEvent: {}
+[4.014545] (msg_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libmsg_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.111235] (-) TimerEvent: {}
+[4.211717] (-) TimerEvent: {}
+[4.312597] (-) TimerEvent: {}
+[4.413130] (-) TimerEvent: {}
+[4.514179] (-) TimerEvent: {}
+[4.614967] (-) TimerEvent: {}
+[4.715765] (-) TimerEvent: {}
+[4.816334] (-) TimerEvent: {}
+[4.917225] (-) TimerEvent: {}
+[5.017989] (-) TimerEvent: {}
+[5.118428] (-) TimerEvent: {}
+[5.218714] (-) TimerEvent: {}
+[5.319290] (-) TimerEvent: {}
+[5.378220] (msg_interfaces) StdoutLine: {'line': b'[ 22%] Built target msg_interfaces__rosidl_generator_c\n'}
+[5.384225] (msg_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/arm_end_motion__type_support.cpp.o\x1b[0m\n'}
+[5.419417] (-) TimerEvent: {}
+[5.519947] (-) TimerEvent: {}
+[5.620353] (-) TimerEvent: {}
+[5.721156] (-) TimerEvent: {}
+[5.821418] (-) TimerEvent: {}
+[5.921759] (-) TimerEvent: {}
+[6.022067] (-) TimerEvent: {}
+[6.122447] (-) TimerEvent: {}
+[6.222875] (-) TimerEvent: {}
+[6.326012] (-) TimerEvent: {}
+[6.426437] (-) TimerEvent: {}
+[6.526778] (-) TimerEvent: {}
+[6.627226] (-) TimerEvent: {}
+[6.728304] (-) TimerEvent: {}
+[6.784578] (msg_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/motor_six__type_support.cpp.o\x1b[0m\n'}
+[6.784815] (msg_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.cpp.o\x1b[0m\n'}
+[6.784925] (msg_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/motor_six__type_support.cpp.o\x1b[0m\n'}
+[6.828466] (-) TimerEvent: {}
+[6.868127] (msg_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/motor_six__type_support.cpp.o\x1b[0m\n'}
+[6.873871] (msg_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/encoder_arm__type_support.cpp.o\x1b[0m\n'}
+[6.891858] (msg_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/encoder_drive__type_support.cpp.o\x1b[0m\n'}
+[6.892135] (msg_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.cpp.o\x1b[0m\n'}
+[6.921668] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[6.929299] (-) TimerEvent: {}
+[6.939383] (msg_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/drive__type_support_c.cpp.o\x1b[0m\n'}
+[7.029399] (-) TimerEvent: {}
+[7.129729] (-) TimerEvent: {}
+[7.161911] (msg_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/encoder_arm__type_support.cpp.o\x1b[0m\n'}
+[7.231977] (-) TimerEvent: {}
+[7.332396] (-) TimerEvent: {}
+[7.432816] (-) TimerEvent: {}
+[7.487141] (msg_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/cam_drive__type_support_c.cpp.o\x1b[0m\n'}
+[7.532957] (-) TimerEvent: {}
+[7.612298] (msg_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/arm_end_motion__type_support_c.cpp.o\x1b[0m\n'}
+[7.618951] (msg_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/encoder_drive__type_support.cpp.o\x1b[0m\n'}
+[7.633079] (-) TimerEvent: {}
+[7.690536] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[7.723168] (msg_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/drive__type_support.c.o\x1b[0m\n'}
+[7.733206] (-) TimerEvent: {}
+[7.752055] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[7.774812] (msg_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/drive__type_support.cpp.o\x1b[0m\n'}
+[7.784006] (msg_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.818986] (msg_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/encoder_drive__type_support.cpp.o\x1b[0m\n'}
+[7.825838] (msg_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/cam_drive__type_support.c.o\x1b[0m\n'}
+[7.833973] (-) TimerEvent: {}
+[7.844757] (msg_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/cam_drive__type_support.cpp.o\x1b[0m\n'}
+[7.847476] (msg_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/motor_six__type_support_c.cpp.o\x1b[0m\n'}
+[7.913163] (msg_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/arm_end_motion__type_support.c.o\x1b[0m\n'}
+[7.928103] (msg_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/arm_end_motion__type_support.cpp.o\x1b[0m\n'}
+[7.934098] (-) TimerEvent: {}
+[7.994671] (msg_interfaces) StdoutLine: {'line': b'[ 54%] Built target msg_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[7.995641] (msg_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/motor_six__type_support.cpp.o\x1b[0m\n'}
+[8.013639] (msg_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/encoder_arm__type_support_c.cpp.o\x1b[0m\n'}
+[8.015130] (msg_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/motor_six__type_support.c.o\x1b[0m\n'}
+[8.034218] (-) TimerEvent: {}
+[8.068384] (msg_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/encoder_arm__type_support.cpp.o\x1b[0m\n'}
+[8.097103] (msg_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/encoder_arm__type_support.c.o\x1b[0m\n'}
+[8.134350] (-) TimerEvent: {}
+[8.143971] (msg_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/encoder_drive__type_support.cpp.o\x1b[0m\n'}
+[8.213083] (msg_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.222691] (msg_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/encoder_drive__type_support.c.o\x1b[0m\n'}
+[8.234485] (-) TimerEvent: {}
+[8.322857] (msg_interfaces) StdoutLine: {'line': b'[ 67%] Built target msg_interfaces__rosidl_typesupport_c\n'}
+[8.334607] (-) TimerEvent: {}
+[8.342037] (msg_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/encoder_drive__type_support_c.cpp.o\x1b[0m\n'}
+[8.355057] (msg_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libmsg_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.355422] (msg_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.434740] (-) TimerEvent: {}
+[8.452658] (msg_interfaces) StdoutLine: {'line': b'[ 73%] Built target msg_interfaces__rosidl_typesupport_introspection_c\n'}
+[8.483779] (msg_interfaces) StdoutLine: {'line': b'[ 74%] Built target msg_interfaces__rosidl_typesupport_cpp\n'}
+[8.534875] (-) TimerEvent: {}
+[8.635364] (-) TimerEvent: {}
+[8.735813] (-) TimerEvent: {}
+[8.779673] (msg_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.835993] (-) TimerEvent: {}
+[8.920764] (msg_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.930242] (msg_interfaces) StdoutLine: {'line': b'[ 78%] Built target msg_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[8.936070] (-) TimerEvent: {}
+[9.016810] (msg_interfaces) StdoutLine: {'line': b'[ 80%] Built target msg_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[9.036188] (-) TimerEvent: {}
+[9.036881] (msg_interfaces) StdoutLine: {'line': b'[ 80%] Built target msg_interfaces\n'}
+[9.058989] (msg_interfaces) StdoutLine: {'line': b'[ 81%] Built target msg_interfaces__py\n'}
+[9.073878] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_generator_py\x1b[0m\n'}
+[9.094075] (msg_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_motor_six_s.c.o\x1b[0m\n'}
+[9.094432] (msg_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_encoder_drive_s.c.o\x1b[0m\n'}
+[9.096706] (msg_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_cam_drive_s.c.o\x1b[0m\n'}
+[9.097231] (msg_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_drive_s.c.o\x1b[0m\n'}
+[9.097482] (msg_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_arm_end_motion_s.c.o\x1b[0m\n'}
+[9.098011] (msg_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_encoder_arm_s.c.o\x1b[0m\n'}
+[9.136322] (-) TimerEvent: {}
+[9.236747] (-) TimerEvent: {}
+[9.337159] (-) TimerEvent: {}
+[9.434260] (msg_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_interfaces/libmsg_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[9.437274] (-) TimerEvent: {}
+[9.531414] (msg_interfaces) StdoutLine: {'line': b'[ 91%] Built target msg_interfaces__rosidl_generator_py\n'}
+[9.537423] (-) TimerEvent: {}
+[9.545700] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[9.545937] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[9.546060] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[9.560756] (msg_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.561140] (msg_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.561299] (msg_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.637542] (-) TimerEvent: {}
+[9.664523] (msg_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.664719] (msg_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.664806] (msg_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.697496] (msg_interfaces) StdoutLine: {'line': b'[100%] Built target msg_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[9.697681] (msg_interfaces) StdoutLine: {'line': b'[100%] Built target msg_interfaces__rosidl_typesupport_c__pyext\n'}
+[9.697768] (msg_interfaces) StdoutLine: {'line': b'[100%] Built target msg_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.706386] (msg_interfaces) CommandEnded: {'returncode': 0}
+[9.737616] (-) TimerEvent: {}
+[9.800081] (msg_interfaces) JobProgress: {'identifier': 'msg_interfaces', 'progress': 'install'}
+[9.806866] (msg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sudhindra/irc/drive_control/build/msg_interfaces'], 'cwd': '/home/sudhindra/irc/drive_control/build/msg_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sudhindra'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sudhindra'), ('OLDPWD', '/home/sudhindra/irc'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('osqp_DIR', '/usr/local/lib/cmake/osqp'), ('MANAGERPID', '2025'), ('SYSTEMD_EXEC_PID', '2217'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7627'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sudhindra'), ('JOURNAL_STREAM', '8:15994'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sudhindra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sudhindra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sudhindra-HP-EliteBook-840-G6:@/tmp/.ICE-unix/2180,unix/sudhindra-HP-EliteBook-840-G6:/tmp/.ICE-unix/2180'), ('INVOCATION_ID', '012ad32dc94b48d89349698867801cad'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W4IA32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:f8c6c019-c779-4fda-a691-acdc269437bc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sudhindra/irc/drive_control/build/msg_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/humble/lib'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local:/opt/ros/humble')]), 'shell': False}
+[9.813472] (msg_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.813692] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/ament_index/resource_index/rosidl_interfaces/msg_interfaces\n'}
+[9.813880] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[9.814152] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[9.814486] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/arm_end_motion.h\n'}
+[9.814617] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/encoder_drive.h\n'}
+[9.814684] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/motor_six.h\n'}
+[9.814745] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/encoder_arm.h\n'}
+[9.814851] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[9.815020] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__functions.h\n'}
+[9.815081] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__functions.h\n'}
+[9.815140] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__struct.h\n'}
+[9.815200] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__functions.h\n'}
+[9.815260] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__functions.c\n'}
+[9.815349] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__functions.c\n'}
+[9.815401] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__struct.h\n'}
+[9.815448] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__functions.h\n'}
+[9.815492] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__type_support.h\n'}
+[9.815535] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__struct.h\n'}
+[9.815579] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__struct.h\n'}
+[9.815622] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__type_support.h\n'}
+[9.815666] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__functions.c\n'}
+[9.815709] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__functions.c\n'}
+[9.815753] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__type_support.h\n'}
+[9.815796] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__functions.h\n'}
+[9.815844] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__functions.c\n'}
+[9.815928] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__type_support.h\n'}
+[9.816006] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__functions.h\n'}
+[9.816141] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__struct.h\n'}
+[9.816226] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__functions.c\n'}
+[9.816316] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__struct.h\n'}
+[9.816384] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__type_support.h\n'}
+[9.816436] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__type_support.h\n'}
+[9.816487] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.816539] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/cam_drive.h\n'}
+[9.816620] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/drive.h\n'}
+[9.816661] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/environment/library_path.sh\n'}
+[9.816728] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/environment/library_path.dsv\n'}
+[9.816799] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_c.so\n'}
+[9.816869] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[9.817025] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[9.817092] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[9.817230] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__rosidl_typesupport_fastrtps_c.h\n'}
+[9.817323] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__rosidl_typesupport_fastrtps_c.h\n'}
+[9.817450] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__rosidl_typesupport_fastrtps_c.h\n'}
+[9.817538] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__rosidl_typesupport_fastrtps_c.h\n'}
+[9.817623] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__rosidl_typesupport_fastrtps_c.h\n'}
+[9.817707] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__rosidl_typesupport_fastrtps_c.h\n'}
+[9.817765] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.817822] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[9.817880] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[9.818023] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[9.818072] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/encoder_drive.hpp\n'}
+[9.818116] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/motor_six.hpp\n'}
+[9.818160] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[9.818208] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__struct.hpp\n'}
+[9.818256] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__builder.hpp\n'}
+[9.818317] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__struct.hpp\n'}
+[9.818376] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__struct.hpp\n'}
+[9.818435] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__struct.hpp\n'}
+[9.818519] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__traits.hpp\n'}
+[9.818603] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__struct.hpp\n'}
+[9.818686] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__builder.hpp\n'}
+[9.818770] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__traits.hpp\n'}
+[9.818828] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__traits.hpp\n'}
+[9.818885] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__builder.hpp\n'}
+[9.819012] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__traits.hpp\n'}
+[9.819073] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__builder.hpp\n'}
+[9.819131] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__struct.hpp\n'}
+[9.819188] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__traits.hpp\n'}
+[9.819292] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__traits.hpp\n'}
+[9.819356] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__builder.hpp\n'}
+[9.819428] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__builder.hpp\n'}
+[9.819475] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/cam_drive.hpp\n'}
+[9.819519] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/drive.hpp\n'}
+[9.819562] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/arm_end_motion.hpp\n'}
+[9.819605] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/encoder_arm.hpp\n'}
+[9.819652] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[9.819711] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[9.819781] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.819852] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[9.819983] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.820061] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/dds_fastrtps\n'}
+[9.820149] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.820218] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.820270] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.820323] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.820376] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.820427] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.820479] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[9.820546] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[9.820616] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[9.820668] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__type_support.c\n'}
+[9.820721] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__rosidl_typesupport_introspection_c.h\n'}
+[9.820773] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__type_support.c\n'}
+[9.820825] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__type_support.c\n'}
+[9.820878] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__rosidl_typesupport_introspection_c.h\n'}
+[9.821009] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__rosidl_typesupport_introspection_c.h\n'}
+[9.821102] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__type_support.c\n'}
+[9.821147] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__rosidl_typesupport_introspection_c.h\n'}
+[9.821246] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__rosidl_typesupport_introspection_c.h\n'}
+[9.821305] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__rosidl_typesupport_introspection_c.h\n'}
+[9.821372] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__type_support.c\n'}
+[9.821423] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__type_support.c\n'}
+[9.821475] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.821545] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[9.821628] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_c.so\n'}
+[9.821677] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[9.821722] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[9.821782] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[9.821841] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__type_support.cpp\n'}
+[9.821922] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.822024] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__type_support.cpp\n'}
+[9.822085] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__type_support.cpp\n'}
+[9.822143] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.822202] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.822284] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.822329] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.822372] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__type_support.cpp\n'}
+[9.822431] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__type_support.cpp\n'}
+[9.822488] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__type_support.cpp\n'}
+[9.822546] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.822604] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[9.822719] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_cpp.so\n'}
+[9.822782] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/environment/pythonpath.sh\n'}
+[9.822842] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/environment/pythonpath.dsv\n'}
+[9.822976] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info\n'}
+[9.823028] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.823075] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.823119] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.823163] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.823210] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces\n'}
+[9.823254] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[9.823298] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg\n'}
+[9.823340] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_cam_drive.py\n'}
+[9.823384] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_encoder_drive.py\n'}
+[9.823430] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_drive_s.c\n'}
+[9.823473] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_motor_six.py\n'}
+[9.823516] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/__init__.py\n'}
+[9.823559] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_encoder_arm_s.c\n'}
+[9.823602] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_arm_end_motion.py\n'}
+[9.823646] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_arm_end_motion_s.c\n'}
+[9.823689] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_cam_drive_s.c\n'}
+[9.823731] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_encoder_drive_s.c\n'}
+[9.823774] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_encoder_arm.py\n'}
+[9.823817] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_drive.py\n'}
+[9.823860] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_motor_six_s.c\n'}
+[9.823930] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/__init__.py\n'}
+[9.823996] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.824040] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.824084] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/libmsg_interfaces__rosidl_generator_py.so\n'}
+[9.824131] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.824174] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.824220] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.837742] (-) TimerEvent: {}
+[9.852183] (msg_interfaces) StdoutLine: {'line': b"Listing '/home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces'...\n"}
+[9.852340] (msg_interfaces) StdoutLine: {'line': b"Compiling '/home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/__init__.py'...\n"}
+[9.852397] (msg_interfaces) StdoutLine: {'line': b"Listing '/home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg'...\n"}
+[9.856089] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.856577] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.857080] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.857544] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_py.so\n'}
+[9.857765] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/msg/Drive.idl\n'}
+[9.857841] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/msg/CamDrive.idl\n'}
+[9.857927] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/msg/ArmEndMotion.idl\n'}
+[9.858084] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/msg/MotorSix.idl\n'}
+[9.858146] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/msg/EncoderArm.idl\n'}
+[9.858187] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/msg/EncoderDrive.idl\n'}
+[9.858231] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/msg/Drive.msg\n'}
+[9.858285] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/msg/CamDrive.msg\n'}
+[9.858338] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/msg/ArmEndMotion.msg\n'}
+[9.858391] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/msg/MotorSix.msg\n'}
+[9.858443] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/msg/EncoderArm.msg\n'}
+[9.858495] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/msg/EncoderDrive.msg\n'}
+[9.858569] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/ament_index/resource_index/package_run_dependencies/msg_interfaces\n'}
+[9.858660] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/ament_index/resource_index/parent_prefix_path/msg_interfaces\n'}
+[9.858720] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/environment/ament_prefix_path.sh\n'}
+[9.858804] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/environment/ament_prefix_path.dsv\n'}
+[9.858858] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/environment/path.sh\n'}
+[9.858963] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/environment/path.dsv\n'}
+[9.859028] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/local_setup.bash\n'}
+[9.859075] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/local_setup.sh\n'}
+[9.859129] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/local_setup.zsh\n'}
+[9.859182] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/local_setup.dsv\n'}
+[9.859247] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/package.dsv\n'}
+[9.859288] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/ament_index/resource_index/packages/msg_interfaces\n'}
+[9.859360] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cExport.cmake\n'}
+[9.859432] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.859585] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.859660] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.859790] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cppExport.cmake\n'}
+[9.860048] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.860116] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.860269] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.860333] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.860495] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[9.860558] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.860712] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.860778] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.860870] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[9.861001] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.861113] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_pyExport.cmake\n'}
+[9.861193] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.861268] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[9.861359] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.861418] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.861471] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.861524] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.861607] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.861648] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.861691] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfacesConfig.cmake\n'}
+[9.861732] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfacesConfig-version.cmake\n'}
+[9.861771] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/package.xml\n'}
+[9.864190] (msg_interfaces) CommandEnded: {'returncode': 0}
+[9.937842] (-) TimerEvent: {}
+[9.974717] (msg_interfaces) JobEnded: {'identifier': 'msg_interfaces', 'rc': 0}
+[9.975358] (-) EventReactorShutdown: {}

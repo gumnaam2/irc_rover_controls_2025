@@ -23,19 +23,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'drive_receiverrr = codes.drive_receiver:main',
-            'cam_receiverrr = codes.cam_receiver:main',
-            'arm_end_receiverrr = codes.arm_end_receiver:main',
-            'joystick_innerrr_arm = codes.joystick_inputter_arm:main',
-            'joystick_innerrr = codes.joystick_inputter:main',
-            'motor_six_receiverrr = codes.motor_six_receiver:main',
-            'rtk_demo = codes.serial_pub:main',
-            'byte_array = codes.byte_array:main',
-            'drive_arm_concatenate = codes.drive_arm_concatenate:main',
-            'base_tuning = codes.base_tuning:main',
-            'node1 = codes.base_tuning_node1:main',
-            'node2 = codes.base_tuning_node2:main',
-            'freshies_attempt = codes.freshies_attempt:main'
+            'joystick_innerrr = differential.joystick_inputter:main',
+            'freshies_attempt = differential.freshies_attempt:main'
         ],
     },
 )

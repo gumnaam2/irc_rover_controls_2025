@@ -1,0 +1,271 @@
+[0.234s] Invoking command in '/home/sudhindra/irc/drive_control/build/msg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sudhindra/irc/drive_control/build/msg_interfaces -- -j8 -l8
+[0.239s] [0mCMake Error: The current CMakeCache.txt directory /home/sudhindra/irc/drive_control/build/msg_interfaces/CMakeCache.txt is different than the directory /home/sudhindra/irc_2025/drive_control/build/msg_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.252s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.352s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.372s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.374s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.379s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.387s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.397s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.428s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.691s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.052s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.237s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.263s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.297s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.297s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.297s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.370s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.387s] -- Added test 'lint_cmake' to check CMake code style
+[1.389s] -- Added test 'xmllint' to check XML markup files
+[1.391s] -- Configuring done
+[1.462s] -- Generating done
+[1.467s] -- Build files have been written to: /home/sudhindra/irc_2025/drive_control/build/msg_interfaces
+[1.504s] [35m[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_generator_c[0m
+[1.516s] [  1%] Built target msg_interfaces__cpp
+[1.520s] [ 12%] Built target msg_interfaces__rosidl_generator_c
+[1.536s] [ 12%] Built target ament_cmake_python_copy_msg_interfaces
+[1.539s] [35m[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_cpp[0m
+[1.540s] [35m[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.541s] [35m[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.543s] [35m[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_c[0m
+[1.544s] [35m[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.546s] [35m[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_introspection_c[0m
+[1.568s] [ 36%] Built target msg_interfaces__rosidl_typesupport_introspection_c
+[1.569s] [ 36%] Built target msg_interfaces__rosidl_typesupport_c
+[1.570s] [ 54%] Built target msg_interfaces__rosidl_typesupport_introspection_cpp
+[1.570s] [ 66%] Built target msg_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.571s] [ 69%] Built target msg_interfaces__rosidl_typesupport_cpp
+[1.572s] [ 80%] Built target msg_interfaces__rosidl_typesupport_fastrtps_c
+[1.597s] [ 80%] Built target msg_interfaces
+[1.624s] [ 81%] Built target msg_interfaces__py
+[1.638s] [35m[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_generator_py[0m
+[1.656s] [ 91%] Built target msg_interfaces__rosidl_generator_py
+[1.670s] [35m[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.670s] [35m[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_c__pyext[0m
+[1.670s] [35m[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[1.686s] [100%] Built target msg_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.686s] [100%] Built target msg_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.686s] [100%] Built target msg_interfaces__rosidl_typesupport_c__pyext
+[1.977s] running egg_info
+[1.978s] writing msg_interfaces.egg-info/PKG-INFO
+[1.979s] writing dependency_links to msg_interfaces.egg-info/dependency_links.txt
+[1.979s] writing top-level names to msg_interfaces.egg-info/top_level.txt
+[1.983s] reading manifest file 'msg_interfaces.egg-info/SOURCES.txt'
+[1.984s] writing manifest file 'msg_interfaces.egg-info/SOURCES.txt'
+[2.017s] [100%] Built target ament_cmake_python_build_msg_interfaces_egg
+[2.033s] Invoked command in '/home/sudhindra/irc/drive_control/build/msg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sudhindra/irc/drive_control/build/msg_interfaces -- -j8 -l8
+[2.239s] Invoking command in '/home/sudhindra/irc/drive_control/build/msg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sudhindra/irc/drive_control/build/msg_interfaces
+[2.247s] -- Install configuration: ""
+[2.248s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/ament_index/resource_index/rosidl_interfaces/msg_interfaces
+[2.248s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces
+[2.248s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg
+[2.248s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/arm_end_motion.h
+[2.249s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/encoder_drive.h
+[2.249s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/motor_six.h
+[2.249s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/encoder_arm.h
+[2.249s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail
+[2.249s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__functions.h
+[2.249s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__functions.h
+[2.249s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__struct.h
+[2.249s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__functions.h
+[2.250s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__functions.c
+[2.250s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__functions.c
+[2.250s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__struct.h
+[2.250s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__functions.h
+[2.250s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__type_support.h
+[2.250s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__struct.h
+[2.250s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__struct.h
+[2.250s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__type_support.h
+[2.250s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__functions.c
+[2.251s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__functions.c
+[2.251s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__type_support.h
+[2.251s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__functions.h
+[2.251s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__functions.c
+[2.251s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__type_support.h
+[2.251s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__functions.h
+[2.251s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__struct.h
+[2.251s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__functions.c
+[2.252s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__struct.h
+[2.252s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__type_support.h
+[2.252s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__type_support.h
+[2.252s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.252s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/cam_drive.h
+[2.252s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/drive.h
+[2.253s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/environment/library_path.sh
+[2.253s] -- Installing: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/environment/library_path.dsv
+[2.253s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_c.so
+[2.253s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces
+[2.253s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg
+[2.253s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail
+[2.253s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__rosidl_typesupport_fastrtps_c.h
+[2.253s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__rosidl_typesupport_fastrtps_c.h
+[2.253s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__rosidl_typesupport_fastrtps_c.h
+[2.254s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__rosidl_typesupport_fastrtps_c.h
+[2.254s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__rosidl_typesupport_fastrtps_c.h
+[2.254s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__rosidl_typesupport_fastrtps_c.h
+[2.254s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.254s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.254s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces
+[2.254s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg
+[2.254s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/encoder_drive.hpp
+[2.254s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/motor_six.hpp
+[2.255s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail
+[2.255s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__struct.hpp
+[2.255s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__builder.hpp
+[2.255s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__struct.hpp
+[2.255s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__struct.hpp
+[2.255s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__struct.hpp
+[2.255s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__traits.hpp
+[2.255s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__struct.hpp
+[2.255s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__builder.hpp
+[2.256s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__traits.hpp
+[2.256s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__traits.hpp
+[2.256s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__builder.hpp
+[2.256s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__traits.hpp
+[2.256s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__builder.hpp
+[2.256s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__struct.hpp
+[2.256s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__traits.hpp
+[2.256s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__traits.hpp
+[2.256s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__builder.hpp
+[2.257s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__builder.hpp
+[2.257s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/cam_drive.hpp
+[2.257s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/drive.hpp
+[2.257s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/arm_end_motion.hpp
+[2.257s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/encoder_arm.hpp
+[2.257s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces
+[2.257s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg
+[2.257s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.257s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail
+[2.257s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__rosidl_typesupport_fastrtps_cpp.hpp
+[2.257s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/dds_fastrtps
+[2.257s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__rosidl_typesupport_fastrtps_cpp.hpp
+[2.258s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__rosidl_typesupport_fastrtps_cpp.hpp
+[2.258s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__rosidl_typesupport_fastrtps_cpp.hpp
+[2.258s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__rosidl_typesupport_fastrtps_cpp.hpp
+[2.258s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__rosidl_typesupport_fastrtps_cpp.hpp
+[2.258s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.258s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces
+[2.258s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg
+[2.258s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail
+[2.258s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__type_support.c
+[2.258s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__rosidl_typesupport_introspection_c.h
+[2.258s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__type_support.c
+[2.259s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__type_support.c
+[2.259s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__rosidl_typesupport_introspection_c.h
+[2.259s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__rosidl_typesupport_introspection_c.h
+[2.259s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__type_support.c
+[2.259s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__rosidl_typesupport_introspection_c.h
+[2.259s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__rosidl_typesupport_introspection_c.h
+[2.259s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__rosidl_typesupport_introspection_c.h
+[2.259s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__type_support.c
+[2.259s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__type_support.c
+[2.259s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.259s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_c.so
+[2.259s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_c.so
+[2.259s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces
+[2.260s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg
+[2.260s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail
+[2.260s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__type_support.cpp
+[2.260s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/cam_drive__rosidl_typesupport_introspection_cpp.hpp
+[2.260s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__type_support.cpp
+[2.260s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__type_support.cpp
+[2.260s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__rosidl_typesupport_introspection_cpp.hpp
+[2.260s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__rosidl_typesupport_introspection_cpp.hpp
+[2.260s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__rosidl_typesupport_introspection_cpp.hpp
+[2.260s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__rosidl_typesupport_introspection_cpp.hpp
+[2.260s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__type_support.cpp
+[2.260s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/motor_six__type_support.cpp
+[2.260s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__type_support.cpp
+[2.261s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__rosidl_typesupport_introspection_cpp.hpp
+[2.261s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.261s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_cpp.so
+[2.261s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/environment/pythonpath.sh
+[2.261s] -- Installing: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/environment/pythonpath.dsv
+[2.261s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info
+[2.261s] -- Installing: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.261s] -- Installing: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.261s] -- Installing: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.261s] -- Installing: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.261s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces
+[2.261s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_c.c
+[2.261s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg
+[2.262s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_cam_drive.py
+[2.262s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_encoder_drive.py
+[2.262s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_drive_s.c
+[2.262s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_motor_six.py
+[2.262s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/__init__.py
+[2.262s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_encoder_arm_s.c
+[2.262s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_arm_end_motion.py
+[2.262s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_arm_end_motion_s.c
+[2.262s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_cam_drive_s.c
+[2.262s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_encoder_drive_s.c
+[2.262s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_encoder_arm.py
+[2.262s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_drive.py
+[2.263s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_motor_six_s.c
+[2.263s] -- Installing: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/__init__.py
+[2.263s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.263s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.263s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/libmsg_interfaces__rosidl_generator_py.so
+[2.263s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.263s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.263s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.293s] Listing '/home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces'...
+[2.293s] Compiling '/home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/__init__.py'...
+[2.294s] Listing '/home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg'...
+[2.298s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.299s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.299s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.300s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_py.so
+[2.300s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/msg/Drive.idl
+[2.300s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/msg/CamDrive.idl
+[2.300s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/msg/ArmEndMotion.idl
+[2.301s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/msg/MotorSix.idl
+[2.301s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/msg/EncoderArm.idl
+[2.301s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/msg/EncoderDrive.idl
+[2.301s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/msg/Drive.msg
+[2.301s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/msg/CamDrive.msg
+[2.301s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/msg/ArmEndMotion.msg
+[2.301s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/msg/MotorSix.msg
+[2.301s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/msg/EncoderArm.msg
+[2.301s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/msg/EncoderDrive.msg
+[2.302s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/ament_index/resource_index/package_run_dependencies/msg_interfaces
+[2.302s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/ament_index/resource_index/parent_prefix_path/msg_interfaces
+[2.302s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/environment/ament_prefix_path.sh
+[2.302s] -- Installing: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/environment/ament_prefix_path.dsv
+[2.302s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/environment/path.sh
+[2.302s] -- Installing: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/environment/path.dsv
+[2.302s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/local_setup.bash
+[2.302s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/local_setup.sh
+[2.302s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/local_setup.zsh
+[2.302s] -- Installing: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/local_setup.dsv
+[2.303s] -- Installing: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/package.dsv
+[2.303s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/ament_index/resource_index/packages/msg_interfaces
+[2.303s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cExport.cmake
+[2.303s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.303s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.303s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.303s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cppExport.cmake
+[2.303s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.303s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.303s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.303s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.304s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cExport.cmake
+[2.304s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.304s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.304s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.304s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cppExport.cmake
+[2.304s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.304s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_pyExport.cmake
+[2.304s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.304s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.304s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.304s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.305s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.305s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.305s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.305s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.305s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfacesConfig.cmake
+[2.305s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfacesConfig-version.cmake
+[2.305s] -- Up-to-date: /home/sudhindra/irc_2025/drive_control/install/msg_interfaces/share/msg_interfaces/package.xml
+[2.308s] Invoked command in '/home/sudhindra/irc/drive_control/build/msg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sudhindra/irc/drive_control/build/msg_interfaces

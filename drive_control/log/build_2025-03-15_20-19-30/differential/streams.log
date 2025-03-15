@@ -1,0 +1,22 @@
+[0.594s] Invoking command in '/home/sudhindra/irc/drive_control/src/differential': PYTHONPATH=/home/sudhindra/irc/drive_control/build/differential/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sudhindra/irc/drive_control/install/differential/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/differential build --build-base /home/sudhindra/irc/drive_control/build/differential/build install --record /home/sudhindra/irc/drive_control/build/differential/install.log --single-version-externally-managed install_data
+[0.826s] running egg_info
+[0.826s] writing ../../build/differential/differential.egg-info/PKG-INFO
+[0.827s] writing dependency_links to ../../build/differential/differential.egg-info/dependency_links.txt
+[0.827s] writing entry points to ../../build/differential/differential.egg-info/entry_points.txt
+[0.827s] writing requirements to ../../build/differential/differential.egg-info/requires.txt
+[0.827s] writing top-level names to ../../build/differential/differential.egg-info/top_level.txt
+[0.829s] reading manifest file '../../build/differential/differential.egg-info/SOURCES.txt'
+[0.830s] writing manifest file '../../build/differential/differential.egg-info/SOURCES.txt'
+[0.830s] running build
+[0.830s] running build_py
+[0.830s] running install
+[0.831s] running install_lib
+[0.832s] running install_data
+[0.832s] running install_egg_info
+[0.833s] removing '/home/sudhindra/irc/drive_control/install/differential/lib/python3.10/site-packages/differential-0.0.0-py3.10.egg-info' (and everything under it)
+[0.834s] Copying ../../build/differential/differential.egg-info to /home/sudhindra/irc/drive_control/install/differential/lib/python3.10/site-packages/differential-0.0.0-py3.10.egg-info
+[0.834s] running install_scripts
+[0.851s] Installing freshies_attempt script to /home/sudhindra/irc/drive_control/install/differential/lib/differential
+[0.852s] Installing joystick_innerrr script to /home/sudhindra/irc/drive_control/install/differential/lib/differential
+[0.852s] writing list of installed files to '/home/sudhindra/irc/drive_control/build/differential/install.log'
+[0.874s] Invoked command in '/home/sudhindra/irc/drive_control/src/differential' returned '0': PYTHONPATH=/home/sudhindra/irc/drive_control/build/differential/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sudhindra/irc/drive_control/install/differential/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/differential build --build-base /home/sudhindra/irc/drive_control/build/differential/build install --record /home/sudhindra/irc/drive_control/build/differential/install.log --single-version-externally-managed install_data
