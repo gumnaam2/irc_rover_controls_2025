@@ -18,6 +18,12 @@ class DriveController(Node):
         # Create publisher for drive commands
         self.drive_publisher = self.create_publisher(Drive, 'drive_commands', 10)
 
+    def pwm(self, x, lim = 0.1, scale = 1.0): # convert joystick values to PWM values
+        if (x >= lim):
+            return int(((abs(x) - lim)/scale)*255)
+        else: # ignore small front-back movement of joystick
+            return 0
+    
     def joystick_callback(self, joyos):
         global toggle
         drive_command = Drive()
@@ -66,61 +72,33 @@ class DriveController(Node):
 
         drive_command.sys_check = toggle
 
+        drive_speed_right = self.pwm(left_ver)
+        drive_speed_left = self.pwm(left_ver)
+        
         # Forward
-        if left_ver > 0:  
-            if left_ver <= 0.1:
-                drive_speed_right = 0
-                drive_direction_right = 1
-                drive_speed_left = 0
-                drive_direction_left = 1
-            else:
-                drive_speed_right = (left_ver - 0.1) / 1.0
-                drive_direction_right = 1
-                drive_speed_left = (left_ver - 0.1) / 1.0
-                drive_direction_left = 1
-
+        if left_ver > 0:
+            drive_direction_right = 1
+            drive_direction_left = 1
+        
         # Backward
         elif left_ver < 0:  
-            if abs(left_ver) <= 0.1:
-                drive_speed_right = 0
-                drive_direction_right = 0
-                drive_speed_left = 0
-                drive_direction_left = 0
-            else:
-                drive_speed_right = (abs(left_ver) - 0.1) / 1.0
-                drive_direction_right = 0
-                drive_speed_left = (abs(left_ver) - 0.1) / 1.0
-                drive_direction_left = 0
+            drive_direction_right = 0
+            drive_direction_left = 0
 
-        # Right turn
-        elif left_hor < 0:  
-            if abs(left_hor) <= 0.1:
-                drive_speed_right = 0
+        else:
+            drive_speed_right = self.pwm(left_hor)
+            drive_direction_left = self.pwm(left_ver)
+            # Right turn
+            if left_hor < 0:
                 drive_direction_right = 0
-                drive_speed_left = 0
                 drive_direction_left = 1
-            else: 
-                drive_speed_right = (abs(left_hor) - 0.1) / 1.0
-                drive_direction_right = 0
-                drive_speed_left = (abs(left_hor) - 0.1) / 1.0
-                drive_direction_left = 1
-
-        # Left turn
-        elif left_hor > 0:  
-            if left_hor <= 0.1:
-                drive_speed_right = 0
+            # Left turn
+            elif left_hor > 0:
                 drive_direction_right = 1
-                drive_speed_left = 0
-                drive_direction_left = 0
-            else:
-                drive_speed_right = (left_hor - 0.1) / 1.0
-                drive_direction_right = 1
-                drive_speed_left = (left_hor - 0.1) / 1.0  
                 drive_direction_left = 0
 
         # Publish the drive command
-        speed_list = [drive_speed_left, drive_speed_left, drive_speed_left, drive_speed_right, drive_speed_right, drive_speed_right]
-        drive_command.speed = [int(element * 255) for element in speed_list]  # Convert to PWM range
+        drive_command.speed = [drive_speed_left, drive_speed_left, drive_speed_left, drive_speed_right, drive_speed_right, drive_speed_right]
         drive_command.direction = [drive_direction_left, drive_direction_left, drive_direction_left, drive_direction_right, drive_direction_right, drive_direction_right]
 
         self.drive_publisher.publish(drive_command)
@@ -136,6 +114,8 @@ def main(args=None):
         rclpy.spin(drive_controller)
     except KeyboardInterrupt:
         print("Shutting down due to KeyboardInterrupt")
+    except Exception as e:
+        print(f"Exception {e}")
     finally:
         drive_controller.destroy_node()
         rclpy.shutdown()

@@ -8,8 +8,6 @@ from rclpy.node import Node
 from msg_interfaces.msg import Drive
 from msg_interfaces.msg import EncoderDrive
 
-
-#TODO modify the OS commands to set up CAN0 node only if it is not running 
 #TODO polling command section execution
 #TODO test with PWM and direction 
 #TODO decide on conditions in order to execute systems check commands and polling flags
@@ -24,22 +22,17 @@ NUM_NODES_CH0=6 #number of nodes on channel A
 SLAVE0_ID_CH0=0x550 #first node on channel 0
 MASTER_ID=0x465
 
-#loop to generate all the slave node addresses
-SLAVE_IDS0=list()
+#all slave node addresses
+SLAVE_IDS0=list(range(SLAVE0_ID_CH0, SLAVE0_ID_CH0 + NUM_NODES_CH0))
 SLAVE_IDS1=list()
-
-for i in range(NUM_NODES_CH0):
-    SLAVE_IDS0.append(SLAVE0_ID_CH0+i)
-
-#SLAVE_IDS=[0x550,0x551,0x552,0x553,0x554]
                                                                
 #lists to store if data has entered or not
 
 #channel 0
-upcheck0=[0]*NUM_NODES_CH0
-datacheck0=[0]*NUM_NODES_CH0
-CANCheck0=[0]*NUM_NODES_CH0
-data0=[0]*NUM_NODES_CH0
+upcheck0=[0]*NUM_NODES_CH0 #for sysCANCheck, will be set to 0/1 depending on whether the node responds
+datacheck0=[0]*NUM_NODES_CH0 #sysCheck response received or not
+CANCheck0=[0]*NUM_NODES_CH0 #encoder data received or not
+data0=[0]*NUM_NODES_CH0 #response by nodes to sysCheck
 
 
 DELAY=5000//NUM_NODES_CH0-50
@@ -47,11 +40,7 @@ DELAY=5000//NUM_NODES_CH0-50
 #array to hold incoming 8 bytes of data for encoder from each node
 
 #channel 0
-encoderIn0=list()
-
-for i in range(NUM_NODES_CH0):
-    arr=[0]*8
-    encoderIn0.append(arr)
+encoderIn0= [[0]*8 for i in range(NUM_NODES_CH0)] #stores encoder data. Modified by pending0 function that reads incoming CAN messages
 
 #channel 0
 diff0=[0]*NUM_NODES_CH0
@@ -69,6 +58,7 @@ DIR0=[0]*NUM_NODES_CH0
 #PWM[1]=50
 #DIR[1]=0
 
+# identifier codes for different types of tasks
 sysCheck=0 #000 -> 0
 polling=7 #111->7  (start polling)
 stopPoll=5 #101->7 (stop polling)
@@ -103,15 +93,15 @@ class CAN_Publisher(Node):
         if msg.reset:
             self.resetMode=1
             self.sysCANCheckFlag0=0
-            self.pollingFlag0=0
+            #self.pollingFlag0=0
         else:
             self.resetMode=0
             if msg.sys_check: #set flags accordingly 
                 self.sysCANCheckFlag0=1
-                self.pollingFlag0=0
+                #self.pollingFlag0=0
             else:
                 self.sysCANCheckFlag0=0
-                self.pollingFlag0=1
+                #self.pollingFlag0=1
         
     
     def timer_callback(self):
@@ -123,7 +113,7 @@ class CAN_Publisher(Node):
             self.get_logger().info(out)
             time.sleep(0.2) #small delay before moving to next command
             #sysCANCheckFlag=0
-        if self.pollingFlag0:
+        """if self.pollingFlag0:
             enc_msg=poll(msg,can0)
             self.publisher_encoder.publish(enc_msg)
             #self.get_logger().info(list(enc_msg.drive_node0))
@@ -138,29 +128,27 @@ class CAN_Publisher(Node):
             #else:
             #    PWM[0]=0
             #    PWM[1]=0
-            
+        """
         delay_us(20)
-              
-
 
 
 def delay_us(micros):
     time.sleep(micros/1000000.0)
 
-def pending0(msg_rx:can.Message):
+def pending0(msg_rx:can.Message):#reads incoming message
     #msg_rx=can.Message
     #create a loop for checking messages
     #print(f"Entered loop {msg_rx.data}")
-    if msg_rx.dlc==1: #a systems check command
+    if msg_rx.dlc==1: #systems check command- write to data0
         for i in range(NUM_NODES_CH0):
             if msg_rx.arbitration_id == SLAVE_IDS0[i]:
-                datacheck0[i]=1
+                datacheck0[i]=1 #data received
                 data0[i]=msg_rx.data[0]
 
     #use the above logic for up-link check of CAN nodes
 
 
-    if msg_rx.dlc==8:
+    if msg_rx.dlc==8: #encoder data- write to encoderIn0
         for i in range(NUM_NODES_CH0):
             if msg_rx.arbitration_id==SLAVE_IDS0[i]:
                 CANCheck0[i]=1
@@ -176,13 +164,13 @@ def resetEnc(msg_tx:can.Message,bus0):
         address=SLAVE_IDS0[i]-SLAVE0_ID_CH0 #returns an 8 bit number
         #as there are only 32 nodes maximum, the last 5 bits will be filled
 
-        command=(reset<<5) | address; #sysCheck command created
+        command=(reset<<5) | address #sysCheck command created
 
         query[0]=command
         msg_tx.data=query
         bus0.send(msg_tx)
         #print(f"Message sent {msg_tx.data}")
-        delay_us(10); #small delay before engaging the bus 
+        delay_us(10) #small delay before engaging the bus 
 
 
 
@@ -196,7 +184,7 @@ def sysCANCheck(msg_tx:can.Message,bus0):
         address=SLAVE_IDS0[i]-SLAVE0_ID_CH0 #returns an 8 bit number
         #as there are only 32 nodes maximum, the last 5 bits will be filled
 
-        command=(sysCheck<<5) | address; #sysCheck command created
+        command=(sysCheck<<5) | address #sysCheck command created
 
         query[0]=command
         msg_tx.data=query
@@ -204,10 +192,10 @@ def sysCANCheck(msg_tx:can.Message,bus0):
         #print(f"Message sent {msg_tx.data}")
 
 
-        time.sleep(5/1000.0);
+        time.sleep(5/1000.0)
         #wait 5 ms before checking for response
 
-        if datacheck0[i]==1:
+        if datacheck0[i]==1:#if node has responded
             #print(f"datacheck {i} = {datacheck[i]}")
             #mirroring back a 1 byte message, it should be same as command
             if data0[i]==command:
@@ -217,58 +205,6 @@ def sysCANCheck(msg_tx:can.Message,bus0):
         datacheck0[i]=0
         data0[i]=0 #clean the data buffer
         time.sleep(1/1000.0) #wait 1 ms before testing the next node
-
-def poll(msg_tx:can.Message,bus0):
-    enc_msg=EncoderDrive()
-    msg_tx.dlc=3 #send command of length 3
-    #along with PWM and direction signals
-    query=[0]*8 #query to transmit to central node
-    
-    #transmission for channel 0
-    for i in range(NUM_NODES_CH0):
-        #poll each CAN node and check if you receive a message back
-        #a maximum of 32 nodes, which means last 5 bits to be used as address
-        address=SLAVE_IDS0[i]-SLAVE0_ID_CH0; #returns an 8 bit number
-
-        #as there are only 32 nodes maximum, the last 5 bits will be filled
-
-        command=(polling<<5) | address; #sysCheck command created
-
-        query[0]=command; #0 for 550, 1 for 551, ...
-        query[1]=PWM0[i]
-        query[2]=DIR0[i]
-
-
-        #send the CAN message
-        msg_tx.data=query
-        bus0.send(msg_tx)
-         
-        #wait 50 us before checking for message from slave node
-        delay_us(50);
-        if (CANCheck0[i]==1): #data received
-            CANCheck0[i]=0; #reset the data flag
-
-            pos0[i] = (encoderIn0[i][0]<<24) | (encoderIn0[i][1]<<16) | (encoderIn0[i][2]<<8) | (encoderIn0[i][3]);
-            angPos0[i] = (encoderIn0[i][4]<<8) | (encoderIn0[i][5]);
-            diff0[i] = (encoderIn0[i][6]<<8) | (encoderIn0[i][7]);
-
-        print(f"MSG, channel 0, {i},{pos0[i]},{angPos0[i]},{diff0[i]}");
-
-        delay_us(DELAY); #wait 1.25 ms =(5/4) ms before polling the next node (-50 for the previous delay of 20 us)
-        #the polling interval is fixed here at 5 ms
-    
-    #converting the data into ROS2 topics
-    enc_msg.drive_node0 = [0,pos0[0],angPos0[0],diff0[0]]
-    enc_msg.drive_node1 = [1,pos0[1],angPos0[1],diff0[1]]
-    enc_msg.drive_node2 = [2,pos0[2],angPos0[2],diff0[2]]
-    enc_msg.drive_node3 = [3,pos0[3],angPos0[3],diff0[3]]
-    enc_msg.drive_node4 = [4,pos0[4],angPos0[4],diff0[4]]
-    enc_msg.drive_node5 = [5,pos0[5],angPos0[5],diff0[5]]
-    return enc_msg
-    
-#TODO run the CAN.sh script before this
-
-
 can0 = can.interface.Bus(channel = 'can0', interface = 'socketcan',receive_own_messages=False) 
 #prevent buffer overflow if one channel is disconnected
 
@@ -285,7 +221,7 @@ msg = can.Message(arbitration_id=MASTER_ID, is_extended_id=False, is_remote_fram
 def main(args=None):
     rclpy.init(args=args)
     master=CAN_Publisher()
-        
+
     try:
         #os.system(f'sudo ip link set can0 type can bitrate {BIT_RATE}')
         #os.system('sudo ifconfig can0 up')

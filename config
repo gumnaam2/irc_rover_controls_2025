@@ -1,0 +1,46 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+[layouts]
+  [[default]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 26:23
+      maximised = False
+      fullscreen = False
+    [[[child1]]]
+      type = VPaned
+      parent = child0
+      order = 0
+      position = 334
+      ratio = 0.5
+    [[[child2]]]
+      type = HPaned
+      parent = child1
+      order = 0
+      position = 541
+      ratio = 0.5
+    [[[terminal0]]]
+      type = Terminal
+      parent = child2
+      order = 0
+    [[[terminal1]]]
+      type = Terminal
+      parent = child2
+      order = 1
+      command = ros2 run joy joy_node; bash;
+    [[[terminal2]]]
+      type = Terminal
+      parent = child1
+      order = 1
+      command = cd drive_control; source install/setup.bash; ros2 run differential joystick_innerrr; bash;
+    [[[terminal3]]]
+      type = Terminal
+      parent = child1
+      order = 1
+      command = echo "X"; bash;
+[plugins]
