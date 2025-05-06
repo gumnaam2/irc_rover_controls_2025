@@ -7,5 +7,6 @@
 #include "msg_interfaces/msg/detail/base_motion__struct.hpp"
 #include "msg_interfaces/msg/detail/base_motion__builder.hpp"
 #include "msg_interfaces/msg/detail/base_motion__traits.hpp"
+#include "msg_interfaces/msg/detail/base_motion__type_support.hpp"
 
 #endif  // MSG_INTERFACES__MSG__BASE_MOTION_HPP_

@@ -1,0 +1,41 @@
+[1.277s] Invoking command in '/home/siddhant/irc_rover_controls_2025/rover_essentials/src/auto_bridge': PYTHONPATH=/home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/auto_bridge build --build-base /home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/build install --record /home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/install.log --single-version-externally-managed install_data
+[1.549s] running egg_info
+[1.549s] creating ../../build/auto_bridge/auto_bridge.egg-info
+[1.549s] writing ../../build/auto_bridge/auto_bridge.egg-info/PKG-INFO
+[1.550s] writing dependency_links to ../../build/auto_bridge/auto_bridge.egg-info/dependency_links.txt
+[1.550s] writing entry points to ../../build/auto_bridge/auto_bridge.egg-info/entry_points.txt
+[1.550s] writing requirements to ../../build/auto_bridge/auto_bridge.egg-info/requires.txt
+[1.550s] writing top-level names to ../../build/auto_bridge/auto_bridge.egg-info/top_level.txt
+[1.550s] writing manifest file '../../build/auto_bridge/auto_bridge.egg-info/SOURCES.txt'
+[1.552s] reading manifest file '../../build/auto_bridge/auto_bridge.egg-info/SOURCES.txt'
+[1.553s] writing manifest file '../../build/auto_bridge/auto_bridge.egg-info/SOURCES.txt'
+[1.553s] running build
+[1.553s] running build_py
+[1.553s] creating /home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/build
+[1.554s] creating /home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/build/lib
+[1.554s] creating /home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/build/lib/auto_bridge
+[1.554s] copying auto_bridge/auto_relay.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/build/lib/auto_bridge
+[1.554s] copying auto_bridge/__init__.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/build/lib/auto_bridge
+[1.554s] copying auto_bridge/autonomous_diffdrive.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/build/lib/auto_bridge
+[1.554s] running install
+[1.554s] running install_lib
+[1.555s] creating /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge
+[1.555s] copying /home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/build/lib/auto_bridge/auto_relay.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge
+[1.556s] copying /home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/build/lib/auto_bridge/__init__.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge
+[1.556s] copying /home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/build/lib/auto_bridge/autonomous_diffdrive.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge
+[1.556s] byte-compiling /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge/auto_relay.py to auto_relay.cpython-310.pyc
+[1.557s] byte-compiling /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge/__init__.py to __init__.cpython-310.pyc
+[1.557s] byte-compiling /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge/autonomous_diffdrive.py to autonomous_diffdrive.cpython-310.pyc
+[1.558s] running install_data
+[1.558s] creating /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/share/ament_index
+[1.559s] creating /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/share/ament_index/resource_index
+[1.559s] creating /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/share/ament_index/resource_index/packages
+[1.559s] copying resource/auto_bridge -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/share/ament_index/resource_index/packages
+[1.559s] copying package.xml -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/share/auto_bridge
+[1.559s] running install_egg_info
+[1.562s] Copying ../../build/auto_bridge/auto_bridge.egg-info to /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge-0.0.0-py3.10.egg-info
+[1.563s] running install_scripts
+[1.589s] Installing auto_drive script to /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/lib/auto_bridge
+[1.589s] Installing relay_auto script to /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/lib/auto_bridge
+[1.589s] writing list of installed files to '/home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/install.log'
+[1.623s] Invoked command in '/home/siddhant/irc_rover_controls_2025/rover_essentials/src/auto_bridge' returned '0': PYTHONPATH=/home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/auto_bridge build --build-base /home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/build install --record /home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/install.log --single-version-externally-managed install_data

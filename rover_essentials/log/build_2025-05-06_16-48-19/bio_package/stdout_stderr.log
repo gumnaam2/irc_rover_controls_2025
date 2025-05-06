@@ -1,0 +1,58 @@
+running egg_info
+creating ../../build/bio_package/bio_package.egg-info
+writing ../../build/bio_package/bio_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/bio_package/bio_package.egg-info/dependency_links.txt
+writing entry points to ../../build/bio_package/bio_package.egg-info/entry_points.txt
+writing requirements to ../../build/bio_package/bio_package.egg-info/requires.txt
+writing top-level names to ../../build/bio_package/bio_package.egg-info/top_level.txt
+writing manifest file '../../build/bio_package/bio_package.egg-info/SOURCES.txt'
+reading manifest file '../../build/bio_package/bio_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/bio_package/bio_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/siddhant/irc_rover_controls_2025/rover_essentials/build/bio_package/build
+creating /home/siddhant/irc_rover_controls_2025/rover_essentials/build/bio_package/build/lib
+creating /home/siddhant/irc_rover_controls_2025/rover_essentials/build/bio_package/build/lib/bio_package
+copying bio_package/relay.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/build/bio_package/build/lib/bio_package
+copying bio_package/cameras.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/build/bio_package/build/lib/bio_package
+copying bio_package/bio_controller.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/build/bio_package/build/lib/bio_package
+copying bio_package/pid.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/build/bio_package/build/lib/bio_package
+copying bio_package/__init__.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/build/bio_package/build/lib/bio_package
+copying bio_package/joining_node.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/build/bio_package/build/lib/bio_package
+copying bio_package/node_mcu_interface.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/build/bio_package/build/lib/bio_package
+running install
+running install_lib
+creating /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/lib/python3.10/site-packages/bio_package
+copying /home/siddhant/irc_rover_controls_2025/rover_essentials/build/bio_package/build/lib/bio_package/relay.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/lib/python3.10/site-packages/bio_package
+copying /home/siddhant/irc_rover_controls_2025/rover_essentials/build/bio_package/build/lib/bio_package/cameras.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/lib/python3.10/site-packages/bio_package
+copying /home/siddhant/irc_rover_controls_2025/rover_essentials/build/bio_package/build/lib/bio_package/bio_controller.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/lib/python3.10/site-packages/bio_package
+copying /home/siddhant/irc_rover_controls_2025/rover_essentials/build/bio_package/build/lib/bio_package/pid.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/lib/python3.10/site-packages/bio_package
+copying /home/siddhant/irc_rover_controls_2025/rover_essentials/build/bio_package/build/lib/bio_package/__init__.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/lib/python3.10/site-packages/bio_package
+copying /home/siddhant/irc_rover_controls_2025/rover_essentials/build/bio_package/build/lib/bio_package/joining_node.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/lib/python3.10/site-packages/bio_package
+copying /home/siddhant/irc_rover_controls_2025/rover_essentials/build/bio_package/build/lib/bio_package/node_mcu_interface.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/lib/python3.10/site-packages/bio_package
+byte-compiling /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/lib/python3.10/site-packages/bio_package/relay.py to relay.cpython-310.pyc
+byte-compiling /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/lib/python3.10/site-packages/bio_package/cameras.py to cameras.cpython-310.pyc
+byte-compiling /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/lib/python3.10/site-packages/bio_package/bio_controller.py to bio_controller.cpython-310.pyc
+byte-compiling /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/lib/python3.10/site-packages/bio_package/pid.py to pid.cpython-310.pyc
+byte-compiling /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/lib/python3.10/site-packages/bio_package/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/lib/python3.10/site-packages/bio_package/joining_node.py to joining_node.cpython-310.pyc
+byte-compiling /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/lib/python3.10/site-packages/bio_package/node_mcu_interface.py to node_mcu_interface.cpython-310.pyc
+running install_data
+creating /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/share/ament_index
+creating /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/share/ament_index/resource_index
+creating /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/share/ament_index/resource_index/packages
+copying resource/bio_package -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/share/bio_package
+creating /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/share/bio_package/launch
+copying launch/bio_launch.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/share/bio_package/launch
+running install_egg_info
+Copying ../../build/bio_package/bio_package.egg-info to /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/lib/python3.10/site-packages/bio_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing bio_cache script to /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/lib/bio_package
+Installing bio_controller script to /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/lib/bio_package
+Installing cameras script to /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/lib/bio_package
+Installing joining_node script to /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/lib/bio_package
+Installing node_mcu_interface script to /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/lib/bio_package
+Installing pid script to /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/lib/bio_package
+Installing relay script to /home/siddhant/irc_rover_controls_2025/rover_essentials/install/bio_package/lib/bio_package
+writing list of installed files to '/home/siddhant/irc_rover_controls_2025/rover_essentials/build/bio_package/install.log'

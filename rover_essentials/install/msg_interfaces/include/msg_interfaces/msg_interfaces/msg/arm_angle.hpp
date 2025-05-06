@@ -7,5 +7,6 @@
 #include "msg_interfaces/msg/detail/arm_angle__struct.hpp"
 #include "msg_interfaces/msg/detail/arm_angle__builder.hpp"
 #include "msg_interfaces/msg/detail/arm_angle__traits.hpp"
+#include "msg_interfaces/msg/detail/arm_angle__type_support.hpp"
 
 #endif  // MSG_INTERFACES__MSG__ARM_ANGLE_HPP_

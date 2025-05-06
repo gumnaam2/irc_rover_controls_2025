@@ -7,5 +7,6 @@
 #include "msg_interfaces/msg/detail/motor_six__struct.hpp"
 #include "msg_interfaces/msg/detail/motor_six__builder.hpp"
 #include "msg_interfaces/msg/detail/motor_six__traits.hpp"
+#include "msg_interfaces/msg/detail/motor_six__type_support.hpp"
 
 #endif  // MSG_INTERFACES__MSG__MOTOR_SIX_HPP_

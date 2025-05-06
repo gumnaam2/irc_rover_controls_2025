@@ -7,5 +7,6 @@
 #include "msg_interfaces/msg/detail/drive__struct.hpp"
 #include "msg_interfaces/msg/detail/drive__builder.hpp"
 #include "msg_interfaces/msg/detail/drive__traits.hpp"
+#include "msg_interfaces/msg/detail/drive__type_support.hpp"
 
 #endif  // MSG_INTERFACES__MSG__DRIVE_HPP_

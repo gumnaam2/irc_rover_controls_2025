@@ -4,13 +4,14 @@
   <name>bio_package</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="154395800+Sudhindra2005@users.noreply.github.com">sudhindra</maintainer>
+  <maintainer email="arjoe.basak@gmail.com">rpi</maintainer>
   <license>TODO: License declaration</license>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>
   <test_depend>python3-pytest</test_depend>
+  <exec_depend>requests</exec_depend>
 
   <export>
     <build_type>ament_python</build_type>

@@ -1,10 +1,9 @@
 import rclpy
 from rclpy.node import Node
-import numpy as np
+from numpy import zeros, clip
 import roboticstoolbox as rtb
 from sensor_msgs.msg import Joy, JointState
 from msg_interfaces.msg import ArmEndMotion, EncoderArm
-import time
 
 # Global toggle for system check
 toggle = False
@@ -69,7 +68,7 @@ class JoystickControlNode(Node):
         self.min_elbow_pos = -9200
 
         # Initialize desired velocity and joint state
-        self.desired_velocity = np.zeros(6)  # [vx, vy, vz, wx, wy, wz]
+        self.desired_velocity = zeros(6)  # [vx, vy, vz, wx, wy, wz]
         self.joint_state = JointState()
         self.joint_state.name = [f'joint_{i+1}' for i in range(len(robot.q))]
         self.joint_state.position = list(robot.q)
@@ -282,7 +281,7 @@ class JoystickControlNode(Node):
         ]
 
         for i, (lower, upper) in enumerate(joint_limits):
-            robot.q[i] = np.clip(robot.q[i], lower, upper)  # Constrain joint position
+            robot.q[i] = clip(robot.q[i], lower, upper)  # Constrain joint position
 
         self.joint_state.position = [round(q, 2) for q in robot.q]
 

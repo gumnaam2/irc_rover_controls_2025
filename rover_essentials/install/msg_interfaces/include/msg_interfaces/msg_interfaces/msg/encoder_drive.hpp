@@ -7,5 +7,6 @@
 #include "msg_interfaces/msg/detail/encoder_drive__struct.hpp"
 #include "msg_interfaces/msg/detail/encoder_drive__builder.hpp"
 #include "msg_interfaces/msg/detail/encoder_drive__traits.hpp"
+#include "msg_interfaces/msg/detail/encoder_drive__type_support.hpp"
 
 #endif  // MSG_INTERFACES__MSG__ENCODER_DRIVE_HPP_

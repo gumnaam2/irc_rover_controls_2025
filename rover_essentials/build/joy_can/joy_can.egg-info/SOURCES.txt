@@ -14,6 +14,7 @@ joy_can/DriveCAN.py
 joy_can/__init__.py
 joy_can/gripper.py
 launch/ArmCAN.sh
+launch/ArmDriveLaunch.py
 launch/ArmLaunch.py
 launch/DriveCAN.sh
 launch/DriveLaunch.py

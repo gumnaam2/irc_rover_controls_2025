@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces
+CMAKE_SOURCE_DIR = /home/siddhant/irc_rover_controls_2025/rover_essentials/src/msg_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces
+CMAKE_BINARY_DIR = /home/siddhant/irc_rover_controls_2025/rover_essentials/build/msg_interfaces
 
 # Utility rule file for msg_interfaces.
 
@@ -66,16 +66,16 @@ include CMakeFiles/msg_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/msg_interfaces.dir/progress.make
 
-CMakeFiles/msg_interfaces: /home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces/msg/Drive.msg
-CMakeFiles/msg_interfaces: /home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces/msg/ArmEndMotion.msg
-CMakeFiles/msg_interfaces: /home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces/msg/EncoderArm.msg
-CMakeFiles/msg_interfaces: /home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces/msg/EncoderDrive.msg
-CMakeFiles/msg_interfaces: /home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces/msg/ShoulderJointVelocity.msg
-CMakeFiles/msg_interfaces: /home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces/msg/WristJointVelocity.msg
-CMakeFiles/msg_interfaces: /home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces/msg/BaseMotion.msg
-CMakeFiles/msg_interfaces: /home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces/msg/FinalVel.msg
-CMakeFiles/msg_interfaces: /home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces/msg/TargetPose.msg
-CMakeFiles/msg_interfaces: /home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces/msg/ArmAngle.msg
+CMakeFiles/msg_interfaces: /home/siddhant/irc_rover_controls_2025/rover_essentials/src/msg_interfaces/msg/Drive.msg
+CMakeFiles/msg_interfaces: /home/siddhant/irc_rover_controls_2025/rover_essentials/src/msg_interfaces/msg/ArmEndMotion.msg
+CMakeFiles/msg_interfaces: /home/siddhant/irc_rover_controls_2025/rover_essentials/src/msg_interfaces/msg/EncoderArm.msg
+CMakeFiles/msg_interfaces: /home/siddhant/irc_rover_controls_2025/rover_essentials/src/msg_interfaces/msg/EncoderDrive.msg
+CMakeFiles/msg_interfaces: /home/siddhant/irc_rover_controls_2025/rover_essentials/src/msg_interfaces/msg/ShoulderJointVelocity.msg
+CMakeFiles/msg_interfaces: /home/siddhant/irc_rover_controls_2025/rover_essentials/src/msg_interfaces/msg/WristJointVelocity.msg
+CMakeFiles/msg_interfaces: /home/siddhant/irc_rover_controls_2025/rover_essentials/src/msg_interfaces/msg/BaseMotion.msg
+CMakeFiles/msg_interfaces: /home/siddhant/irc_rover_controls_2025/rover_essentials/src/msg_interfaces/msg/FinalVel.msg
+CMakeFiles/msg_interfaces: /home/siddhant/irc_rover_controls_2025/rover_essentials/src/msg_interfaces/msg/TargetPose.msg
+CMakeFiles/msg_interfaces: /home/siddhant/irc_rover_controls_2025/rover_essentials/src/msg_interfaces/msg/ArmAngle.msg
 CMakeFiles/msg_interfaces: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 CMakeFiles/msg_interfaces: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
 CMakeFiles/msg_interfaces: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -120,6 +120,6 @@ CMakeFiles/msg_interfaces.dir/clean:
 .PHONY : CMakeFiles/msg_interfaces.dir/clean
 
 CMakeFiles/msg_interfaces.dir/depend:
-	cd /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces /home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/CMakeFiles/msg_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/siddhant/irc_rover_controls_2025/rover_essentials/build/msg_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/siddhant/irc_rover_controls_2025/rover_essentials/src/msg_interfaces /home/siddhant/irc_rover_controls_2025/rover_essentials/src/msg_interfaces /home/siddhant/irc_rover_controls_2025/rover_essentials/build/msg_interfaces /home/siddhant/irc_rover_controls_2025/rover_essentials/build/msg_interfaces /home/siddhant/irc_rover_controls_2025/rover_essentials/build/msg_interfaces/CMakeFiles/msg_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/msg_interfaces.dir/depend
 

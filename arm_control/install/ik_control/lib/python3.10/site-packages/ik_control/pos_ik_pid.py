@@ -111,6 +111,9 @@ class JointPositionPIDNode(Node):
         self.motion_pub = self.create_publisher(ArmEndMotion, 'arm_commands', 10)
         self.angle_pub = self.create_publisher(ArmAngle, '/arm_angle', 10)
 
+        # Create a timer for the control loop
+        self.control_timer = self.create_timer(self.dt, self.update_wrist_cmd)
+
         self.wrist_receiver = self.create_subscription(ArmEndMotion, 'arm_commands_wrist_pid', self.wrist_callback, 10)
 
         # Create a timer for the control loop
@@ -140,6 +143,7 @@ class JointPositionPIDNode(Node):
 
         self.shoulder_alpha = 1.57 - ((self.current_encoders[1]*3.1415)/17330)
         self.elbow_beta = 1.57 - ((self.current_encoders[2]*3.1415)/9405)
+
 
     def joystick_callback(self, msg: Joy):
         global switch
@@ -179,26 +183,26 @@ class JointPositionPIDNode(Node):
         #     self.target_encoders[2] -= 200
         #     time.sleep(1)
 
-        if cross_hor == 1:
-            self.left_motor_speed = 120
-            self.left_motor_direction = 0
+        # if cross_hor == 1:
+        #     self.left_motor_speed = 120
+        #     self.left_motor_direction = 0
 
-            self.right_motor_speed = 120
-            self.right_motor_direction = 0
+        #     self.right_motor_speed = 120
+        #     self.right_motor_direction = 0
 
-        elif cross_hor == 0:
-            self.left_motor_speed = 0
-            self.left_motor_direction = 0
+        # elif cross_hor == 0:
+        #     self.left_motor_speed = 0
+        #     self.left_motor_direction = 0
 
-            self.right_motor_speed = 0
-            self.right_motor_direction = 1
+        #     self.right_motor_speed = 0
+        #     self.right_motor_direction = 1
 
-        elif cross_hor == -1:
-            self.left_motor_speed = 120
-            self.left_motor_direction = 1
+        # elif cross_hor == -1:
+        #     self.left_motor_speed = 120
+        #     self.left_motor_direction = 1
 
-            self.right_motor_speed = 120
-            self.right_motor_direction = 1 
+        #     self.right_motor_speed = 120
+        #     self.right_motor_direction = 1 
 
 
         if right_hor < 0:  
@@ -228,6 +232,15 @@ class JointPositionPIDNode(Node):
             self.joy_activated = True
         else:
             self.joy_activated = False
+
+    def update_wrist_cmd(self):
+        self.shoulder_alpha = 1.57 - (((self.current_encoders[1])*3.1415)/17330)
+        self.elbow_beta = 3.1415 - (1.57 - (((self.current_encoders[2])*3.1415)/(2*9405)))
+        angle_update = ArmAngle()
+        angle_update.alpha = float(self.shoulder_alpha)
+        angle_update.beta = float(self.elbow_beta)
+
+        self.angle_pub.publish(angle_update)
 
     def wrist_callback(self, msg: ArmEndMotion):
         self.wrist_l_cmd = msg.speed[3]
@@ -308,8 +321,8 @@ class JointPositionPIDNode(Node):
         elbow_pwm.append(speeds[2])
         pwm_index.append(pwm_index_counter)
         pwm_index_counter=pwm_index_counter+1
-        motion_cmd.speed = [speeds[1], speeds[2], self.base_speed, self.left_motor_speed, self.right_motor_speed, self.gripper_state]   # e.g. [speed_base, speed_shoulder, speed_elbow]
-        motion_cmd.direction = [directions[1], directions[2], self.base_direction, self.left_motor_direction, self.right_motor_direction, 0]  # e.g. [dir_base, dir_shoulder, dir_elbow]
+        motion_cmd.speed = [speeds[1], speeds[2], self.base_speed, self.wrist_l_cmd, self.wrist_r_cmd, self.gripper_state]   # e.g. [speed_base, speed_shoulder, speed_elbow]
+        motion_cmd.direction = [directions[1], directions[2], self.base_direction, self.wrist_l_dir, self.wrist_r_dir, 0]  # e.g. [dir_base, dir_shoulder, dir_elbow]
 
         self.motion_pub.publish(motion_cmd)
         if switch:

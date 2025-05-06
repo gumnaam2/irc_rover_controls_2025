@@ -7,5 +7,6 @@
 #include "msg_interfaces/msg/detail/target_pose__struct.hpp"
 #include "msg_interfaces/msg/detail/target_pose__builder.hpp"
 #include "msg_interfaces/msg/detail/target_pose__traits.hpp"
+#include "msg_interfaces/msg/detail/target_pose__type_support.hpp"
 
 #endif  // MSG_INTERFACES__MSG__TARGET_POSE_HPP_

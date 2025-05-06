@@ -1,4 +1,0 @@
-Invoking command in '/home/sudhindra/irc/drive_control/build/msg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sudhindra/irc/drive_control/build/msg_interfaces -- -j8 -l8
-Invoked command in '/home/sudhindra/irc/drive_control/build/msg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sudhindra/irc/drive_control/build/msg_interfaces -- -j8 -l8
-Invoking command in '/home/sudhindra/irc/drive_control/build/msg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sudhindra/irc/drive_control/build/msg_interfaces
-Invoked command in '/home/sudhindra/irc/drive_control/build/msg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sudhindra/irc/drive_control/build/msg_interfaces

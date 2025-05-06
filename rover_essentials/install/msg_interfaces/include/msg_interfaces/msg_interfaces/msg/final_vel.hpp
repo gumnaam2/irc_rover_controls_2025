@@ -7,5 +7,6 @@
 #include "msg_interfaces/msg/detail/final_vel__struct.hpp"
 #include "msg_interfaces/msg/detail/final_vel__builder.hpp"
 #include "msg_interfaces/msg/detail/final_vel__traits.hpp"
+#include "msg_interfaces/msg/detail/final_vel__type_support.hpp"
 
 #endif  // MSG_INTERFACES__MSG__FINAL_VEL_HPP_

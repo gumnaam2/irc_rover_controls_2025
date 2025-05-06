@@ -9,8 +9,6 @@ from msg_interfaces.msg import ArmEndMotion
 from msg_interfaces.msg import EncoderArm
 #import struct
 
-
-#TODO modify the OS commands to set up CAN0 node only if it is not running 
 #TODO polling command section execution
 #TODO test with PWM and direction 
 #TODO decide on conditions in order to execute systems check commands and polling flags
@@ -25,12 +23,10 @@ SLAVE0_ID_CH1=0x256 #first node on channel 1
 MASTER_ID=0x365
 
 #loop to generate all the slave node addresses
-SLAVE_IDS1=list()
+SLAVE_IDS1= range(SLAVE0_ID_CH1, NUM_NODES_CH1+SLAVE0_ID_CH1)
 
-for i in range(NUM_NODES_CH1):
-    SLAVE_IDS1.append(SLAVE0_ID_CH1+i)
 #SLAVE_IDS=[0x256,0x257,0x258,0x259,0x260]
-                                                               
+
 #lists to store if data has entered or not
 
 #channel 1
@@ -44,11 +40,7 @@ DELAY=5000//NUM_NODES_CH1-50
 #array to hold incoming 8 bytes of data for encoder from each node
 
 #channel 1
-encoderIn1=list()
-
-for i in range(NUM_NODES_CH1):
-    arr=[0]*6
-    encoderIn1.append(arr)
+encoderIn1= [[0]*6 for i in range(NUM_NODES_CH1)]
 
 #channel 1
 diff1=[0]*NUM_NODES_CH1
@@ -118,7 +110,6 @@ class CAN_Publisher(Node):
     def elbow_callback(self,msg:ArmEndMotion):
         self.elbow_PID_dir = msg.direction[0]
         self.elbow_PID_speed = msg.speed[0]
-
 
     def CAN_callback1(self,msg:ArmEndMotion):    	
         #print("Received 1")        
@@ -245,14 +236,12 @@ def sysCANCheck(msg_tx:can.Message,bus1):
     query=[0]*8 #create a query buffer of 8 bytes to send to the CAN bus   
     
     #run systems check on channel 1
-    for j in range(len(query)):
-        query[j]=0
     for i in range(NUM_NODES_CH1):
         upcheck1[i]=0 #reset the flag before checking
         address=SLAVE_IDS1[i]-SLAVE0_ID_CH1 #returns an 8 bit number
         #as there are only 32 nodes maximum, the last 5 bits will be filled
 
-        command=(sysCheck<<5) | address; #sysCheck command created
+        command=(sysCheck<<5) | address #sysCheck command created
 
         query[0]=command
         msg_tx.data=query
@@ -260,7 +249,7 @@ def sysCANCheck(msg_tx:can.Message,bus1):
         #print(f"Message sent {msg_tx.data}")
 
 
-        time.sleep(5/1000.0);
+        time.sleep(5/1000.0)
         #wait 5 ms before checking for response
 
         if datacheck1[i]==1:
@@ -368,8 +357,6 @@ def poll(msg_tx:can.Message,bus1):
     enc_msg.arm_node5 = [pos1[5],diff1[5]]
     return enc_msg
     
-#TODO run the CAN.sh script before this
-
 can1 = can.interface.Bus(channel = 'can1', interface = 'socketcan',receive_own_messages=False)
 #prevent buffer overflow if one channel is disconnected
 
@@ -401,8 +388,3 @@ def main(args=None):
     
 if __name__=='main':
     main()
-
-
-
-
-

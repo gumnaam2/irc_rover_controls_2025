@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces
+CMAKE_SOURCE_DIR = /home/siddhant/irc_rover_controls_2025/rover_essentials/src/msg_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces
+CMAKE_BINARY_DIR = /home/siddhant/irc_rover_controls_2025/rover_essentials/build/msg_interfaces
 
 # Utility rule file for msg_interfaces_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/msg_interfaces_uninstall.dir/compiler_depend.make
 include CMakeFiles/msg_interfaces_uninstall.dir/progress.make
 
 CMakeFiles/msg_interfaces_uninstall:
-	/usr/bin/cmake -P /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/siddhant/irc_rover_controls_2025/rover_essentials/build/msg_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 msg_interfaces_uninstall: CMakeFiles/msg_interfaces_uninstall
 msg_interfaces_uninstall: CMakeFiles/msg_interfaces_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/msg_interfaces_uninstall.dir/clean:
 .PHONY : CMakeFiles/msg_interfaces_uninstall.dir/clean
 
 CMakeFiles/msg_interfaces_uninstall.dir/depend:
-	cd /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces /home/sudhindra/irc_2025/rover_essentials/src/msg_interfaces /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces /home/sudhindra/irc_2025/rover_essentials/build/msg_interfaces/CMakeFiles/msg_interfaces_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/siddhant/irc_rover_controls_2025/rover_essentials/build/msg_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/siddhant/irc_rover_controls_2025/rover_essentials/src/msg_interfaces /home/siddhant/irc_rover_controls_2025/rover_essentials/src/msg_interfaces /home/siddhant/irc_rover_controls_2025/rover_essentials/build/msg_interfaces /home/siddhant/irc_rover_controls_2025/rover_essentials/build/msg_interfaces /home/siddhant/irc_rover_controls_2025/rover_essentials/build/msg_interfaces/CMakeFiles/msg_interfaces_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/msg_interfaces_uninstall.dir/depend
 

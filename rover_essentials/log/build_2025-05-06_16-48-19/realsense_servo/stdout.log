@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/realsense_servo/realsense_servo.egg-info
+writing ../../build/realsense_servo/realsense_servo.egg-info/PKG-INFO
+writing dependency_links to ../../build/realsense_servo/realsense_servo.egg-info/dependency_links.txt
+writing entry points to ../../build/realsense_servo/realsense_servo.egg-info/entry_points.txt
+writing requirements to ../../build/realsense_servo/realsense_servo.egg-info/requires.txt
+writing top-level names to ../../build/realsense_servo/realsense_servo.egg-info/top_level.txt
+writing manifest file '../../build/realsense_servo/realsense_servo.egg-info/SOURCES.txt'
+reading manifest file '../../build/realsense_servo/realsense_servo.egg-info/SOURCES.txt'
+writing manifest file '../../build/realsense_servo/realsense_servo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/siddhant/irc_rover_controls_2025/rover_essentials/build/realsense_servo/build
+creating /home/siddhant/irc_rover_controls_2025/rover_essentials/build/realsense_servo/build/lib
+creating /home/siddhant/irc_rover_controls_2025/rover_essentials/build/realsense_servo/build/lib/realsense_servo
+copying realsense_servo/real_servo.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/build/realsense_servo/build/lib/realsense_servo
+copying realsense_servo/__init__.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/build/realsense_servo/build/lib/realsense_servo
+running install
+running install_lib
+creating /home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/lib/python3.10/site-packages/realsense_servo
+copying /home/siddhant/irc_rover_controls_2025/rover_essentials/build/realsense_servo/build/lib/realsense_servo/real_servo.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/lib/python3.10/site-packages/realsense_servo
+copying /home/siddhant/irc_rover_controls_2025/rover_essentials/build/realsense_servo/build/lib/realsense_servo/__init__.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/lib/python3.10/site-packages/realsense_servo
+byte-compiling /home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/lib/python3.10/site-packages/realsense_servo/real_servo.py to real_servo.cpython-310.pyc
+byte-compiling /home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/lib/python3.10/site-packages/realsense_servo/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/share/ament_index
+creating /home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/share/ament_index/resource_index
+creating /home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/share/ament_index/resource_index/packages
+copying resource/realsense_servo -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/share/ament_index/resource_index/packages
+copying package.xml -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/share/realsense_servo
+running install_egg_info
+Copying ../../build/realsense_servo/realsense_servo.egg-info to /home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/lib/python3.10/site-packages/realsense_servo-0.0.0-py3.10.egg-info
+running install_scripts
+Installing real_servo script to /home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/lib/realsense_servo
+writing list of installed files to '/home/siddhant/irc_rover_controls_2025/rover_essentials/build/realsense_servo/install.log'

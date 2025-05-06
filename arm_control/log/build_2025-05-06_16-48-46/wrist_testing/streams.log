@@ -1,0 +1,43 @@
+[0.535s] Invoking command in '/home/siddhant/irc_rover_controls_2025/arm_control/src/joint_control': AMENT_PREFIX_PATH=/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces LD_LIBRARY_PATH=/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/siddhant/irc_rover_controls_2025/arm_control/build/wrist_testing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/irc_rover_controls_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages:/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wrist_testing build --build-base /home/siddhant/irc_rover_controls_2025/arm_control/build/wrist_testing/build install --record /home/siddhant/irc_rover_controls_2025/arm_control/build/wrist_testing/install.log --single-version-externally-managed install_data
+[0.695s] running egg_info
+[0.696s] creating ../../build/wrist_testing/joint_control.egg-info
+[0.696s] writing ../../build/wrist_testing/joint_control.egg-info/PKG-INFO
+[0.696s] writing dependency_links to ../../build/wrist_testing/joint_control.egg-info/dependency_links.txt
+[0.696s] writing entry points to ../../build/wrist_testing/joint_control.egg-info/entry_points.txt
+[0.697s] writing requirements to ../../build/wrist_testing/joint_control.egg-info/requires.txt
+[0.697s] writing top-level names to ../../build/wrist_testing/joint_control.egg-info/top_level.txt
+[0.697s] writing manifest file '../../build/wrist_testing/joint_control.egg-info/SOURCES.txt'
+[0.697s] reading manifest file '../../build/wrist_testing/joint_control.egg-info/SOURCES.txt'
+[0.698s] writing manifest file '../../build/wrist_testing/joint_control.egg-info/SOURCES.txt'
+[0.698s] running build
+[0.698s] running build_py
+[0.698s] creating /home/siddhant/irc_rover_controls_2025/arm_control/build/wrist_testing/build
+[0.698s] creating /home/siddhant/irc_rover_controls_2025/arm_control/build/wrist_testing/build/lib
+[0.698s] creating /home/siddhant/irc_rover_controls_2025/arm_control/build/wrist_testing/build/lib/joint_control
+[0.698s] copying joint_control/pos_control_elbow.py -> /home/siddhant/irc_rover_controls_2025/arm_control/build/wrist_testing/build/lib/joint_control
+[0.699s] copying joint_control/__init__.py -> /home/siddhant/irc_rover_controls_2025/arm_control/build/wrist_testing/build/lib/joint_control
+[0.699s] copying joint_control/full_command.py -> /home/siddhant/irc_rover_controls_2025/arm_control/build/wrist_testing/build/lib/joint_control
+[0.699s] copying joint_control/pos_control_shoulder.py -> /home/siddhant/irc_rover_controls_2025/arm_control/build/wrist_testing/build/lib/joint_control
+[0.699s] running install
+[0.699s] running install_lib
+[0.699s] creating /home/siddhant/irc_rover_controls_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control
+[0.699s] copying /home/siddhant/irc_rover_controls_2025/arm_control/build/wrist_testing/build/lib/joint_control/pos_control_elbow.py -> /home/siddhant/irc_rover_controls_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control
+[0.700s] copying /home/siddhant/irc_rover_controls_2025/arm_control/build/wrist_testing/build/lib/joint_control/__init__.py -> /home/siddhant/irc_rover_controls_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control
+[0.700s] copying /home/siddhant/irc_rover_controls_2025/arm_control/build/wrist_testing/build/lib/joint_control/full_command.py -> /home/siddhant/irc_rover_controls_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control
+[0.700s] copying /home/siddhant/irc_rover_controls_2025/arm_control/build/wrist_testing/build/lib/joint_control/pos_control_shoulder.py -> /home/siddhant/irc_rover_controls_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control
+[0.700s] byte-compiling /home/siddhant/irc_rover_controls_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control/pos_control_elbow.py to pos_control_elbow.cpython-310.pyc
+[0.701s] byte-compiling /home/siddhant/irc_rover_controls_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control/__init__.py to __init__.cpython-310.pyc
+[0.701s] byte-compiling /home/siddhant/irc_rover_controls_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control/full_command.py to full_command.cpython-310.pyc
+[0.702s] byte-compiling /home/siddhant/irc_rover_controls_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control/pos_control_shoulder.py to pos_control_shoulder.cpython-310.pyc
+[0.703s] running install_data
+[0.703s] copying resource/joint_control -> /home/siddhant/irc_rover_controls_2025/arm_control/install/wrist_testing/share/ament_index/resource_index/packages
+[0.703s] creating /home/siddhant/irc_rover_controls_2025/arm_control/install/wrist_testing/share/joint_control
+[0.703s] copying package.xml -> /home/siddhant/irc_rover_controls_2025/arm_control/install/wrist_testing/share/joint_control
+[0.703s] running install_egg_info
+[0.705s] Copying ../../build/wrist_testing/joint_control.egg-info to /home/siddhant/irc_rover_controls_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages/joint_control-0.0.0-py3.10.egg-info
+[0.705s] running install_scripts
+[0.720s] Installing full_command script to /home/siddhant/irc_rover_controls_2025/arm_control/install/wrist_testing/lib/joint_control
+[0.720s] Installing pos_control_elbow script to /home/siddhant/irc_rover_controls_2025/arm_control/install/wrist_testing/lib/joint_control
+[0.720s] Installing pos_control_shoulder script to /home/siddhant/irc_rover_controls_2025/arm_control/install/wrist_testing/lib/joint_control
+[0.721s] writing list of installed files to '/home/siddhant/irc_rover_controls_2025/arm_control/build/wrist_testing/install.log'
+[0.745s] Invoked command in '/home/siddhant/irc_rover_controls_2025/arm_control/src/joint_control' returned '0': AMENT_PREFIX_PATH=/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces LD_LIBRARY_PATH=/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/siddhant/irc_rover_controls_2025/arm_control/build/wrist_testing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/irc_rover_controls_2025/arm_control/install/wrist_testing/lib/python3.10/site-packages:/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wrist_testing build --build-base /home/siddhant/irc_rover_controls_2025/arm_control/build/wrist_testing/build install --record /home/siddhant/irc_rover_controls_2025/arm_control/build/wrist_testing/install.log --single-version-externally-managed install_data

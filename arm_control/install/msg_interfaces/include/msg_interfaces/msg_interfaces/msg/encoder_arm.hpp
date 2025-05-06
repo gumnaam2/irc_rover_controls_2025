@@ -7,5 +7,6 @@
 #include "msg_interfaces/msg/detail/encoder_arm__struct.hpp"
 #include "msg_interfaces/msg/detail/encoder_arm__builder.hpp"
 #include "msg_interfaces/msg/detail/encoder_arm__traits.hpp"
+#include "msg_interfaces/msg/detail/encoder_arm__type_support.hpp"
 
 #endif  // MSG_INTERFACES__MSG__ENCODER_ARM_HPP_

@@ -73,67 +73,6 @@ class DriveController(Node):
 
         drive_command.sys_check = toggle
 
-        # if abs(left_ver)>=0.1 or abs(left_hor)>=0.1:
-
-        # else:
-        #     drive_speed_right = 0
-        #     drive_direction_right = 1
-        #     drive_speed_left = 0
-        #     drive_direction_left = 1
-
-
-        # Forward
-        # if left_ver > 0:  
-        #     if left_ver <= 0.1:
-        #         drive_speed_right = 0
-        #         drive_direction_right = 1
-        #         drive_speed_left = 0
-        #         drive_direction_left = 1``
-        #     else:
-        #         drive_speed_right = (left_ver - 0.1) / 0.9
-        #         drive_direction_right = 1
-        #         drive_speed_left = (left_ver - 0.1) / 0.9
-        #         drive_direction_left = 1
-
-        # # Backward
-        # elif left_ver < 0:  
-        #     if abs(left_ver) <= 0.1:
-        #         drive_speed_right = 0
-        #         drive_direction_right = 0
-        #         drive_speed_left = 0
-        #         drive_direction_left = 0
-        #     else:
-        #         drive_speed_right = (abs(left_ver) - 0.1) / 0.9
-        #         drive_direction_right = 0
-        #         drive_speed_left = (abs(left_ver) - 0.1) / 0.9
-        #         drive_direction_left = 0
-
-        # # Right turn
-        # elif left_hor < 0:  
-        #     if abs(left_hor) <= 0.1:
-        #         drive_speed_right = 0
-        #         drive_direction_right = 0
-        #         drive_speed_left = 0
-        #         drive_direction_left = 1
-        #     else: 
-        #         drive_speed_right = (abs(left_hor) - 0.1) / 0.9
-        #         drive_direction_right = 0
-        #         drive_speed_left = (abs(left_hor) - 0.1) / 0.9
-        #         drive_direction_left = 1
-
-        # # Left turn
-        # elif left_hor > 0:  
-        #     if left_hor <= 0.1:
-        #         drive_speed_right = 0
-        #         drive_direction_right = 1
-        #         drive_speed_left = 0
-        #         drive_direction_left = 0
-        #     else:
-        #         drive_speed_right = (left_hor - 0.1) / 0.9
-        #         drive_direction_right = 1
-        #         drive_speed_left = (left_hor - 0.1) / 0.9
-        #         drive_direction_left = 0
-
         # Publish the drive command
 
         speed = left_ver

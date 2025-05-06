@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "msg_interfaces__py",
+		"source" : "/home/siddhant/irc_rover_controls_2025/drive_control/build/msg_interfaces/msg_interfaces__py"
+	}
+}

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sudhindra/irc_2025/drive_control/src/msg_interfaces
+CMAKE_SOURCE_DIR = /home/siddhant/irc_rover_controls_2025/drive_control/src/msg_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sudhindra/irc_2025/drive_control/build/msg_interfaces
+CMAKE_BINARY_DIR = /home/siddhant/irc_rover_controls_2025/drive_control/build/msg_interfaces
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/sudhindra/irc_2025/drive_control/build/msg_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sudhindra/irc_2025/drive_control/src/msg_interfaces /home/sudhindra/irc_2025/drive_control/src/msg_interfaces /home/sudhindra/irc_2025/drive_control/build/msg_interfaces /home/sudhindra/irc_2025/drive_control/build/msg_interfaces /home/sudhindra/irc_2025/drive_control/build/msg_interfaces/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/siddhant/irc_rover_controls_2025/drive_control/build/msg_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/siddhant/irc_rover_controls_2025/drive_control/src/msg_interfaces /home/siddhant/irc_rover_controls_2025/drive_control/src/msg_interfaces /home/siddhant/irc_rover_controls_2025/drive_control/build/msg_interfaces /home/siddhant/irc_rover_controls_2025/drive_control/build/msg_interfaces /home/siddhant/irc_rover_controls_2025/drive_control/build/msg_interfaces/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

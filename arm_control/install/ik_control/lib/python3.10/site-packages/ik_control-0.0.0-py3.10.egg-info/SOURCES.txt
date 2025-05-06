@@ -12,6 +12,8 @@ ik_control/__init__.py
 ik_control/pos_ik.py
 ik_control/pos_ik_pid.py
 ik_control/shoulder_hold_ik.py
+ik_control/testing_wrist_pid.py
+ik_control/wrist_pid_ik.py
 resource/ik_control
 test/test_copyright.py
 test/test_flake8.py
