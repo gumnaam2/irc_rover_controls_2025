@@ -15,14 +15,14 @@ def generate_launch_description():
     return LaunchDescription(
         [
             Node(
-                package = package,
-                executable = 'drive_master',
-                name = 'drive_master'
+                package=package,
+                executable='master',
+                name='master'
             ),
             Node(
                 package=package,
-                executable='arm_master',
-                name='arm_master'
-            ),
+                executable='gripper',
+                name='gripper'
+            )
         ]
     )

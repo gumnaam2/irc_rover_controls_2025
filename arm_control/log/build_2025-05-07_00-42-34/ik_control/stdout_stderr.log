@@ -1,0 +1,32 @@
+/home/siddhant/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../build/ik_control/ik_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/ik_control/ik_control.egg-info/dependency_links.txt
+writing entry points to ../../build/ik_control/ik_control.egg-info/entry_points.txt
+writing requirements to ../../build/ik_control/ik_control.egg-info/requires.txt
+writing top-level names to ../../build/ik_control/ik_control.egg-info/top_level.txt
+reading manifest file '../../build/ik_control/ik_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/ik_control/ik_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ik_control/testing_wrist_pid.py -> /home/siddhant/irc_rover_controls_2025/arm_control/build/ik_control/build/lib/ik_control
+copying ik_control/shoulder_hold_ik.py -> /home/siddhant/irc_rover_controls_2025/arm_control/build/ik_control/build/lib/ik_control
+copying ik_control/wrist_pid_ik.py -> /home/siddhant/irc_rover_controls_2025/arm_control/build/ik_control/build/lib/ik_control
+copying ik_control/pos_ik.py -> /home/siddhant/irc_rover_controls_2025/arm_control/build/ik_control/build/lib/ik_control
+copying ik_control/__init__.py -> /home/siddhant/irc_rover_controls_2025/arm_control/build/ik_control/build/lib/ik_control
+copying ik_control/pos_ik_pid.py -> /home/siddhant/irc_rover_controls_2025/arm_control/build/ik_control/build/lib/ik_control
+running install
+running install_lib
+running install_data
+copying resource/ik_control -> /home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/share/ik_control
+copying urdf/arm_model.urdf -> /home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/share/ik_control/urdf
+running install_egg_info
+removing '/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/lib/python3.10/site-packages/ik_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ik_control/ik_control.egg-info to /home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/lib/python3.10/site-packages/ik_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ik_pos_pid script to /home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/lib/ik_control
+Installing pos_ik script to /home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/lib/ik_control
+Installing shoulder_hold_ik script to /home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/lib/ik_control
+writing list of installed files to '/home/siddhant/irc_rover_controls_2025/arm_control/build/ik_control/install.log'

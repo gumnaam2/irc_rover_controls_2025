@@ -23,7 +23,7 @@ SLAVE0_ID_CH1=0x256 #first node on channel 1
 MASTER_ID=0x365
 
 #loop to generate all the slave node addresses
-SLAVE_IDS1= range(SLAVE0_ID_CH1, NUM_NODES_CH1+SLAVE0_ID_CH1)
+SLAVE_IDS1= list(range(SLAVE0_ID_CH1, NUM_NODES_CH1+SLAVE0_ID_CH1))
 
 #SLAVE_IDS=[0x256,0x257,0x258,0x259,0x260]
 

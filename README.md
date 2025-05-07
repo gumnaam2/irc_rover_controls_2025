@@ -13,4 +13,4 @@ This repository is a collection of programs written for execution of various fuc
  
 5. Start the rover and `ssh username@ip` (of the rover) in one terminal. From this launch DriveLaunch and/or ArmLaunch. These read the PWM values published on the /drive_commands or the shoulder/elbow/arm topics and send the required signals to the nodes through CAN.
 
-Alternatively (after step 2), install terminator and in a terminal (not terminator) run `./drivelaunch.sh username@ip` (username, ip of the rover). 
+Alternatively (after step 2), install terminator and in a terminal (not terminator) run `./launch.sh username@ip` (username, ip of the rover). 

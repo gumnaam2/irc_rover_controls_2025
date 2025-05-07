@@ -21,7 +21,9 @@ setup(
     maintainer_email='154395800+Sudhindra2005@users.noreply.github.com',
     description='TODO: Package description',
     license='TODO: License declaration',
-    tests_require=['pytest'],
+    extras_require={
+        'test': ['pytest']
+    },
     entry_points={
         'console_scripts': [
             'pos_ik = ik_control.pos_ik:main',

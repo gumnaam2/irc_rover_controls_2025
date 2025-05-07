@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/joint_control/joint_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/joint_control/joint_control.egg-info/dependency_links.txt
+writing entry points to ../../build/joint_control/joint_control.egg-info/entry_points.txt
+writing requirements to ../../build/joint_control/joint_control.egg-info/requires.txt
+writing top-level names to ../../build/joint_control/joint_control.egg-info/top_level.txt
+reading manifest file '../../build/joint_control/joint_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/joint_control/joint_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying joint_control/pos_control_elbow.py -> /home/siddhant/irc_rover_controls_2025/arm_control/build/joint_control/build/lib/joint_control
+copying joint_control/__init__.py -> /home/siddhant/irc_rover_controls_2025/arm_control/build/joint_control/build/lib/joint_control
+copying joint_control/full_command.py -> /home/siddhant/irc_rover_controls_2025/arm_control/build/joint_control/build/lib/joint_control
+copying joint_control/pos_control_shoulder.py -> /home/siddhant/irc_rover_controls_2025/arm_control/build/joint_control/build/lib/joint_control
+running install
+running install_lib
+running install_data
+copying resource/joint_control -> /home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/share/joint_control
+running install_egg_info
+removing '/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/lib/python3.10/site-packages/joint_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/joint_control/joint_control.egg-info to /home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/lib/python3.10/site-packages/joint_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing full_command script to /home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/lib/joint_control
+Installing pos_control_elbow script to /home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/lib/joint_control
+Installing pos_control_shoulder script to /home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/lib/joint_control
+writing list of installed files to '/home/siddhant/irc_rover_controls_2025/arm_control/build/joint_control/install.log'

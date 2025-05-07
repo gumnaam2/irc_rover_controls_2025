@@ -17,7 +17,9 @@ setup(
     maintainer_email='154395800+Sudhindra2005@users.noreply.github.com',
     description='TODO: Package description',
     license='TODO: License declaration',
-    tests_require=['pytest'],
+    extras_require={
+        'test': ['pytest']
+    }
     entry_points={
         'console_scripts': [
             'full_command = joint_control.full_command:main',

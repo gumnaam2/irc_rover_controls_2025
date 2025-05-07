@@ -3,7 +3,6 @@ from rclpy.node import Node
 from sensor_msgs.msg import Joy
 from msg_interfaces.msg import ArmEndMotion
 from adafruit_servokit import ServoKit
-from time import sleep
 
 kit = ServoKit(channels=16)
 SERVO_CHANNEL = 0  

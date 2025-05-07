@@ -1,5 +1,0 @@
-[console_scripts]
-full_command = joint_control.full_command:main
-pos_control_elbow = joint_control.pos_control_elbow:main
-pos_control_shoulder = joint_control.pos_control_shoulder:main
-

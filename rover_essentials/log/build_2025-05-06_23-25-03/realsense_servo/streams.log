@@ -1,0 +1,37 @@
+[1.197s] Invoking command in '/home/siddhant/irc_rover_controls_2025/rover_essentials/src/realsense_servo': PYTHONPATH=/home/siddhant/irc_rover_controls_2025/rover_essentials/build/realsense_servo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/realsense_servo build --build-base /home/siddhant/irc_rover_controls_2025/rover_essentials/build/realsense_servo/build install --record /home/siddhant/irc_rover_controls_2025/rover_essentials/build/realsense_servo/install.log --single-version-externally-managed install_data
+[1.374s] running egg_info
+[1.374s] creating ../../build/realsense_servo/realsense_servo.egg-info
+[1.374s] writing ../../build/realsense_servo/realsense_servo.egg-info/PKG-INFO
+[1.375s] writing dependency_links to ../../build/realsense_servo/realsense_servo.egg-info/dependency_links.txt
+[1.375s] writing entry points to ../../build/realsense_servo/realsense_servo.egg-info/entry_points.txt
+[1.375s] writing requirements to ../../build/realsense_servo/realsense_servo.egg-info/requires.txt
+[1.375s] writing top-level names to ../../build/realsense_servo/realsense_servo.egg-info/top_level.txt
+[1.375s] writing manifest file '../../build/realsense_servo/realsense_servo.egg-info/SOURCES.txt'
+[1.376s] reading manifest file '../../build/realsense_servo/realsense_servo.egg-info/SOURCES.txt'
+[1.377s] writing manifest file '../../build/realsense_servo/realsense_servo.egg-info/SOURCES.txt'
+[1.377s] running build
+[1.377s] running build_py
+[1.377s] creating /home/siddhant/irc_rover_controls_2025/rover_essentials/build/realsense_servo/build
+[1.377s] creating /home/siddhant/irc_rover_controls_2025/rover_essentials/build/realsense_servo/build/lib
+[1.378s] creating /home/siddhant/irc_rover_controls_2025/rover_essentials/build/realsense_servo/build/lib/realsense_servo
+[1.378s] copying realsense_servo/real_servo.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/build/realsense_servo/build/lib/realsense_servo
+[1.379s] copying realsense_servo/__init__.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/build/realsense_servo/build/lib/realsense_servo
+[1.379s] running install
+[1.380s] running install_lib
+[1.381s] creating /home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/lib/python3.10/site-packages/realsense_servo
+[1.381s] copying /home/siddhant/irc_rover_controls_2025/rover_essentials/build/realsense_servo/build/lib/realsense_servo/real_servo.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/lib/python3.10/site-packages/realsense_servo
+[1.381s] copying /home/siddhant/irc_rover_controls_2025/rover_essentials/build/realsense_servo/build/lib/realsense_servo/__init__.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/lib/python3.10/site-packages/realsense_servo
+[1.382s] byte-compiling /home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/lib/python3.10/site-packages/realsense_servo/real_servo.py to real_servo.cpython-310.pyc
+[1.382s] byte-compiling /home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/lib/python3.10/site-packages/realsense_servo/__init__.py to __init__.cpython-310.pyc
+[1.382s] running install_data
+[1.383s] creating /home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/share/ament_index
+[1.383s] creating /home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/share/ament_index/resource_index
+[1.383s] creating /home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/share/ament_index/resource_index/packages
+[1.383s] copying resource/realsense_servo -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/share/ament_index/resource_index/packages
+[1.383s] copying package.xml -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/share/realsense_servo
+[1.383s] running install_egg_info
+[1.385s] Copying ../../build/realsense_servo/realsense_servo.egg-info to /home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/lib/python3.10/site-packages/realsense_servo-0.0.0-py3.10.egg-info
+[1.386s] running install_scripts
+[1.413s] Installing real_servo script to /home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/lib/realsense_servo
+[1.413s] writing list of installed files to '/home/siddhant/irc_rover_controls_2025/rover_essentials/build/realsense_servo/install.log'
+[1.440s] Invoked command in '/home/siddhant/irc_rover_controls_2025/rover_essentials/src/realsense_servo' returned '0': PYTHONPATH=/home/siddhant/irc_rover_controls_2025/rover_essentials/build/realsense_servo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/irc_rover_controls_2025/rover_essentials/install/realsense_servo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/realsense_servo build --build-base /home/siddhant/irc_rover_controls_2025/rover_essentials/build/realsense_servo/build install --record /home/siddhant/irc_rover_controls_2025/rover_essentials/build/realsense_servo/install.log --single-version-externally-managed install_data
