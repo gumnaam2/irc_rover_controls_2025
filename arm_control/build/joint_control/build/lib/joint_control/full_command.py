@@ -4,13 +4,17 @@ from numpy import zeros, clip
 import roboticstoolbox as rtb
 from sensor_msgs.msg import Joy, JointState
 from msg_interfaces.msg import ArmEndMotion, EncoderArm
-
+from ament_index_python.packages import get_package_share_directory
+import os
 # Global toggle for system check
 toggle = False
 gripper_state = 255 
 
+package_share_directory = get_package_share_directory('joint_control')
+
 # Define the path to the URDF file
-urdf_path = '/home/sudhindra/arm_demo/arm_updated.urdf'  # Update this path
+urdf_path = os.path.join(package_share_directory, 'urdf', 'arm_updated.urdf')
+
 robot = rtb.ERobot.URDF(urdf_path)
 
 class JoystickControlNode(Node):

@@ -1,4 +1,3 @@
 [console_scripts]
 freshies_attempt = differential.freshies_attempt:main
 joystick_innerrr = differential.joystick_inputter:main
-

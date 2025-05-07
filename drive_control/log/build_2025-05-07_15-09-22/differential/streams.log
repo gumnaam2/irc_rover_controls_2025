@@ -1,0 +1,38 @@
+[0.388s] Invoking command in '/home/siddhant/irc_rover_controls_2025/drive_control/src/differential': PYTHONPATH=/home/siddhant/irc_rover_controls_2025/drive_control/build/differential/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/irc_rover_controls_2025/drive_control/install/differential/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/differential build --build-base /home/siddhant/irc_rover_controls_2025/drive_control/build/differential/build install --record /home/siddhant/irc_rover_controls_2025/drive_control/build/differential/install.log --single-version-externally-managed install_data
+[0.529s] running egg_info
+[0.537s] creating ../../build/differential/differential.egg-info
+[0.537s] writing ../../build/differential/differential.egg-info/PKG-INFO
+[0.537s] writing dependency_links to ../../build/differential/differential.egg-info/dependency_links.txt
+[0.538s] writing entry points to ../../build/differential/differential.egg-info/entry_points.txt
+[0.538s] writing requirements to ../../build/differential/differential.egg-info/requires.txt
+[0.538s] writing top-level names to ../../build/differential/differential.egg-info/top_level.txt
+[0.538s] writing manifest file '../../build/differential/differential.egg-info/SOURCES.txt'
+[0.554s] reading manifest file '../../build/differential/differential.egg-info/SOURCES.txt'
+[0.555s] writing manifest file '../../build/differential/differential.egg-info/SOURCES.txt'
+[0.555s] running build
+[0.555s] running build_py
+[0.555s] creating /home/siddhant/irc_rover_controls_2025/drive_control/build/differential/build/lib/differential
+[0.555s] copying differential/freshies_attempt.py -> /home/siddhant/irc_rover_controls_2025/drive_control/build/differential/build/lib/differential
+[0.555s] copying differential/__init__.py -> /home/siddhant/irc_rover_controls_2025/drive_control/build/differential/build/lib/differential
+[0.556s] copying differential/joystick_inputter.py -> /home/siddhant/irc_rover_controls_2025/drive_control/build/differential/build/lib/differential
+[0.556s] running install
+[0.558s] running install_lib
+[0.567s] creating /home/siddhant/irc_rover_controls_2025/drive_control/install/differential/lib/python3.10/site-packages/differential
+[0.567s] copying /home/siddhant/irc_rover_controls_2025/drive_control/build/differential/build/lib/differential/freshies_attempt.py -> /home/siddhant/irc_rover_controls_2025/drive_control/install/differential/lib/python3.10/site-packages/differential
+[0.567s] copying /home/siddhant/irc_rover_controls_2025/drive_control/build/differential/build/lib/differential/__init__.py -> /home/siddhant/irc_rover_controls_2025/drive_control/install/differential/lib/python3.10/site-packages/differential
+[0.567s] copying /home/siddhant/irc_rover_controls_2025/drive_control/build/differential/build/lib/differential/joystick_inputter.py -> /home/siddhant/irc_rover_controls_2025/drive_control/install/differential/lib/python3.10/site-packages/differential
+[0.567s] byte-compiling /home/siddhant/irc_rover_controls_2025/drive_control/install/differential/lib/python3.10/site-packages/differential/freshies_attempt.py to freshies_attempt.cpython-310.pyc
+[0.567s] byte-compiling /home/siddhant/irc_rover_controls_2025/drive_control/install/differential/lib/python3.10/site-packages/differential/__init__.py to __init__.cpython-310.pyc
+[0.568s] byte-compiling /home/siddhant/irc_rover_controls_2025/drive_control/install/differential/lib/python3.10/site-packages/differential/joystick_inputter.py to joystick_inputter.cpython-310.pyc
+[0.568s] running install_data
+[0.568s] creating /home/siddhant/irc_rover_controls_2025/drive_control/install/differential/share/ament_index/resource_index/packages
+[0.568s] copying resource/differential -> /home/siddhant/irc_rover_controls_2025/drive_control/install/differential/share/ament_index/resource_index/packages
+[0.568s] copying package.xml -> /home/siddhant/irc_rover_controls_2025/drive_control/install/differential/share/differential
+[0.568s] creating /home/siddhant/irc_rover_controls_2025/drive_control/install/differential/share/differential/launch
+[0.568s] running install_egg_info
+[0.577s] Copying ../../build/differential/differential.egg-info to /home/siddhant/irc_rover_controls_2025/drive_control/install/differential/lib/python3.10/site-packages/differential-0.0.0-py3.10.egg-info
+[0.577s] running install_scripts
+[0.642s] Installing freshies_attempt script to /home/siddhant/irc_rover_controls_2025/drive_control/install/differential/lib/differential
+[0.642s] Installing joystick_innerrr script to /home/siddhant/irc_rover_controls_2025/drive_control/install/differential/lib/differential
+[0.643s] writing list of installed files to '/home/siddhant/irc_rover_controls_2025/drive_control/build/differential/install.log'
+[0.657s] Invoked command in '/home/siddhant/irc_rover_controls_2025/drive_control/src/differential' returned '0': PYTHONPATH=/home/siddhant/irc_rover_controls_2025/drive_control/build/differential/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/irc_rover_controls_2025/drive_control/install/differential/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/differential build --build-base /home/siddhant/irc_rover_controls_2025/drive_control/build/differential/build install --record /home/siddhant/irc_rover_controls_2025/drive_control/build/differential/install.log --single-version-externally-managed install_data

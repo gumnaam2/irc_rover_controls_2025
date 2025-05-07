@@ -26,7 +26,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-        	'master = joy_can.CANIn:main',
+        	#'master = joy_can.CANIn:main',
         	'drive_master = joy_can.DriveCAN:main',
         	'arm_master = joy_can.ArmCAN:main',
         	'gripper = joy_can.gripper:main',

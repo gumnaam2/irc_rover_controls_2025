@@ -1,0 +1,491 @@
+[0.009s] Invoking command in '/home/siddhant/irc_rover_controls_2025/arm_control/build/msg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control:/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control:/opt/ros/humble /usr/bin/cmake /home/siddhant/irc_rover_controls_2025/arm_control/src/msg_interfaces -DCMAKE_INSTALL_PREFIX=/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces
+[0.051s] -- The C compiler identification is GNU 11.4.0
+[0.091s] -- The CXX compiler identification is GNU 11.4.0
+[0.095s] -- Detecting C compiler ABI info
+[0.152s] -- Detecting C compiler ABI info - done
+[0.156s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.156s] -- Detecting C compile features
+[0.156s] -- Detecting C compile features - done
+[0.158s] -- Detecting CXX compiler ABI info
+[0.221s] -- Detecting CXX compiler ABI info - done
+[0.225s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.226s] -- Detecting CXX compile features
+[0.226s] -- Detecting CXX compile features - done
+[0.227s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.441s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.497s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.516s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.518s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.523s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.529s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.537s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.560s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.754s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.997s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.099s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.108s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.109s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.131s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.131s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.131s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.131s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.142s] -- Found PythonExtra: .so  
+[1.172s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.180s] -- Added test 'lint_cmake' to check CMake code style
+[1.180s] -- Added test 'xmllint' to check XML markup files
+[1.181s] -- Configuring done
+[1.208s] -- Generating done
+[1.215s] -- Build files have been written to: /home/siddhant/irc_rover_controls_2025/arm_control/build/msg_interfaces
+[1.221s] Invoked command in '/home/siddhant/irc_rover_controls_2025/arm_control/build/msg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control:/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control:/opt/ros/humble /usr/bin/cmake /home/siddhant/irc_rover_controls_2025/arm_control/src/msg_interfaces -DCMAKE_INSTALL_PREFIX=/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces
+[1.223s] Invoking command in '/home/siddhant/irc_rover_controls_2025/arm_control/build/msg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control:/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control:/opt/ros/humble /usr/bin/cmake --build /home/siddhant/irc_rover_controls_2025/arm_control/build/msg_interfaces -- -j22 -l22
+[1.263s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.268s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.276s] [  1%] Built target ament_cmake_python_copy_msg_interfaces
+[1.403s] running egg_info
+[1.413s] creating msg_interfaces.egg-info
+[1.413s] writing msg_interfaces.egg-info/PKG-INFO
+[1.413s] writing dependency_links to msg_interfaces.egg-info/dependency_links.txt
+[1.413s] writing top-level names to msg_interfaces.egg-info/top_level.txt
+[1.413s] writing manifest file 'msg_interfaces.egg-info/SOURCES.txt'
+[1.441s] reading manifest file 'msg_interfaces.egg-info/SOURCES.txt'
+[1.442s] writing manifest file 'msg_interfaces.egg-info/SOURCES.txt'
+[1.463s] [  1%] Built target ament_cmake_python_build_msg_interfaces_egg
+[1.712s] [  1%] Built target msg_interfaces__cpp
+[1.718s] [  2%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.718s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.719s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.721s] [  5%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/drive__functions.c.o[0m
+[1.723s] [  6%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/base_motion__functions.c.o[0m
+[1.723s] [  7%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/final_vel__functions.c.o[0m
+[1.723s] [  9%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.c.o[0m
+[1.723s] [  9%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/encoder_drive__functions.c.o[0m
+[1.724s] [ 11%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/arm_angle__functions.c.o[0m
+[1.724s] [ 11%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/wrist_joint_velocity__functions.c.o[0m
+[1.724s] [ 13%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__functions.c.o[0m
+[1.724s] [ 13%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/shoulder_joint_velocity__functions.c.o[0m
+[1.726s] [ 14%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/target_pose__functions.c.o[0m
+[1.776s] [ 15%] [32m[1mLinking C shared library libmsg_interfaces__rosidl_generator_c.so[0m
+[1.808s] [ 15%] Built target msg_interfaces__rosidl_generator_c
+[1.819s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.819s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.819s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.043s] [ 19%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/final_vel__type_support.cpp.o[0m
+[2.044s] [ 24%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/arm_end_motion__type_support.cpp.o[0m
+[2.044s] [ 24%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/encoder_drive__type_support.cpp.o[0m
+[2.044s] [ 24%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/encoder_arm__type_support.cpp.o[0m
+[2.044s] [ 24%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/drive__type_support.cpp.o[0m
+[2.044s] [ 25%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/wrist_joint_velocity__type_support.cpp.o[0m
+[2.044s] [ 25%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/shoulder_joint_velocity__type_support.cpp.o[0m
+[2.044s] [ 26%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/base_motion__type_support.cpp.o[0m
+[2.044s] [ 27%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/target_pose__type_support.cpp.o[0m
+[2.044s] [ 28%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/arm_angle__type_support.cpp.o[0m
+[2.126s] [ 30%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/shoulder_joint_velocity__type_support.cpp.o[0m
+[2.127s] [ 30%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/drive__type_support.cpp.o[0m
+[2.127s] [ 31%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/wrist_joint_velocity__type_support.cpp.o[0m
+[2.127s] [ 32%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/encoder_arm__type_support.cpp.o[0m
+[2.127s] [ 33%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/encoder_drive__type_support.cpp.o[0m
+[2.127s] [ 34%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/arm_end_motion__type_support.cpp.o[0m
+[2.135s] [ 36%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/final_vel__type_support.cpp.o[0m
+[2.135s] [ 36%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/base_motion__type_support.cpp.o[0m
+[2.338s] [ 37%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/drive__type_support.cpp.o[0m
+[2.363s] [ 38%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/target_pose__type_support.cpp.o[0m
+[2.380s] [ 39%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/arm_end_motion__type_support.cpp.o[0m
+[2.385s] [ 40%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/encoder_arm__type_support.cpp.o[0m
+[2.392s] [ 41%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/arm_angle__type_support.cpp.o[0m
+[2.425s] [ 42%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/encoder_drive__type_support.cpp.o[0m
+[2.428s] [ 43%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/shoulder_joint_velocity__type_support.cpp.o[0m
+[2.432s] [ 44%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/wrist_joint_velocity__type_support.cpp.o[0m
+[2.449s] [ 45%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/base_motion__type_support.cpp.o[0m
+[2.453s] [ 46%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/final_vel__type_support.cpp.o[0m
+[2.455s] [ 47%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/drive__type_support.cpp.o[0m
+[2.456s] [ 47%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/target_pose__type_support.cpp.o[0m
+[2.461s] [ 48%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/arm_angle__type_support.cpp.o[0m
+[2.466s] [ 48%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.cpp.o[0m
+[2.468s] [ 49%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.cpp.o[0m
+[2.477s] [ 50%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/encoder_drive__type_support.cpp.o[0m
+[2.496s] [ 51%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/shoulder_joint_velocity__type_support.cpp.o[0m
+[2.499s] [ 52%] [32m[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_c.so[0m
+[2.508s] [ 53%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/wrist_joint_velocity__type_support.cpp.o[0m
+[2.546s] [ 54%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/base_motion__type_support.cpp.o[0m
+[2.550s] [ 55%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/final_vel__type_support.cpp.o[0m
+[2.565s] [ 55%] Built target msg_interfaces__rosidl_typesupport_c
+[2.578s] [ 56%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/target_pose__type_support.cpp.o[0m
+[2.605s] [ 57%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/drive__type_support_c.cpp.o[0m
+[2.620s] [ 58%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/drive__type_support.c.o[0m
+[2.655s] [ 59%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/arm_end_motion__type_support_c.cpp.o[0m
+[2.658s] [ 60%] [32m[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_cpp.so[0m
+[2.663s] [ 61%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/arm_end_motion__type_support.c.o[0m
+[2.691s] [ 62%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/encoder_arm__type_support_c.cpp.o[0m
+[2.717s] [ 62%] Built target msg_interfaces__rosidl_typesupport_cpp
+[2.740s] [ 63%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/encoder_arm__type_support.c.o[0m
+[2.744s] [ 64%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/arm_angle__type_support.cpp.o[0m
+[2.768s] [ 65%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/encoder_drive__type_support_c.cpp.o[0m
+[2.778s] [ 66%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/encoder_drive__type_support.c.o[0m
+[2.785s] [ 67%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/shoulder_joint_velocity__type_support.c.o[0m
+[2.817s] [ 69%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/base_motion__type_support.c.o[0m
+[2.818s] [ 69%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/wrist_joint_velocity__type_support.c.o[0m
+[2.834s] [ 70%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/final_vel__type_support.c.o[0m
+[2.839s] [ 71%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/shoulder_joint_velocity__type_support_c.cpp.o[0m
+[2.850s] [ 72%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/target_pose__type_support.c.o[0m
+[2.851s] [ 73%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/wrist_joint_velocity__type_support_c.cpp.o[0m
+[2.876s] [ 74%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/base_motion__type_support_c.cpp.o[0m
+[2.882s] [ 75%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/final_vel__type_support_c.cpp.o[0m
+[2.890s] [ 76%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/arm_angle__type_support.c.o[0m
+[2.900s] [ 77%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/target_pose__type_support_c.cpp.o[0m
+[2.943s] [ 78%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/arm_angle__type_support_c.cpp.o[0m
+[2.950s] [ 79%] [32m[1mLinking C shared library libmsg_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.958s] [ 80%] [32m[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.002s] [ 80%] Built target msg_interfaces__rosidl_typesupport_introspection_c
+[3.099s] [ 80%] Built target msg_interfaces__rosidl_typesupport_introspection_cpp
+[3.251s] [ 81%] [32m[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.313s] [ 81%] Built target msg_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.323s] [ 82%] [32m[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.372s] [ 82%] Built target msg_interfaces__rosidl_typesupport_fastrtps_c
+[3.386s] [ 82%] Built target msg_interfaces
+[3.402s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.064s] [ 83%] Built target msg_interfaces__py
+[4.079s] [ 84%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_encoder_arm_s.c.o[0m
+[4.079s] [ 85%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_shoulder_joint_velocity_s.c.o[0m
+[4.079s] [ 87%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_final_vel_s.c.o[0m
+[4.079s] [ 87%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_base_motion_s.c.o[0m
+[4.080s] [ 88%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_arm_angle_s.c.o[0m
+[4.080s] [ 91%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_wrist_joint_velocity_s.c.o[0m
+[4.080s] [ 91%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_drive_s.c.o[0m
+[4.081s] [ 91%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_arm_end_motion_s.c.o[0m
+[4.082s] [ 92%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_encoder_drive_s.c.o[0m
+[4.082s] [ 93%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_target_pose_s.c.o[0m
+[4.195s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/msg_interfaces/libmsg_interfaces__rosidl_generator_py.so[0m
+[4.225s] [ 94%] Built target msg_interfaces__rosidl_generator_py
+[4.239s] [ 95%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.241s] [ 96%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.245s] [ 97%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.317s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.318s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.319s] [100%] [32m[1mLinking C shared library rosidl_generator_py/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.346s] [100%] Built target msg_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.347s] [100%] Built target msg_interfaces__rosidl_typesupport_c__pyext
+[4.350s] [100%] Built target msg_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.361s] Invoked command in '/home/siddhant/irc_rover_controls_2025/arm_control/build/msg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control:/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control:/opt/ros/humble /usr/bin/cmake --build /home/siddhant/irc_rover_controls_2025/arm_control/build/msg_interfaces -- -j22 -l22
+[4.367s] Invoking command in '/home/siddhant/irc_rover_controls_2025/arm_control/build/msg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control:/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control:/opt/ros/humble /usr/bin/cmake --install /home/siddhant/irc_rover_controls_2025/arm_control/build/msg_interfaces
+[4.372s] -- Install configuration: ""
+[4.373s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/ament_index/resource_index/rosidl_interfaces/msg_interfaces
+[4.373s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces
+[4.373s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg
+[4.373s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/encoder_arm.h
+[4.373s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/target_pose.h
+[4.373s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.373s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/arm_angle.h
+[4.373s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/wrist_joint_velocity.h
+[4.373s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/base_motion.h
+[4.374s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/drive.h
+[4.374s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/final_vel.h
+[4.374s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/encoder_drive.h
+[4.374s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/shoulder_joint_velocity.h
+[4.374s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/arm_end_motion.h
+[4.374s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail
+[4.374s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__struct.h
+[4.374s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__type_support.h
+[4.374s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__type_support.h
+[4.374s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__type_support.h
+[4.374s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__functions.c
+[4.374s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__functions.c
+[4.374s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__struct.h
+[4.374s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__functions.h
+[4.375s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__type_support.h
+[4.375s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__struct.h
+[4.375s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__struct.h
+[4.375s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__type_support.h
+[4.375s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__functions.h
+[4.375s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__struct.h
+[4.375s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__functions.c
+[4.375s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__functions.h
+[4.375s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__type_support.h
+[4.375s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__functions.c
+[4.375s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__functions.c
+[4.375s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__type_support.h
+[4.375s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__functions.h
+[4.375s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__type_support.h
+[4.375s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__functions.h
+[4.375s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__functions.h
+[4.375s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__functions.h
+[4.375s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__struct.h
+[4.375s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__functions.h
+[4.375s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__functions.h
+[4.375s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__functions.c
+[4.375s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__struct.h
+[4.376s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__struct.h
+[4.376s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__functions.c
+[4.376s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__type_support.h
+[4.376s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__functions.c
+[4.376s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__struct.h
+[4.376s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__type_support.h
+[4.376s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__functions.h
+[4.376s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__functions.c
+[4.376s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__functions.c
+[4.376s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__struct.h
+[4.376s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/environment/library_path.sh
+[4.376s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/environment/library_path.dsv
+[4.376s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_c.so
+[4.376s] -- Set runtime path of "/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_c.so" to ""
+[4.376s] -- Up-to-date: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces
+[4.376s] -- Up-to-date: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg
+[4.377s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.377s] -- Up-to-date: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail
+[4.377s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__rosidl_typesupport_fastrtps_c.h
+[4.377s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__rosidl_typesupport_fastrtps_c.h
+[4.377s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__rosidl_typesupport_fastrtps_c.h
+[4.377s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__rosidl_typesupport_fastrtps_c.h
+[4.377s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__rosidl_typesupport_fastrtps_c.h
+[4.377s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__rosidl_typesupport_fastrtps_c.h
+[4.377s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__rosidl_typesupport_fastrtps_c.h
+[4.377s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__rosidl_typesupport_fastrtps_c.h
+[4.377s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__rosidl_typesupport_fastrtps_c.h
+[4.377s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__rosidl_typesupport_fastrtps_c.h
+[4.377s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.377s] -- Set runtime path of "/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.377s] -- Up-to-date: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces
+[4.377s] -- Up-to-date: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg
+[4.377s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/target_pose.hpp
+[4.377s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/encoder_arm.hpp
+[4.377s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/shoulder_joint_velocity.hpp
+[4.377s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.378s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/base_motion.hpp
+[4.378s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/drive.hpp
+[4.378s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/arm_end_motion.hpp
+[4.378s] -- Up-to-date: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail
+[4.378s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__type_support.hpp
+[4.378s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__struct.hpp
+[4.378s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__struct.hpp
+[4.378s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__traits.hpp
+[4.378s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__struct.hpp
+[4.378s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__builder.hpp
+[4.378s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__traits.hpp
+[4.378s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__type_support.hpp
+[4.378s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__struct.hpp
+[4.378s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__traits.hpp
+[4.378s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__builder.hpp
+[4.378s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__type_support.hpp
+[4.378s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__struct.hpp
+[4.378s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__builder.hpp
+[4.378s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__traits.hpp
+[4.378s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__type_support.hpp
+[4.378s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__struct.hpp
+[4.379s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__type_support.hpp
+[4.379s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__type_support.hpp
+[4.379s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__builder.hpp
+[4.379s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__traits.hpp
+[4.379s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__struct.hpp
+[4.379s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__traits.hpp
+[4.379s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__traits.hpp
+[4.379s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__traits.hpp
+[4.379s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__builder.hpp
+[4.379s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__type_support.hpp
+[4.379s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__builder.hpp
+[4.379s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__builder.hpp
+[4.379s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__type_support.hpp
+[4.379s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__struct.hpp
+[4.379s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__struct.hpp
+[4.379s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__type_support.hpp
+[4.379s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__traits.hpp
+[4.379s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__builder.hpp
+[4.379s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__builder.hpp
+[4.379s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__builder.hpp
+[4.379s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__struct.hpp
+[4.380s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__type_support.hpp
+[4.380s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__traits.hpp
+[4.380s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/arm_angle.hpp
+[4.380s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/wrist_joint_velocity.hpp
+[4.380s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/encoder_drive.hpp
+[4.380s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/final_vel.hpp
+[4.380s] -- Up-to-date: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces
+[4.380s] -- Up-to-date: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg
+[4.380s] -- Up-to-date: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail
+[4.380s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__rosidl_typesupport_fastrtps_cpp.hpp
+[4.380s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__rosidl_typesupport_fastrtps_cpp.hpp
+[4.380s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__rosidl_typesupport_fastrtps_cpp.hpp
+[4.380s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__rosidl_typesupport_fastrtps_cpp.hpp
+[4.380s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__rosidl_typesupport_fastrtps_cpp.hpp
+[4.380s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__rosidl_typesupport_fastrtps_cpp.hpp
+[4.380s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/dds_fastrtps
+[4.381s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__rosidl_typesupport_fastrtps_cpp.hpp
+[4.381s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[4.381s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__rosidl_typesupport_fastrtps_cpp.hpp
+[4.381s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__rosidl_typesupport_fastrtps_cpp.hpp
+[4.381s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.381s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.381s] -- Set runtime path of "/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.381s] -- Up-to-date: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces
+[4.381s] -- Up-to-date: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg
+[4.381s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.381s] -- Up-to-date: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail
+[4.381s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__rosidl_typesupport_introspection_c.h
+[4.381s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__type_support.c
+[4.381s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__rosidl_typesupport_introspection_c.h
+[4.381s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__rosidl_typesupport_introspection_c.h
+[4.381s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__rosidl_typesupport_introspection_c.h
+[4.382s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__rosidl_typesupport_introspection_c.h
+[4.382s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__type_support.c
+[4.382s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__rosidl_typesupport_introspection_c.h
+[4.382s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__rosidl_typesupport_introspection_c.h
+[4.382s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__rosidl_typesupport_introspection_c.h
+[4.382s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__type_support.c
+[4.382s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__type_support.c
+[4.382s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__type_support.c
+[4.382s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__type_support.c
+[4.382s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__type_support.c
+[4.382s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__type_support.c
+[4.382s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__rosidl_typesupport_introspection_c.h
+[4.382s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__rosidl_typesupport_introspection_c.h
+[4.382s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__type_support.c
+[4.382s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__type_support.c
+[4.382s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_c.so
+[4.382s] -- Set runtime path of "/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.382s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_c.so
+[4.382s] -- Set runtime path of "/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_c.so" to ""
+[4.383s] -- Up-to-date: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces
+[4.383s] -- Up-to-date: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg
+[4.383s] -- Up-to-date: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail
+[4.383s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__type_support.cpp
+[4.383s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__type_support.cpp
+[4.383s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__rosidl_typesupport_introspection_cpp.hpp
+[4.383s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__type_support.cpp
+[4.383s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__rosidl_typesupport_introspection_cpp.hpp
+[4.383s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__type_support.cpp
+[4.383s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__rosidl_typesupport_introspection_cpp.hpp
+[4.383s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_end_motion__rosidl_typesupport_introspection_cpp.hpp
+[4.383s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_arm__type_support.cpp
+[4.383s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/final_vel__rosidl_typesupport_introspection_cpp.hpp
+[4.383s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__type_support.cpp
+[4.383s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/drive__rosidl_typesupport_introspection_cpp.hpp
+[4.383s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/encoder_drive__rosidl_typesupport_introspection_cpp.hpp
+[4.383s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/arm_angle__type_support.cpp
+[4.383s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/shoulder_joint_velocity__type_support.cpp
+[4.383s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/base_motion__rosidl_typesupport_introspection_cpp.hpp
+[4.383s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__rosidl_typesupport_introspection_cpp.hpp
+[4.383s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/target_pose__type_support.cpp
+[4.383s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__rosidl_typesupport_introspection_cpp.hpp
+[4.383s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/wrist_joint_velocity__type_support.cpp
+[4.383s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.384s] -- Set runtime path of "/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.384s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_cpp.so
+[4.384s] -- Set runtime path of "/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.384s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/environment/pythonpath.sh
+[4.384s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/environment/pythonpath.dsv
+[4.384s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info
+[4.384s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.384s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.384s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.384s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.384s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces
+[4.384s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.384s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.384s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/libmsg_interfaces__rosidl_generator_py.so
+[4.384s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.384s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/__init__.py
+[4.385s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.385s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg
+[4.385s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_drive_s.c
+[4.385s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_shoulder_joint_velocity_s.c
+[4.385s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_wrist_joint_velocity_s.c
+[4.385s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_encoder_drive_s.c
+[4.385s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_drive.py
+[4.385s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_arm_end_motion_s.c
+[4.385s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_arm_end_motion.py
+[4.385s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_base_motion.py
+[4.385s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_encoder_arm_s.c
+[4.385s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_encoder_drive.py
+[4.385s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_target_pose_s.c
+[4.385s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_target_pose.py
+[4.385s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_encoder_arm.py
+[4.385s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_final_vel.py
+[4.385s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_arm_angle_s.c
+[4.385s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_wrist_joint_velocity.py
+[4.385s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/__init__.py
+[4.385s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_arm_angle.py
+[4.385s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_base_motion_s.c
+[4.385s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_final_vel_s.c
+[4.385s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_shoulder_joint_velocity.py
+[4.385s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.386s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_c.c
+[4.414s] Listing '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces'...
+[4.414s] Compiling '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/__init__.py'...
+[4.414s] Listing '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg'...
+[4.414s] Compiling '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/__init__.py'...
+[4.414s] Compiling '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_arm_angle.py'...
+[4.414s] Compiling '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_arm_end_motion.py'...
+[4.414s] Compiling '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_base_motion.py'...
+[4.414s] Compiling '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_drive.py'...
+[4.414s] Compiling '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_encoder_arm.py'...
+[4.415s] Compiling '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_encoder_drive.py'...
+[4.415s] Compiling '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_final_vel.py'...
+[4.415s] Compiling '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_shoulder_joint_velocity.py'...
+[4.415s] Compiling '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_target_pose.py'...
+[4.415s] Compiling '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_wrist_joint_velocity.py'...
+[4.417s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.417s] -- Set runtime path of "/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.417s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.417s] -- Set runtime path of "/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.417s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.418s] -- Set runtime path of "/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.418s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_py.so
+[4.418s] -- Set runtime path of "/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_py.so" to ""
+[4.418s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/Drive.idl
+[4.418s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/ArmEndMotion.idl
+[4.418s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/EncoderArm.idl
+[4.418s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/EncoderDrive.idl
+[4.418s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/ShoulderJointVelocity.idl
+[4.418s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/WristJointVelocity.idl
+[4.418s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/BaseMotion.idl
+[4.418s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/FinalVel.idl
+[4.418s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/TargetPose.idl
+[4.418s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/ArmAngle.idl
+[4.419s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/Drive.msg
+[4.419s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/ArmEndMotion.msg
+[4.419s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/EncoderArm.msg
+[4.419s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/EncoderDrive.msg
+[4.419s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/ShoulderJointVelocity.msg
+[4.419s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/WristJointVelocity.msg
+[4.419s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/BaseMotion.msg
+[4.419s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/FinalVel.msg
+[4.419s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/TargetPose.msg
+[4.419s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/msg/ArmAngle.msg
+[4.419s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/ament_index/resource_index/package_run_dependencies/msg_interfaces
+[4.419s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/ament_index/resource_index/parent_prefix_path/msg_interfaces
+[4.419s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/environment/ament_prefix_path.sh
+[4.419s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/environment/ament_prefix_path.dsv
+[4.419s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/environment/path.sh
+[4.419s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/environment/path.dsv
+[4.419s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/local_setup.bash
+[4.420s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/local_setup.sh
+[4.420s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/local_setup.zsh
+[4.420s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/local_setup.dsv
+[4.420s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/package.dsv
+[4.420s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/ament_index/resource_index/packages/msg_interfaces
+[4.420s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cExport.cmake
+[4.420s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.420s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.420s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.420s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cppExport.cmake
+[4.420s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.420s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.420s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.420s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.420s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cExport.cmake
+[4.420s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.420s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.420s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.420s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cppExport.cmake
+[4.421s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.421s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_pyExport.cmake
+[4.421s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.421s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.421s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.421s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.421s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.421s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.421s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.421s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.421s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfacesConfig.cmake
+[4.421s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfacesConfig-version.cmake
+[4.421s] -- Installing: /home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/package.xml
+[4.423s] Invoked command in '/home/siddhant/irc_rover_controls_2025/arm_control/build/msg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control:/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control:/opt/ros/humble /usr/bin/cmake --install /home/siddhant/irc_rover_controls_2025/arm_control/build/msg_interfaces

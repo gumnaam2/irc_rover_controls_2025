@@ -1,0 +1,248 @@
+[0.061s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.061s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=22, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e1179f166b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e117a05f5b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e117a05f5b0>>, mixin_verb=('build',))
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.082s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/siddhant/irc_rover_controls_2025/arm_control'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_control) by extensions ['ignore', 'ignore_ament_install']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_control) by extension 'ignore'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_control) by extension 'ignore_ament_install'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_control) by extensions ['colcon_pkg']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_control) by extension 'colcon_pkg'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_control) by extensions ['colcon_meta']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_control) by extension 'colcon_meta'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_control) by extensions ['ros']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_control) by extension 'ros'
+[0.093s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ik_control' with type 'ros.ament_python' and name 'ik_control'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_control) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_control) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_control) by extension 'ignore_ament_install'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_control) by extensions ['colcon_pkg']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_control) by extension 'colcon_pkg'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_control) by extensions ['colcon_meta']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_control) by extension 'colcon_meta'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_control) by extensions ['ros']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_control) by extension 'ros'
+[0.094s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joint_control' with type 'ros.ament_python' and name 'joint_control'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extension 'ignore_ament_install'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extensions ['colcon_pkg']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extension 'colcon_pkg'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extensions ['colcon_meta']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extension 'colcon_meta'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extensions ['ros']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extension 'ros'
+[0.095s] DEBUG:colcon.colcon_core.package_identification:Package 'src/msg_interfaces' with type 'ros.ament_cmake' and name 'msg_interfaces'
+[0.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.106s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.106s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.108s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 267 installed packages in /opt/ros/humble
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.127s] DEBUG:colcon.colcon_core.verb:Building package 'msg_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/siddhant/irc_rover_controls_2025/arm_control/build/msg_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces', 'merge_install': False, 'path': '/home/siddhant/irc_rover_controls_2025/arm_control/src/msg_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'ik_control' build argument 'cmake_args' from command line to 'None'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'ik_control' build argument 'cmake_target' from command line to 'None'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'ik_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'ik_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'ik_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'ik_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'ik_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'ik_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'ik_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.128s] DEBUG:colcon.colcon_core.verb:Building package 'ik_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/siddhant/irc_rover_controls_2025/arm_control/build/ik_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control', 'merge_install': False, 'path': '/home/siddhant/irc_rover_controls_2025/arm_control/src/ik_control', 'symlink_install': False, 'test_result_base': None}
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'joint_control' build argument 'cmake_args' from command line to 'None'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'joint_control' build argument 'cmake_target' from command line to 'None'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'joint_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'joint_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'joint_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'joint_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'joint_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'joint_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'joint_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.128s] DEBUG:colcon.colcon_core.verb:Building package 'joint_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/siddhant/irc_rover_controls_2025/arm_control/build/joint_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control', 'merge_install': False, 'path': '/home/siddhant/irc_rover_controls_2025/arm_control/src/joint_control', 'symlink_install': False, 'test_result_base': None}
+[0.128s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.129s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.129s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/siddhant/irc_rover_controls_2025/arm_control/src/msg_interfaces' with build type 'ament_cmake'
+[0.129s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/siddhant/irc_rover_controls_2025/arm_control/src/msg_interfaces'
+[0.132s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.132s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.132s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siddhant/irc_rover_controls_2025/arm_control/build/msg_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/siddhant/irc_rover_controls_2025/arm_control/build/msg_interfaces -- -j22 -l22
+[0.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siddhant/irc_rover_controls_2025/arm_control/build/msg_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/siddhant/irc_rover_controls_2025/arm_control/build/msg_interfaces -- -j22 -l22
+[0.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siddhant/irc_rover_controls_2025/arm_control/build/msg_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/siddhant/irc_rover_controls_2025/arm_control/build/msg_interfaces
+[0.422s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msg_interfaces)
+[0.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siddhant/irc_rover_controls_2025/arm_control/build/msg_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/siddhant/irc_rover_controls_2025/arm_control/build/msg_interfaces
+[0.425s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces' for CMake module files
+[0.425s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces' for CMake config files
+[0.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_interfaces', 'cmake_prefix_path')
+[0.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/hook/cmake_prefix_path.ps1'
+[0.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/hook/cmake_prefix_path.dsv'
+[0.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/hook/cmake_prefix_path.sh'
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib'
+[0.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_interfaces', 'ld_library_path_lib')
+[0.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/hook/ld_library_path_lib.ps1'
+[0.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/hook/ld_library_path_lib.dsv'
+[0.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/hook/ld_library_path_lib.sh'
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/bin'
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib/pkgconfig/msg_interfaces.pc'
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib/python3.10/site-packages'
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/bin'
+[0.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/package.ps1'
+[0.429s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/package.dsv'
+[0.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/package.sh'
+[0.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/package.bash'
+[0.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/package.zsh'
+[0.430s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/colcon-core/packages/msg_interfaces)
+[0.431s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msg_interfaces)
+[0.431s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces' for CMake module files
+[0.431s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces' for CMake config files
+[0.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_interfaces', 'cmake_prefix_path')
+[0.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/hook/cmake_prefix_path.ps1'
+[0.432s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/hook/cmake_prefix_path.dsv'
+[0.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/hook/cmake_prefix_path.sh'
+[0.432s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib'
+[0.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_interfaces', 'ld_library_path_lib')
+[0.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/hook/ld_library_path_lib.ps1'
+[0.432s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/hook/ld_library_path_lib.dsv'
+[0.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/hook/ld_library_path_lib.sh'
+[0.433s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/bin'
+[0.433s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib/pkgconfig/msg_interfaces.pc'
+[0.433s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib/python3.10/site-packages'
+[0.433s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/bin'
+[0.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/package.ps1'
+[0.434s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/package.dsv'
+[0.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/package.sh'
+[0.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/package.bash'
+[0.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/msg_interfaces/package.zsh'
+[0.434s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/share/colcon-core/packages/msg_interfaces)
+[0.435s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/siddhant/irc_rover_controls_2025/arm_control/src/ik_control' with build type 'ament_python'
+[0.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('ik_control', 'ament_prefix_path')
+[0.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/share/ik_control/hook/ament_prefix_path.ps1'
+[0.435s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/share/ik_control/hook/ament_prefix_path.dsv'
+[0.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/share/ik_control/hook/ament_prefix_path.sh'
+[0.436s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.436s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.438s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/siddhant/irc_rover_controls_2025/arm_control/src/joint_control' with build type 'ament_python'
+[0.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_control', 'ament_prefix_path')
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/share/joint_control/hook/ament_prefix_path.ps1'
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/share/joint_control/hook/ament_prefix_path.dsv'
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/share/joint_control/hook/ament_prefix_path.sh'
+[0.438s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.438s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.565s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/siddhant/irc_rover_controls_2025/arm_control/src/ik_control'
+[0.565s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.565s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.702s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/siddhant/irc_rover_controls_2025/arm_control/src/joint_control'
+[0.702s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.702s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siddhant/irc_rover_controls_2025/arm_control/src/joint_control': AMENT_PREFIX_PATH=/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces LD_LIBRARY_PATH=/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/siddhant/irc_rover_controls_2025/arm_control/build/joint_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/lib/python3.10/site-packages:/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joint_control build --build-base /home/siddhant/irc_rover_controls_2025/arm_control/build/joint_control/build install --record /home/siddhant/irc_rover_controls_2025/arm_control/build/joint_control/install.log --single-version-externally-managed install_data
+[0.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siddhant/irc_rover_controls_2025/arm_control/src/ik_control': AMENT_PREFIX_PATH=/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces LD_LIBRARY_PATH=/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/siddhant/irc_rover_controls_2025/arm_control/build/ik_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/lib/python3.10/site-packages:/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ik_control build --build-base /home/siddhant/irc_rover_controls_2025/arm_control/build/ik_control/build install --record /home/siddhant/irc_rover_controls_2025/arm_control/build/ik_control/install.log --single-version-externally-managed install_data
+[1.231s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control' for CMake module files
+[1.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siddhant/irc_rover_controls_2025/arm_control/src/ik_control' returned '0': AMENT_PREFIX_PATH=/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces LD_LIBRARY_PATH=/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/siddhant/irc_rover_controls_2025/arm_control/build/ik_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/lib/python3.10/site-packages:/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ik_control build --build-base /home/siddhant/irc_rover_controls_2025/arm_control/build/ik_control/build install --record /home/siddhant/irc_rover_controls_2025/arm_control/build/ik_control/install.log --single-version-externally-managed install_data
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control' for CMake config files
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/lib'
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/bin'
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/lib/pkgconfig/ik_control.pc'
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/lib/python3.10/site-packages'
+[1.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('ik_control', 'pythonpath')
+[1.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/share/ik_control/hook/pythonpath.ps1'
+[1.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/share/ik_control/hook/pythonpath.dsv'
+[1.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/share/ik_control/hook/pythonpath.sh'
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/bin'
+[1.233s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ik_control)
+[1.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/share/ik_control/package.ps1'
+[1.234s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/share/ik_control/package.dsv'
+[1.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/share/ik_control/package.sh'
+[1.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/share/ik_control/package.bash'
+[1.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/share/ik_control/package.zsh'
+[1.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siddhant/irc_rover_controls_2025/arm_control/install/ik_control/share/colcon-core/packages/ik_control)
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control' for CMake module files
+[1.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siddhant/irc_rover_controls_2025/arm_control/src/joint_control' returned '0': AMENT_PREFIX_PATH=/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces LD_LIBRARY_PATH=/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/siddhant/irc_rover_controls_2025/arm_control/build/joint_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/lib/python3.10/site-packages:/home/siddhant/irc_rover_controls_2025/arm_control/install/msg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joint_control build --build-base /home/siddhant/irc_rover_controls_2025/arm_control/build/joint_control/build install --record /home/siddhant/irc_rover_controls_2025/arm_control/build/joint_control/install.log --single-version-externally-managed install_data
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control' for CMake config files
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/lib'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/bin'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/lib/pkgconfig/joint_control.pc'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/lib/python3.10/site-packages'
+[1.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_control', 'pythonpath')
+[1.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/share/joint_control/hook/pythonpath.ps1'
+[1.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/share/joint_control/hook/pythonpath.dsv'
+[1.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/share/joint_control/hook/pythonpath.sh'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/bin'
+[1.237s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joint_control)
+[1.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/share/joint_control/package.ps1'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/share/joint_control/package.dsv'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/share/joint_control/package.sh'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/share/joint_control/package.bash'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/share/joint_control/package.zsh'
+[1.238s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siddhant/irc_rover_controls_2025/arm_control/install/joint_control/share/colcon-core/packages/joint_control)
+[1.239s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.239s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.239s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.239s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.242s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.242s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.242s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.252s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.253s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siddhant/irc_rover_controls_2025/arm_control/install/local_setup.ps1'
+[1.253s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/siddhant/irc_rover_controls_2025/arm_control/install/_local_setup_util_ps1.py'
+[1.254s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siddhant/irc_rover_controls_2025/arm_control/install/setup.ps1'
+[1.254s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siddhant/irc_rover_controls_2025/arm_control/install/local_setup.sh'
+[1.255s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/siddhant/irc_rover_controls_2025/arm_control/install/_local_setup_util_sh.py'
+[1.255s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siddhant/irc_rover_controls_2025/arm_control/install/setup.sh'
+[1.255s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siddhant/irc_rover_controls_2025/arm_control/install/local_setup.bash'
+[1.256s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siddhant/irc_rover_controls_2025/arm_control/install/setup.bash'
+[1.256s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siddhant/irc_rover_controls_2025/arm_control/install/local_setup.zsh'
+[1.256s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siddhant/irc_rover_controls_2025/arm_control/install/setup.zsh'

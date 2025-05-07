@@ -1,0 +1,37 @@
+[1.103s] Invoking command in '/home/siddhant/irc_rover_controls_2025/rover_essentials/src/auto_bridge': PYTHONPATH=/home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/auto_bridge build --build-base /home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/build install --record /home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/install.log --single-version-externally-managed install_data
+[1.299s] running egg_info
+[1.310s] creating ../../build/auto_bridge/auto_bridge.egg-info
+[1.310s] writing ../../build/auto_bridge/auto_bridge.egg-info/PKG-INFO
+[1.311s] writing dependency_links to ../../build/auto_bridge/auto_bridge.egg-info/dependency_links.txt
+[1.311s] writing entry points to ../../build/auto_bridge/auto_bridge.egg-info/entry_points.txt
+[1.311s] writing requirements to ../../build/auto_bridge/auto_bridge.egg-info/requires.txt
+[1.311s] writing top-level names to ../../build/auto_bridge/auto_bridge.egg-info/top_level.txt
+[1.311s] writing manifest file '../../build/auto_bridge/auto_bridge.egg-info/SOURCES.txt'
+[1.336s] reading manifest file '../../build/auto_bridge/auto_bridge.egg-info/SOURCES.txt'
+[1.337s] writing manifest file '../../build/auto_bridge/auto_bridge.egg-info/SOURCES.txt'
+[1.337s] running build
+[1.337s] running build_py
+[1.337s] creating /home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/build/lib/auto_bridge
+[1.337s] copying auto_bridge/auto_relay.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/build/lib/auto_bridge
+[1.337s] copying auto_bridge/__init__.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/build/lib/auto_bridge
+[1.337s] copying auto_bridge/autonomous_diffdrive.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/build/lib/auto_bridge
+[1.338s] running install
+[1.341s] running install_lib
+[1.353s] creating /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge
+[1.353s] copying /home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/build/lib/auto_bridge/auto_relay.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge
+[1.353s] copying /home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/build/lib/auto_bridge/__init__.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge
+[1.353s] copying /home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/build/lib/auto_bridge/autonomous_diffdrive.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge
+[1.354s] byte-compiling /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge/auto_relay.py to auto_relay.cpython-310.pyc
+[1.354s] byte-compiling /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge/__init__.py to __init__.cpython-310.pyc
+[1.354s] byte-compiling /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge/autonomous_diffdrive.py to autonomous_diffdrive.cpython-310.pyc
+[1.355s] running install_data
+[1.356s] creating /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/share/ament_index/resource_index/packages
+[1.356s] copying resource/auto_bridge -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/share/ament_index/resource_index/packages
+[1.356s] copying package.xml -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/share/auto_bridge
+[1.356s] running install_egg_info
+[1.369s] Copying ../../build/auto_bridge/auto_bridge.egg-info to /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages/auto_bridge-0.0.0-py3.10.egg-info
+[1.369s] running install_scripts
+[1.451s] Installing auto_drive script to /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/lib/auto_bridge
+[1.452s] Installing relay_auto script to /home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/lib/auto_bridge
+[1.452s] writing list of installed files to '/home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/install.log'
+[1.475s] Invoked command in '/home/siddhant/irc_rover_controls_2025/rover_essentials/src/auto_bridge' returned '0': PYTHONPATH=/home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/irc_rover_controls_2025/rover_essentials/install/auto_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/auto_bridge build --build-base /home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/build install --record /home/siddhant/irc_rover_controls_2025/rover_essentials/build/auto_bridge/install.log --single-version-externally-managed install_data

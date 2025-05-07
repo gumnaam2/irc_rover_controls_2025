@@ -1,0 +1,51 @@
+[1.052s] Invoking command in '/home/siddhant/irc_rover_controls_2025/rover_essentials/src/joy_can': PYTHONPATH=/home/siddhant/irc_rover_controls_2025/rover_essentials/build/joy_can/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_can build --build-base /home/siddhant/irc_rover_controls_2025/rover_essentials/build/joy_can/build install --record /home/siddhant/irc_rover_controls_2025/rover_essentials/build/joy_can/install.log --single-version-externally-managed install_data
+[1.235s] running egg_info
+[1.246s] creating ../../build/joy_can/joy_can.egg-info
+[1.246s] writing ../../build/joy_can/joy_can.egg-info/PKG-INFO
+[1.247s] writing dependency_links to ../../build/joy_can/joy_can.egg-info/dependency_links.txt
+[1.247s] writing entry points to ../../build/joy_can/joy_can.egg-info/entry_points.txt
+[1.247s] writing requirements to ../../build/joy_can/joy_can.egg-info/requires.txt
+[1.247s] writing top-level names to ../../build/joy_can/joy_can.egg-info/top_level.txt
+[1.247s] writing manifest file '../../build/joy_can/joy_can.egg-info/SOURCES.txt'
+[1.272s] reading manifest file '../../build/joy_can/joy_can.egg-info/SOURCES.txt'
+[1.272s] writing manifest file '../../build/joy_can/joy_can.egg-info/SOURCES.txt'
+[1.273s] running build
+[1.273s] running build_py
+[1.273s] creating /home/siddhant/irc_rover_controls_2025/rover_essentials/build/joy_can/build/lib/joy_can
+[1.273s] copying joy_can/DriveCAN.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/build/joy_can/build/lib/joy_can
+[1.273s] copying joy_can/__init__.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/build/joy_can/build/lib/joy_can
+[1.273s] copying joy_can/ArmCAN.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/build/joy_can/build/lib/joy_can
+[1.273s] copying joy_can/CANIn.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/build/joy_can/build/lib/joy_can
+[1.273s] copying joy_can/gripper.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/build/joy_can/build/lib/joy_can
+[1.274s] running install
+[1.277s] running install_lib
+[1.288s] creating /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can
+[1.288s] copying /home/siddhant/irc_rover_controls_2025/rover_essentials/build/joy_can/build/lib/joy_can/DriveCAN.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can
+[1.289s] copying /home/siddhant/irc_rover_controls_2025/rover_essentials/build/joy_can/build/lib/joy_can/__init__.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can
+[1.289s] copying /home/siddhant/irc_rover_controls_2025/rover_essentials/build/joy_can/build/lib/joy_can/ArmCAN.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can
+[1.289s] copying /home/siddhant/irc_rover_controls_2025/rover_essentials/build/joy_can/build/lib/joy_can/CANIn.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can
+[1.289s] copying /home/siddhant/irc_rover_controls_2025/rover_essentials/build/joy_can/build/lib/joy_can/gripper.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can
+[1.289s] byte-compiling /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can/DriveCAN.py to DriveCAN.cpython-310.pyc
+[1.290s] byte-compiling /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can/__init__.py to __init__.cpython-310.pyc
+[1.290s] byte-compiling /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can/ArmCAN.py to ArmCAN.cpython-310.pyc
+[1.292s] byte-compiling /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can/CANIn.py to CANIn.cpython-310.pyc
+[1.293s] byte-compiling /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can/gripper.py to gripper.cpython-310.pyc
+[1.294s] running install_data
+[1.294s] creating /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/share/ament_index/resource_index/packages
+[1.294s] copying resource/joy_can -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/share/ament_index/resource_index/packages
+[1.294s] copying package.xml -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/share/joy_can
+[1.294s] creating /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/share/joy_can/launch
+[1.294s] copying launch/ArmCAN.sh -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/share/joy_can/launch
+[1.294s] copying launch/DriveCAN.sh -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/share/joy_can/launch
+[1.295s] copying launch/ArmLaunch.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/share/joy_can/launch
+[1.295s] copying launch/DriveLaunch.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/share/joy_can/launch
+[1.295s] copying launch/ArmDriveLaunch.py -> /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/share/joy_can/launch
+[1.295s] running install_egg_info
+[1.307s] Copying ../../build/joy_can/joy_can.egg-info to /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages/joy_can-0.0.0-py3.10.egg-info
+[1.308s] running install_scripts
+[1.394s] Installing arm_master script to /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/lib/joy_can
+[1.395s] Installing drive_master script to /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/lib/joy_can
+[1.395s] Installing gripper script to /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/lib/joy_can
+[1.395s] Installing master script to /home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/lib/joy_can
+[1.395s] writing list of installed files to '/home/siddhant/irc_rover_controls_2025/rover_essentials/build/joy_can/install.log'
+[1.414s] Invoked command in '/home/siddhant/irc_rover_controls_2025/rover_essentials/src/joy_can' returned '0': PYTHONPATH=/home/siddhant/irc_rover_controls_2025/rover_essentials/build/joy_can/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/siddhant/irc_rover_controls_2025/rover_essentials/install/joy_can/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_can build --build-base /home/siddhant/irc_rover_controls_2025/rover_essentials/build/joy_can/build install --record /home/siddhant/irc_rover_controls_2025/rover_essentials/build/joy_can/install.log --single-version-externally-managed install_data
