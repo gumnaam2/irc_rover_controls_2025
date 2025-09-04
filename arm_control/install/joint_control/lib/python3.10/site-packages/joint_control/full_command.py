@@ -76,6 +76,14 @@ class JoystickControlNode(Node):
         self.joint_state = JointState()
         self.joint_state.name = [f'joint_{i+1}' for i in range(len(robot.q))]
         self.joint_state.position = list(robot.q)
+        
+        
+        ######################## DOMINANCE ASSERTED ###############################
+        
+        self.gaY_joint = 0
+        self.Gay_joint = 0
+        
+        ######################## dominance unasserted #############################
 
     def encoder_callback(self, msg: EncoderArm):
         """
@@ -106,7 +114,7 @@ class JoystickControlNode(Node):
         lt_butt = joystick.axes[2]
         rt_butt = joystick.axes[5]
 
-        cross_ver = joystick.axes[7]
+        #cross_ver = joystick.axes[7]
 
         right_hor = joystick.axes[3]
         right_ver = joystick.axes[4]
@@ -117,11 +125,11 @@ class JoystickControlNode(Node):
         rb_butt=joystick.buttons[5]
 
 
-        if cross_ver == 1 and self.gripper_state < 250:
-            self.gripper_state += 10
+        #if cross_ver == 1 and self.gripper_state < 250:
+         #   self.gripper_state += 10
 
-        if cross_ver == -1 and self.gripper_state > 90:
-            self.gripper_state += -10
+        #if cross_ver == -1 and self.gripper_state > 90:
+        #    self.gripper_state += -10
 
 
         if rb_butt == 1:
@@ -316,6 +324,31 @@ class JoystickControlNode(Node):
         #     self.joint3_speed = 0
         # elif (self.current_elbow_pos <= self.min_elbow_pos and self.joint3_direction == 0):
         #     self.joint3_speed = 0
+        
+        
+        ######################## DOMINANCE ASSERTED ###############################
+        
+        gayy = 5
+        CUTOFFSSSERS = 100
+        
+        if self.joint2_speed > self.gaY_joint + gayy:
+        	self.joint2_speed = self.gaY_joint + gayy
+        elif self.joint2_speed < self.gaY_joint - gayy:
+        	self.joint2_speed = self.gaY_joint - gayy
+        	if self.joint2_speed < CUTOFFSSSERS and self.joint2_direction == 0:
+       			self.joint2_speed = 0
+        	
+        if self.joint3_speed > self.Gay_joint + gayy:
+        	self.joint3_speed = self.Gay_joint + gayy
+        elif self.joint3_speed < self.Gay_joint - gayy:
+        	self.joint3_speed = self.Gay_joint - gayy
+        	if self.joint3_speed < CUTOFFSSSERS and self.joint3_direction == 1:
+       			self.joint3_speed = 0
+        	
+        self.gaY_joint = self.joint2_speed
+        self.Gay_joint = self.joint3_speed
+        
+        ######################## dominance unasserted #############################
 
 
         self.arm_command.sys_check = toggle

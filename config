@@ -1,7 +1,10 @@
 [global_config]
+  suppress_multiple_term_dialog = True
 [keybindings]
 [profiles]
   [[default]]
+    cursor_color = "#aaaaaa"
+  [[confignsd]]
     cursor_color = "#aaaaaa"
 [layouts]
   [[default]]
@@ -26,6 +29,7 @@
       type = Terminal
       parent = child2
       order = 0
+      command = ""
     [[[terminal1]]]
       type = Terminal
       parent = child2
@@ -46,4 +50,144 @@
       parent = child3
       order = 1
       command = echo "arm_control"; cd arm_control; source install/setup.bash; ros2 run joint_control full_command; bash;
+  [[nsdconfig]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 0:0
+      maximised = True
+      fullscreen = False
+      size = 1920, 1066
+      title = /bin/bash
+      last_active_term = 3d0e757b-92d9-46be-ad7e-4c8d03a10b7b
+      last_active_window = True
+    [[[child1]]]
+      type = VPaned
+      parent = child0
+      order = 0
+      position = 531
+      ratio = 0.5004712535344015
+    [[[child2]]]
+      type = HPaned
+      parent = child1
+      order = 0
+      position = 956
+      ratio = 0.49921671018276764
+    [[[terminal3]]]
+      type = Terminal
+      parent = child2
+      order = 0
+      profile = default
+      uuid = 3d0e757b-92d9-46be-ad7e-4c8d03a10b7b
+      directory = ""
+      command = cd arm_control; source install/setup.bash; ros2 run joint_control full_command; bash;
+    [[[child4]]]
+      type = HPaned
+      parent = child2
+      order = 1
+      position = 477
+      ratio = 0.5
+    [[[terminal5]]]
+      type = Terminal
+      parent = child4
+      order = 0
+      profile = default
+      uuid = f5ccf9e3-2da5-4d39-9b05-2e306ab57569
+      command = cd drive_control; source install/setup.bash; ros2 run differential freshies_attempt; bash;
+    [[[terminal6]]]
+      type = Terminal
+      parent = child4
+      order = 1
+      profile = default
+      uuid = 43dafc5d-6238-4db7-88c4-230ff7a0a564
+      command = ros2 run joy joy_node; bash;
+    [[[child7]]]
+      type = HPaned
+      parent = child1
+      order = 1
+      position = 956
+      ratio = 0.49921671018276764
+    [[[terminal8]]]
+      type = Terminal
+      parent = child7
+      order = 0
+      profile = default
+      uuid = 7173d91a-754f-47d4-86b1-428c10058f40
+      command = ssh mrt-amaran@192.168.69.112; bash;
+    [[[terminal9]]]
+      type = Terminal
+      parent = child7
+      order = 1
+      profile = default
+      uuid = 83c43b7a-f3ed-4f6a-823b-b48babfa8ae1
+      command = ssh mrt-amaran@192.168.69.112; bash;
+  [[New Layout]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 0:0
+      maximised = True
+      fullscreen = False
+      size = 1920, 1066
+      title = /bin/bash
+      last_active_term = 3d0e757b-92d9-46be-ad7e-4c8d03a10b7b
+      last_active_window = True
+    [[[child1]]]
+      type = VPaned
+      parent = child0
+      order = 0
+      position = 531
+      ratio = 0.5004712535344015
+    [[[child2]]]
+      type = HPaned
+      parent = child1
+      order = 0
+      position = 956
+      ratio = 0.49921671018276764
+    [[[terminal3]]]
+      type = Terminal
+      parent = child2
+      order = 0
+      profile = default
+      uuid = 3d0e757b-92d9-46be-ad7e-4c8d03a10b7b
+    [[[child4]]]
+      type = HPaned
+      parent = child2
+      order = 1
+      position = 477
+      ratio = 0.5
+    [[[terminal5]]]
+      type = Terminal
+      parent = child4
+      order = 0
+      profile = default
+      uuid = f5ccf9e3-2da5-4d39-9b05-2e306ab57569
+      command = ""
+    [[[terminal6]]]
+      type = Terminal
+      parent = child4
+      order = 1
+      profile = default
+      uuid = 43dafc5d-6238-4db7-88c4-230ff7a0a564
+    [[[child7]]]
+      type = HPaned
+      parent = child1
+      order = 1
+      position = 956
+      ratio = 0.49921671018276764
+    [[[terminal8]]]
+      type = Terminal
+      parent = child7
+      order = 0
+      profile = default
+      uuid = 7173d91a-754f-47d4-86b1-428c10058f40
+      command = ""
+    [[[terminal9]]]
+      type = Terminal
+      parent = child7
+      order = 1
+      profile = default
+      uuid = 83c43b7a-f3ed-4f6a-823b-b48babfa8ae1
 [plugins]
